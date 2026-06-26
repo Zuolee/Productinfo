@@ -1,0 +1,2216 @@
+{
+  "metadata": {
+    "source": "Alibaba.com public product listings collected into local HTML workbook",
+    "generated_from": "power_bank_products_krw.html",
+    "total_products": 120,
+    "categories": [
+      {
+        "category_id": "power-bank",
+        "category_zh": "移动电源",
+        "category_ko": "보조배터리",
+        "category_en": "Power Banks",
+        "count": 30
+      },
+      {
+        "category_id": "womens-dresses",
+        "category_zh": "女士连衣裙",
+        "category_ko": "여성 원피스",
+        "category_en": "Women's Dresses",
+        "count": 30
+      },
+      {
+        "category_id": "cooling-mattresses",
+        "category_zh": "凉感床垫",
+        "category_ko": "쿨링 매트리스",
+        "category_en": "Cooling Mattresses",
+        "count": 30
+      },
+      {
+        "category_id": "desktop-organizers",
+        "category_zh": "桌面整理柜",
+        "category_ko": "데스크 정리함",
+        "category_en": "Desktop Organizers",
+        "count": 30
+      }
+    ],
+    "price_currency": "KRW",
+    "notes": [
+      "source_url stores the Alibaba product detail page.",
+      "image_file stores the relative path to the downloaded product main image.",
+      "certificate values are taken from public listing badges or explicit title text; Listing not specified means the list page did not expose a concrete certificate."
+    ]
+  },
+  "products": [
+    {
+      "id": "power-bank-01",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 1,
+      "image_file": "images/power_bank_01.img",
+      "image_alt": "REMAX FP-22 移动电源",
+      "korean_product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh 휴대용 고속 충전 보조배터리",
+      "english_product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Portable Fast-Charging Power Bank",
+      "price_krw": "₩19,236–21,067",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/REMAX-FP-22-20W-22-5W_1600072513371.html"
+    },
+    {
+      "id": "power-bank-02",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 2,
+      "image_file": "images/power_bank_02.img",
+      "image_alt": "50000mAh 移动电源",
+      "korean_product_name": "대용량 50000mAh 22.5W 고속 충전 보조배터리 (내장 케이블·휴대용 스트랩)",
+      "english_product_name": "50000mAh 22.5W Fast-Charging Power Bank with Built-in Cable and Carry Strap",
+      "price_krw": "₩15,647–17,861",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Large-Capacity-50000mah-Power-Banks-Mobile_1601630109541.html"
+    },
+    {
+      "id": "power-bank-03",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 3,
+      "image_file": "images/power_bank_03.img",
+      "image_alt": "Mcdodo 20000mAh 移动电源",
+      "korean_product_name": "Mcdodo 423 트리플 USB 출력 20000mAh 22.5W 고속 충전 LED 보조배터리",
+      "english_product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank with LED Display",
+      "price_krw": "₩21,373",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Mcdodo-423-Triple-USB-Output-20000mAh_1600603296155.html"
+    },
+    {
+      "id": "power-bank-04",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 4,
+      "image_file": "images/power_bank_04.img",
+      "image_alt": "PD 22.5W 20000mAh 移动电源",
+      "korean_product_name": "PD 22.5W 고속 충전 20000mAh 휴대용 보조배터리",
+      "english_product_name": "PD 22.5W Fast-Charging 20000mAh Portable Power Bank",
+      "price_krw": "₩9,619–10,533",
+      "moq": "2,000 pieces",
+      "certificates": [
+        "CE",
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2025-New-Products-PD-22-5W_1600953041160.html"
+    },
+    {
+      "id": "power-bank-05",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 5,
+      "image_file": "images/power_bank_05.img",
+      "image_alt": "8000/10000mAh 移动电源",
+      "korean_product_name": "휴대용 8000/10000mAh 대용량 스마트폰 보조배터리",
+      "english_product_name": "Portable 8000/10000mAh High-Capacity Smartphone Power Bank",
+      "price_krw": "₩6,001–6,993",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Portable-Powerbank-Portable-Mobile-Phone-Battery_1601400656352.html"
+    },
+    {
+      "id": "power-bank-06",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 6,
+      "image_file": "images/power_bank_06.img",
+      "image_alt": "超薄无线磁吸移动电源",
+      "korean_product_name": "초슬림 5000/10000mAh 15W 마그네틱 무선 보조배터리 (로고 맞춤 제작)",
+      "english_product_name": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank with Custom Logo",
+      "price_krw": "₩8,702–9,924",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Super-Slim-5000mAh-Power-Bank-With_1601623167099.html"
+    },
+    {
+      "id": "power-bank-07",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 7,
+      "image_file": "images/power_bank_07.img",
+      "image_alt": "PD100W 笔记本移动电源",
+      "korean_product_name": "PD100W 디지털 표시 20000mAh 리튬폴리머 노트북 고속 충전 보조배터리",
+      "english_product_name": "PD100W 20000mAh Li-Polymer Laptop Power Bank with Digital Display",
+      "price_krw": "₩22,882–25,493",
+      "moq": "20 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Hot-Selling-PD100W-Portable-Digital-Display_1601492254458.html"
+    },
+    {
+      "id": "power-bank-08",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 8,
+      "image_file": "images/power_bank_08.img",
+      "image_alt": "定制标志 10000mAh 移动电源",
+      "korean_product_name": "로고 맞춤형 10000mAh 보조배터리 (듀얼 USB 출력·Type-C 입력)",
+      "english_product_name": "Custom-Logo 10000mAh Power Bank with Dual USB Output and Type-C Input",
+      "price_krw": "₩5,481–6,413",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Customized-Logo-Portable-10000mAh-Power-Bank_1600180547922.html"
+    },
+    {
+      "id": "power-bank-09",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 9,
+      "image_file": "images/power_bank_09.img",
+      "image_alt": "LISEN 超薄磁吸移动电源",
+      "korean_product_name": "LISEN 초슬림 5000mAh 마그네틱 무선 고속 충전 보조배터리",
+      "english_product_name": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+      "price_krw": "₩15,847–16,700",
+      "moq": "5 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/LISEN-New-Ultra-Slim-Fast-Charging_1601674441049.html"
+    },
+    {
+      "id": "power-bank-10",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 10,
+      "image_file": "images/power_bank_10.img",
+      "image_alt": "5000mAh 无线充电宝",
+      "korean_product_name": "초슬림 5000mAh 무선 보조배터리 OEM PD 20W 고속 충전",
+      "english_product_name": "Ultra-Slim 5000mAh Wireless Power Bank with OEM PD 20W Fast Charging",
+      "price_krw": "₩7,846",
+      "moq": "1,000 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Slim-Wireless-Power-Banks-Factory-Price_1601276974668.html"
+    },
+    {
+      "id": "power-bank-11",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 11,
+      "image_file": "images/power_bank_11.img",
+      "image_alt": "Oraimo 20000mAh 移动电源",
+      "korean_product_name": "Oraimo 20000mAh 듀얼 USB 대용량 고속 충전 보조배터리",
+      "english_product_name": "Oraimo 20000mAh High-Capacity Fast-Charging Power Bank with Dual USB Output",
+      "price_krw": "₩30,210–33,583",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Oraimo-High-Quality-20000mah-Power-Bank_1601551270901.html"
+    },
+    {
+      "id": "power-bank-12",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 12,
+      "image_file": "images/power_bank_12.img",
+      "image_alt": "10000mAh 锂聚合物移动电源",
+      "korean_product_name": "휴대용 10000mAh 리튬폴리머 보조배터리 (표시등·10W 출력)",
+      "english_product_name": "Portable 10000mAh Li-Polymer Power Bank with Indicator Light and 10W Output",
+      "price_krw": "₩6,778–7,618",
+      "moq": "2 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Portable-10000mah-Li-Polymer-Power-Bank_1601382107336.html"
+    },
+    {
+      "id": "power-bank-13",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 13,
+      "image_file": "images/power_bank_13.img",
+      "image_alt": "铝合金无线移动电源",
+      "korean_product_name": "10000mAh 알루미늄 합금 초슬림 20W 마그네틱 무선 고속 충전 보조배터리",
+      "english_product_name": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "price_krw": "₩22,593–22,898",
+      "moq": "500 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-Quality-10000mAh-Aluminum-Alloy-Slim_1601300629711.html"
+    },
+    {
+      "id": "power-bank-14",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 14,
+      "image_file": "images/power_bank_14.img",
+      "image_alt": "信用卡大小 5000mAh 移动电源",
+      "korean_product_name": "신용카드 크기 5000mAh 미니 LCD 디지털 보조배터리",
+      "english_product_name": "Credit-Card-Size 5000mAh Mini Power Bank with LCD Digital Display",
+      "price_krw": "₩4,138",
+      "moq": "1,000 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Portable-Power-Bank-Mini-Credit-Card_1600398631623.html"
+    },
+    {
+      "id": "power-bank-15",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 15,
+      "image_file": "images/power_bank_15.img",
+      "image_alt": "环保礼品移动电源",
+      "korean_product_name": "친환경 코코넛 소재 Type-C 10000mAh 기업 판촉용 보조배터리",
+      "english_product_name": "Eco-Friendly Coconut Type-C 10000mAh Corporate Gift Power Bank with Custom Logo",
+      "price_krw": "₩4,566–7,618",
+      "moq": "100 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Coconut-Eco-Friendly-Custom-Logo-Corporate_1601034375931.html"
+    },
+    {
+      "id": "power-bank-16",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 16,
+      "image_file": "images/power_bank_16.img",
+      "image_alt": "迷你快充移动电源",
+      "korean_product_name": "미니 휴대용 고속 충전 보조배터리",
+      "english_product_name": "Mini Portable Fast-Charging Power Bank",
+      "price_krw": "₩2,458–3,038",
+      "moq": "100 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/mini-power-bank-portable-power-bank_1601581512132.html"
+    },
+    {
+      "id": "power-bank-17",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 17,
+      "image_file": "images/power_bank_17.img",
+      "image_alt": "20000mAh 无线移动电源",
+      "korean_product_name": "20000mAh 스마트폰 고속 충전 휴대용 무선 보조배터리",
+      "english_product_name": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+      "price_krw": "₩3,742–11,618",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Fast-Quick-Charge-20000Mah-Power-Banks_1601042359865.html"
+    },
+    {
+      "id": "power-bank-18",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 18,
+      "image_file": "images/power_bank_18.img",
+      "image_alt": "钥匙扣迷你移动电源",
+      "korean_product_name": "로고 맞춤형 2000/4000mAh 내장 케이블 키링 미니 보조배터리",
+      "english_product_name": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank with Built-in Cable",
+      "price_krw": "₩5,114–6,108",
+      "moq": "2 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Logo-Portable-Charger-2000mah-4000mah_1600178905857.html"
+    },
+    {
+      "id": "power-bank-19",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 19,
+      "image_file": "images/power_bank_19.img",
+      "image_alt": "超薄 10000/20000mAh 移动电源",
+      "korean_product_name": "로고 맞춤형 초슬림 10000/20000mAh 여행용 고속 충전 보조배터리",
+      "english_product_name": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+      "price_krw": "₩4,428–5,345",
+      "moq": "20 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Logo-Slim-Mini-Fast-Charger_1600380280315.html"
+    },
+    {
+      "id": "power-bank-20",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 20,
+      "image_file": "images/power_bank_20.img",
+      "image_alt": "四线 20000mAh 移动电源",
+      "korean_product_name": "4개 내장 케이블 PD 22.5W 20000mAh 휴대용 보조배터리 (Type-C 포트)",
+      "english_product_name": "PD 22.5W 20000mAh Portable Power Bank with Four Built-in Cables and Type-C Port",
+      "price_krw": "₩7,466–12,351",
+      "moq": "1 set",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Top-Selling-New-Product-4-Cables_1600545990064.html"
+    },
+    {
+      "id": "power-bank-21",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 21,
+      "image_file": "images/power_bank_21.img",
+      "image_alt": "Remax Amzo 10000mAh 移动电源",
+      "korean_product_name": "Remax Amzo 10000mAh 초슬림 경량 고속 충전 보조배터리",
+      "english_product_name": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charging Power Bank",
+      "price_krw": "₩6,336–6,977",
+      "moq": "2 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Remax-Amzo-Hot-Selling-Power-Banks_1601166546525.html"
+    },
+    {
+      "id": "power-bank-22",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 22,
+      "image_file": "images/power_bank_22.img",
+      "image_alt": "Miccell 35W 10000mAh 移动电源",
+      "korean_product_name": "Miccell PD 35W 10000mAh 내장 케이블 LED 표시 방수 보조배터리",
+      "english_product_name": "Miccell PD 35W 10000mAh Waterproof Power Bank with Built-in Cable and LED Display",
+      "price_krw": "₩13,510–13,787",
+      "moq": "100 boxes",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Miccell-Portable-PD-35W-Mini-Power_1601442430837.html"
+    },
+    {
+      "id": "power-bank-23",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 23,
+      "image_file": "images/power_bank_23.img",
+      "image_alt": "口红式 5000mAh 移动电源",
+      "korean_product_name": "립스틱형 5000mAh 미니 비상용 보조배터리 (내장 케이블·스탠드)",
+      "english_product_name": "Lipstick-Style 5000mAh Mini Emergency Power Bank with Built-in Cable and Stand",
+      "price_krw": "₩5,451–6,520",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Capsule-Emergency-Lipstick-Small-Mini-Portable_1601569608046.html"
+    },
+    {
+      "id": "power-bank-24",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 24,
+      "image_file": "images/power_bank_24.img",
+      "image_alt": "Prosub 5000mAh 无线移动电源",
+      "korean_product_name": "Prosub 5000mAh 휴대용 마그네틱 무선 고속 충전 보조배터리",
+      "english_product_name": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charging Power Bank",
+      "price_krw": "₩9,159–9,924",
+      "moq": "1 piece",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Prosub-Sublimation-Blank-Power-Bank-5000mAh_1601614575613.html"
+    },
+    {
+      "id": "power-bank-25",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 25,
+      "image_file": "images/power_bank_25.img",
+      "image_alt": "10000mAh 便携式移动电源",
+      "korean_product_name": "10000mAh 휴대용 외장 배터리 고속 충전 보조배터리",
+      "english_product_name": "10000mAh Portable External-Battery Fast-Charging Power Bank",
+      "price_krw": "₩6,717–7,634",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-Quality-10000-MAH-Powerbank-Portable_1601726919767.html"
+    },
+    {
+      "id": "power-bank-26",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 26,
+      "image_file": "images/power_bank_26.img",
+      "image_alt": "无线磁吸移动电源",
+      "korean_product_name": "아이폰용 5000/10000mAh 무선 마그네틱 고속 충전 보조배터리",
+      "english_product_name": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank for iPhone",
+      "price_krw": "₩6,092–10,977",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Fast-Charging-Wireless-Magnetic-Power-Banks_1601668032957.html"
+    },
+    {
+      "id": "power-bank-27",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 27,
+      "image_file": "images/power_bank_27.img",
+      "image_alt": "50000mAh 超薄移动电源",
+      "korean_product_name": "공장 맞춤형 50000mAh 초슬림 휴대용 22.5W 고속 충전 보조배터리",
+      "english_product_name": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charging Power Bank",
+      "price_krw": "₩11,892–13,388",
+      "moq": "1 piece",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Factory-Custom-High-Capacity-50000mAh-Ultra_1601591643815.html"
+    },
+    {
+      "id": "power-bank-28",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 28,
+      "image_file": "images/power_bank_28.img",
+      "image_alt": "超薄无线磁吸移动电源",
+      "korean_product_name": "초슬림 5000/10000mAh 15W/20W 무선 마그네틱 고속 충전 보조배터리",
+      "english_product_name": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charging Power Bank",
+      "price_krw": "₩14,946–15,251",
+      "moq": "2 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Ultra-Thin-Portable-15w-20W-Wireless_1601595315331.html"
+    },
+    {
+      "id": "power-bank-29",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 29,
+      "image_file": "images/power_bank_29.img",
+      "image_alt": "5000mAh 内置线迷你移动电源",
+      "korean_product_name": "5000mAh 내장 케이블·스탠드 미니 보조배터리",
+      "english_product_name": "5000mAh Mini Power Bank with Built-in Cable and Stand",
+      "price_krw": "₩5,345–6,108",
+      "moq": "20 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2025-Trending-Product-Hot-Sale-10000mAh_1600892319410.html"
+    },
+    {
+      "id": "power-bank-30",
+      "category_id": "power-bank",
+      "category_zh": "移动电源",
+      "category_ko": "보조배터리",
+      "category_en": "Power Banks",
+      "category_index": 30,
+      "image_file": "images/power_bank_30.img",
+      "image_alt": "磁性铝 5000mAh 移动电源",
+      "korean_product_name": "마그네틱 알루미늄 합금 5000mAh 초슬림 무선 충전 보조배터리",
+      "english_product_name": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+      "price_krw": "₩10,060–11,068",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Magnetic-Aluminum-Power-Bank-Ultra-Slim_1601403725477.html"
+    },
+    {
+      "id": "womens-dresses-01",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 1,
+      "image_file": "images/dress_01.img",
+      "image_alt": "여름 A라인 미니 원피스",
+      "korean_product_name": "맞춤형 여름 A라인 미니 원피스 반소매 V넥 Y2K 스타일",
+      "english_product_name": "Custom Summer A-Line Mini Dress with Short Sleeves and V-Neck, Y2K Style",
+      "price_krw": "₩19,082–22,898",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Customizable-Summer-A-Line-Mini-Dresses_1601262949219.html"
+    },
+    {
+      "id": "womens-dresses-02",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 2,
+      "image_file": "images/dress_02.img",
+      "image_alt": "프린트 맥시 원피스",
+      "korean_product_name": "맞춤 프린트 V넥 민소매 벨티드 맥시 원피스",
+      "english_product_name": "Custom-Print V-Neck Sleeveless Belted Maxi Dress",
+      "price_krw": "₩19,541–22,593",
+      "moq": "100 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Manufacturer-Ladies-Dress-casual-Dress-Custom_1601720412716.html"
+    },
+    {
+      "id": "womens-dresses-03",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 3,
+      "image_file": "images/dress_03.img",
+      "image_alt": "브라운 스웨이드 셔츠 맥시 원피스",
+      "korean_product_name": "올드머니 브라운 스웨이드 셔츠형 맥시 원피스 (허리끈·긴소매)",
+      "english_product_name": "Old-Money Brown Suede Shirt Maxi Dress with Long Sleeves and Tie Waist",
+      "price_krw": "₩15,267",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Women-Elegant-Old-Money-Brown_1601813381027.html"
+    },
+    {
+      "id": "womens-dresses-04",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 4,
+      "image_file": "images/dress_04.img",
+      "image_alt": "여름 바디콘 롱 원피스",
+      "korean_product_name": "로고 맞춤형 여름 바디콘 롱 원피스",
+      "english_product_name": "Custom-Logo Summer Bodycon Long Dress",
+      "price_krw": "₩14,961–26,561",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2026-Custom-Logo-Bodycon-Women-Dress_1600452613497.html"
+    },
+    {
+      "id": "womens-dresses-05",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 5,
+      "image_file": "images/dress_05.img",
+      "image_alt": "무릎길이 민소매 원피스",
+      "korean_product_name": "여성 캐주얼 무릎길이 민소매 슬림핏 원피스",
+      "english_product_name": "Women's Casual Knee-Length Sleeveless Slim-Fit Dress",
+      "price_krw": "₩7,267–10,382",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Women-s-Casual-Knee-Length-Sleeveless_1601568310731.html"
+    },
+    {
+      "id": "womens-dresses-06",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 6,
+      "image_file": "images/dress_06.img",
+      "image_alt": "보헤미안 홀터넥 선드레스",
+      "korean_product_name": "MANNI 스트라이프 홀터넥 보헤미안 선드레스 (컷아웃·러플 밑단)",
+      "english_product_name": "MANNI Striped Halter Bohemian Sundress with Cutout Detail and Ruffle Hem",
+      "price_krw": "₩28,089–35,569",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/MANNI-Custom-Sun-Dresses-2021-Women_1600477332337.html"
+    },
+    {
+      "id": "womens-dresses-07",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 7,
+      "image_file": "images/dress_07.img",
+      "image_alt": "입체 텍스처 미니 파티 원피스",
+      "korean_product_name": "여름 입체 텍스처 섹시 미니 파티 원피스",
+      "english_product_name": "Summer 3D-Textured Sexy Mini Party Dress",
+      "price_krw": "₩10,579",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Summer-Dresses-Women-2025-Wholesale-Ladies_1601348541809.html"
+    },
+    {
+      "id": "womens-dresses-08",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 8,
+      "image_file": "images/dress_08.img",
+      "image_alt": "스트랩리스 레이스 미니 원피스",
+      "korean_product_name": "여름 스트랩리스 더블 레이스 패널 미니 원피스",
+      "english_product_name": "Summer Strapless Mini Dress with Double Lace Panels",
+      "price_krw": "₩18,167–21,219",
+      "moq": "2 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2026-Summer-Elegant-Women-Casual-Dress_1600879114753.html"
+    },
+    {
+      "id": "womens-dresses-09",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 9,
+      "image_file": "images/dress_09.img",
+      "image_alt": "핑크 스퀘어넥 맥시 원피스",
+      "korean_product_name": "빈티지 핑크 스퀘어넥 맥시 원피스 (퍼프소매·레이스 장식)",
+      "english_product_name": "Vintage Pink Square-Neck Maxi Dress with Puff Sleeves and Lace Trim",
+      "price_krw": "₩20,395–24,669",
+      "moq": "100 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Vintage-Elegant-Party-Trendy-Pink-Square_1601519799045.html"
+    },
+    {
+      "id": "womens-dresses-10",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 10,
+      "image_file": "images/dress_10.img",
+      "image_alt": "바디콘 이브닝 롱 원피스",
+      "korean_product_name": "맞춤형 바디콘 섹시 이브닝 롱 원피스",
+      "english_product_name": "Custom Bodycon Sexy Evening Long Dress",
+      "price_krw": "₩16,639–26,258",
+      "moq": "20 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Bodycon-Dress-Women-Wholesale-Sexy_1600725000057.html"
+    },
+    {
+      "id": "womens-dresses-11",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 11,
+      "image_file": "images/dress_11.img",
+      "image_alt": "100% 실크 슬립 드레스",
+      "korean_product_name": "QIYUE 100% 실크 럭셔리 슬립 드레스",
+      "english_product_name": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+      "price_krw": "₩160,284",
+      "moq": "1 set",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/QIYUE-Pure-100-Silk-Sleepwear-Silk_11000001539697.html"
+    },
+    {
+      "id": "womens-dresses-12",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 12,
+      "image_file": "images/dress_12.img",
+      "image_alt": "프리미엄 맞춤형 여성 원피스",
+      "korean_product_name": "프리미엄 맞춤형 여성 원피스 OEM/ODM",
+      "english_product_name": "Premium Custom Women's Dress, OEM/ODM Manufacturing",
+      "price_krw": "₩24,272–26,715",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Dress-Bespoke-Factory-OEM-ODM_1601761646403.html"
+    },
+    {
+      "id": "womens-dresses-13",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 13,
+      "image_file": "images/dress_13.img",
+      "image_alt": "핑크 니트 파티 원피스 세트",
+      "korean_product_name": "Huili 여성 2피스 핑크 민소매 니트 파티 원피스 세트",
+      "english_product_name": "Huili Women's 2-Piece Pink Sleeveless Knit Party Dress Set",
+      "price_krw": "₩16,639–22,747",
+      "moq": "100 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Huili-Manufacturer-Dress-Set-Women-2_1601156373656.html"
+    },
+    {
+      "id": "womens-dresses-14",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 14,
+      "image_file": "images/dress_14.img",
+      "image_alt": "비대칭 플리츠 이브닝 원피스",
+      "korean_product_name": "솔리드 딥 V넥 슬립 비대칭 플리츠 이브닝 원피스",
+      "english_product_name": "Solid Deep-V Slip Asymmetric Pleated Evening Dress",
+      "price_krw": "₩31,906–36,486",
+      "moq": "50 sets",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/New-Tending-Solid-Color-Ladies-Dress_1600463358810.html"
+    },
+    {
+      "id": "womens-dresses-15",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 15,
+      "image_file": "images/dress_15.img",
+      "image_alt": "내장 보정복 블랙 맥시 원피스",
+      "korean_product_name": "블랙 긴소매 심리스 맥시 원피스 (내장 보정복)",
+      "english_product_name": "Black Long-Sleeve Seamless Maxi Dress with Built-in Shapewear",
+      "price_krw": "₩17,556–22,106",
+      "moq": "1 piece",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-2023-Autumn-and-Winter_1600869382870.html"
+    },
+    {
+      "id": "womens-dresses-16",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 16,
+      "image_file": "images/dress_16.img",
+      "image_alt": "크로스백 테니스 원피스 세트",
+      "korean_product_name": "여성 크로스백 테니스 원피스 2피스 세트 (포켓·골프 겸용)",
+      "english_product_name": "Women's Cross-Back Tennis Dress 2-Piece Set with Pockets for Golf and Outdoor Sports",
+      "price_krw": "₩21,357–25,325",
+      "moq": "2 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/New-Arrivals-Women-Cross-Back-Tennis_1601732058664.html"
+    },
+    {
+      "id": "womens-dresses-17",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 17,
+      "image_file": "images/dress_17.img",
+      "image_alt": "플로럴 실크 코튼 원피스",
+      "korean_product_name": "16MM 플로럴 코티지코어 실크 코튼 원피스",
+      "english_product_name": "16MM Floral Cottagecore Silk-Cotton Dress",
+      "price_krw": "₩53,154–60,099",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Customized-Low-priced-Factory-Direct-Sales_1601716346159.html"
+    },
+    {
+      "id": "womens-dresses-18",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 18,
+      "image_file": "images/dress_18.img",
+      "image_alt": "스위트 스타일 캐주얼 원피스",
+      "korean_product_name": "Beefey 봄여름 스위트 스타일 경량 통기성 캐주얼 원피스",
+      "english_product_name": "Beefey Spring/Summer Sweet-Style Lightweight Breathable Casual Dress",
+      "price_krw": "₩16,594–24,424",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Beefey-Summer-Spring-New-Arrival-Sweet_1601618659470.html"
+    },
+    {
+      "id": "womens-dresses-19",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 19,
+      "image_file": "images/dress_19.img",
+      "image_alt": "피터팬 칼라 오피스 원피스",
+      "korean_product_name": "피터팬 칼라 더블브레스트 골드 버튼 플리츠 A라인 오피스 미디 원피스",
+      "english_product_name": "Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Office Midi Dress",
+      "price_krw": "₩30,011–30,349",
+      "moq": "200 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Peter-Pan-Collar-Double-Breasted_1601054393564.html"
+    },
+    {
+      "id": "womens-dresses-20",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 20,
+      "image_file": "images/dress_20.img",
+      "image_alt": "홀터넥 백리스 미니 원피스",
+      "korean_product_name": "여름 홀터넥 백리스 바디콘 미니 원피스",
+      "english_product_name": "Summer Halter-Neck Backless Bodycon Mini Dress",
+      "price_krw": "₩16,213",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2026-New-Fashion-Summer-High-Quality_1601448580078.html"
+    },
+    {
+      "id": "womens-dresses-21",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 21,
+      "image_file": "images/dress_21.img",
+      "image_alt": "딥 V넥 플리츠 미니 원피스",
+      "korean_product_name": "솔리드 딥 V넥 플리츠 허리라인 미니 원피스",
+      "english_product_name": "Solid Deep-V Pleated Waist Mini Dress",
+      "price_krw": "₩14,183–16,365",
+      "moq": "1 piece",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2026-New-Solid-Color-Mini-Dresses_1601675577008.html"
+    },
+    {
+      "id": "womens-dresses-22",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 22,
+      "image_file": "images/dress_22.img",
+      "image_alt": "맞춤형 여성 원피스 OEM ODM",
+      "korean_product_name": "SHENGFU 소량 주문 맞춤형 여성 원피스 OEM/ODM",
+      "english_product_name": "SHENGFU Low-MOQ Custom Women's Dress, OEM/ODM Manufacturing",
+      "price_krw": "₩25,798–28,241",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/SHENGFU-Professional-Custom-Dress-Manufacturer-MOQ_1601725766929.html"
+    },
+    {
+      "id": "womens-dresses-23",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 23,
+      "image_file": "images/dress_23.img",
+      "image_alt": "멀버리 실크 캐미솔 원피스",
+      "korean_product_name": "100% 멀버리 실크 레이스 V넥 캐미솔 A라인 원피스",
+      "english_product_name": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+      "price_krw": "₩54,177–61,229",
+      "moq": "50 sets",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Factory-100-Pure-Mulberry-Silk-Camisole_1601757586357.html"
+    },
+    {
+      "id": "womens-dresses-24",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 24,
+      "image_file": "images/dress_24.img",
+      "image_alt": "플로럴 퍼프소매 미디 원피스",
+      "korean_product_name": "플로럴 스퀘어넥 퍼프소매 러플 밑단 코티지코어 미디 원피스",
+      "english_product_name": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+      "price_krw": "₩22,898–32,592",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Womens-Floral-Square-Neck-Puff_1601723334758.html"
+    },
+    {
+      "id": "womens-dresses-25",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 25,
+      "image_file": "images/dress_25.img",
+      "image_alt": "바디콘 파티 맥시 원피스",
+      "korean_product_name": "신상 바디콘 파티·이브닝 맥시 원피스",
+      "english_product_name": "New-Design Bodycon Party and Evening Maxi Dress",
+      "price_krw": "₩15,113–27,326",
+      "moq": "10 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/New-Design-Bodycon-Dress-Women-Wholesale_1600503226727.html"
+    },
+    {
+      "id": "womens-dresses-26",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 26,
+      "image_file": "images/dress_26.img",
+      "image_alt": "블랙 메쉬 레이스 파티 원피스",
+      "korean_product_name": "맞춤형 블랙 메쉬 바디콘 레이스 플로럴 러플 파티 원피스",
+      "english_product_name": "Custom Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+      "price_krw": "₩11,908–16,336",
+      "moq": "20 sets",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Customized-Black-Mesh-Women-Tight-Sexy_1600619196684.html"
+    },
+    {
+      "id": "womens-dresses-27",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 27,
+      "image_file": "images/dress_27.img",
+      "image_alt": "내장 보정복 V넥 롱 원피스",
+      "korean_product_name": "Waistdear 친환경 V넥 심리스 롱 원피스 (내장 보정복)",
+      "english_product_name": "Waistdear Eco-Friendly V-Neck Seamless Long Dress with Built-in Shapewear",
+      "price_krw": "₩12,915–14,350",
+      "moq": "1 piece",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Waistdear-Wholesale-Eco-friendly-Elegant-Casual_1600966988464.html"
+    },
+    {
+      "id": "womens-dresses-28",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 28,
+      "image_file": "images/dress_28.img",
+      "image_alt": "멀버리 실크 슬립 드레스",
+      "korean_product_name": "100% 멀버리 실크 여성 홈웨어 슬립 드레스",
+      "english_product_name": "100% Mulberry Silk Women's Homewear Sleep Dress",
+      "price_krw": "₩68,374–77,304",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/New-Silk-Home-Wear-Soft-Wear_1601375592965.html"
+    },
+    {
+      "id": "womens-dresses-29",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 29,
+      "image_file": "images/dress_29.img",
+      "image_alt": "딥 V넥 테니스 원피스",
+      "korean_product_name": "딥 V넥 슬림핏 속건 테니스·골프 원피스 (안전 쇼츠)",
+      "english_product_name": "Deep-V Slim-Fit Quick-Dry Tennis and Golf Dress with Safety Shorts",
+      "price_krw": "₩22,882–25,936",
+      "moq": "2 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Sexy-Deep-V-Neck-Slim-Tennis_1601793288237.html"
+    },
+    {
+      "id": "womens-dresses-30",
+      "category_id": "womens-dresses",
+      "category_zh": "女士连衣裙",
+      "category_ko": "여성 원피스",
+      "category_en": "Women's Dresses",
+      "category_index": 30,
+      "image_file": "images/dress_30.img",
+      "image_alt": "리넨 하이넥 백리스 미디 원피스",
+      "korean_product_name": "미니멀 리넨 하이넥 백리스 민소매 미디 원피스 (포켓)",
+      "english_product_name": "Minimalist Linen High-Neck Backless Sleeveless Midi Dress with Pockets",
+      "price_krw": "₩25,647–30,226",
+      "moq": "100 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Simple-Elegant-Dress-Waist-Cinching-Sleeveless_1601715587725.html"
+    },
+    {
+      "id": "cooling-mattresses-01",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 1,
+      "image_file": "images/cooling_mattress_01.img",
+      "image_alt": "호텔용 대나무 섬유 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈)",
+      "korean_product_name": "호텔용 대나무 섬유 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈)",
+      "english_product_name": "Hotel Bamboo Mattress Topper Queen Size OEKO-TEX Quilted Mattress Pad Extra Thick Noiseless Cooling Protector Factory Wholesale",
+      "price_krw": "₩14,973–27,930",
+      "moq": "50 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Hotel-Bamboo-Mattress-Topper-Queen-Size_1601221336309.html"
+    },
+    {
+      "id": "cooling-mattresses-02",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 2,
+      "image_file": "images/cooling_mattress_02.img",
+      "image_alt": "워터 순환 쿨링 매트리스 커버",
+      "korean_product_name": "워터 순환 쿨링 매트리스 커버",
+      "english_product_name": "Cooling Mattress OEM Cooling and Heating Mattress Cover Customized Temperature Controller Water Cooling Heating Mattress Pad",
+      "price_krw": "₩423,918–613,334",
+      "moq": "500 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Cooling-Mattress-OEM-Cooling-and-Heating_1601437231252.html"
+    },
+    {
+      "id": "cooling-mattresses-03",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 3,
+      "image_file": "images/cooling_mattress_03.img",
+      "image_alt": "호텔용 쿨링 매트리스 제품",
+      "korean_product_name": "호텔용 쿨링 매트리스 제품",
+      "english_product_name": "Laurel Black Modern Hybrid Euro Top Mattress Cooling OEKO-TEX Certified Soft Touch Fabric Pocket Spring Core 30cm Thick Hotel",
+      "price_krw": "₩472,388–924,771",
+      "moq": "2 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Laurel-Black-Modern-Hybrid-Euro-Top_12000001254247.html"
+    },
+    {
+      "id": "cooling-mattresses-04",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 4,
+      "image_file": "images/cooling_mattress_04.img",
+      "image_alt": "젤 메모리폼 쿨링 매트리스 제품 (퀸 사이즈)",
+      "korean_product_name": "젤 메모리폼 쿨링 매트리스 제품 (퀸 사이즈)",
+      "english_product_name": "High Quality 10 Inch Queen Diamond Innerspring Hybrid and Cooling Gel Memory Foam Mattress With CertiPUR-US & Oeko TEX Certified",
+      "price_krw": "₩300,052",
+      "moq": "1 piece",
+      "certificates": [
+        "OEKO-TEX 100",
+        "CertiPUR"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-Quality-10-Inch-Queen-Diamond_1601572600370.html"
+    },
+    {
+      "id": "cooling-mattresses-05",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 5,
+      "image_file": "images/cooling_mattress_05.img",
+      "image_alt": "호텔용 극세사 쿨링 매트리스 토퍼 (방수·퀼팅·통기성)",
+      "korean_product_name": "호텔용 극세사 쿨링 매트리스 토퍼 (방수·퀼팅·통기성)",
+      "english_product_name": "Breathable Quilted Microfiber Bed Protection Pad Waterproof Plain 160x200 Mattress Topper Plush Pad Cooling for Hospital Hotel",
+      "price_krw": "₩6,264–7,526",
+      "moq": "100 pieces",
+      "certificates": [
+        "OEKO-TEX 100",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Breathable-Quilted-Microfiber-Bed-Protection-Pad_1601678752668.html"
+    },
+    {
+      "id": "cooling-mattresses-06",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 6,
+      "image_file": "images/cooling_mattress_06.img",
+      "image_alt": "쿨링 매트리스 프로텍터 (방수·퀼팅)",
+      "korean_product_name": "쿨링 매트리스 프로텍터 (방수·퀼팅)",
+      "english_product_name": "Cooling Quilted Mattress Pad Mattress Cover Stretch Skirt Waterproof Mattress Protector",
+      "price_krw": "₩9,233–10,772",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Cooling-Quilted-Mattress-Pad-Mattress-Cover_62306153011.html"
+    },
+    {
+      "id": "cooling-mattresses-07",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 7,
+      "image_file": "images/cooling_mattress_07.img",
+      "image_alt": "쿨링 매트리스 토퍼 (퀼팅·통기성)",
+      "korean_product_name": "쿨링 매트리스 토퍼 (퀼팅·통기성)",
+      "english_product_name": "Cooling 10cm Extra Thick Quilted +Nylon Mattress Pad Cover Super Soft Breathable Bed Topper OEKO-TEX Certified All-Season",
+      "price_krw": "₩12,310–16,312",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Cooling-10cm-Extra-Thick-Quilted-Nylon_1601669853798.html"
+    },
+    {
+      "id": "cooling-mattresses-08",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 8,
+      "image_file": "images/cooling_mattress_08.img",
+      "image_alt": "쿨링 매트리스 토퍼 (방수·퀸 사이즈·킹 사이즈·저자극)",
+      "korean_product_name": "쿨링 매트리스 토퍼 (방수·퀸 사이즈·킹 사이즈·저자극)",
+      "english_product_name": "Queen king Cooling Mattress Topper Pad Full Size Hypoallergenic Waterproof Mattress Pad",
+      "price_krw": "₩7,680–12,294",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100",
+        "GRS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Queen-king-Cooling-Mattress-Topper-Pad_1601230755477.html"
+    },
+    {
+      "id": "cooling-mattresses-09",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 9,
+      "image_file": "images/cooling_mattress_09.img",
+      "image_alt": "젤 메모리폼 쿨링 매트리스 토퍼 (통기성)",
+      "korean_product_name": "젤 메모리폼 쿨링 매트리스 토퍼 (통기성)",
+      "english_product_name": "Gel Infused Memory Foam Mattress Topper Cooling Mattress Pad Ventilated and Breathable",
+      "price_krw": "₩26,159–27,698",
+      "moq": "100 pieces",
+      "certificates": [
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Gel-Infused-Memory-Foam-Mattress-Topper_1601047037199.html"
+    },
+    {
+      "id": "cooling-mattresses-10",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 10,
+      "image_file": "images/cooling_mattress_10.img",
+      "image_alt": "쿨링 매트리스 토퍼 (방수·통기성·퀸 사이즈·킹 사이즈)",
+      "korean_product_name": "쿨링 매트리스 토퍼 (방수·통기성·퀸 사이즈·킹 사이즈)",
+      "english_product_name": "Cooling Waterproof King Queen Twin Mattress Protector Smooth Soft Breathable Fluffy Mattress Topper Pad",
+      "price_krw": "₩7,694–10,002",
+      "moq": "200 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Cooling-Waterproof-King-Queen-Twin-Mattress_1601577673393.html"
+    },
+    {
+      "id": "cooling-mattresses-11",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 11,
+      "image_file": "images/cooling_mattress_11.img",
+      "image_alt": "대나무 섬유 젤 메모리폼 쿨링 매트리스 토퍼 (퀸 사이즈·킹 사이즈)",
+      "korean_product_name": "대나무 섬유 젤 메모리폼 쿨링 매트리스 토퍼 (퀸 사이즈·킹 사이즈)",
+      "english_product_name": "OEKO-TEX Cooling Gel Infused Memory Foam Mattress Topper Foldable King/Queen Size Bed Pads Bamboo Cover Folded Folding Mat",
+      "price_krw": "₩27,405–34,623",
+      "moq": "300 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/OEKO-TEX-Cooling-Gel-Infused-Memory_1600168814464.html"
+    },
+    {
+      "id": "cooling-mattresses-12",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 12,
+      "image_file": "images/cooling_mattress_12.img",
+      "image_alt": "쿨링 매트리스 프로텍터 (방수·퀼팅·피티드)",
+      "korean_product_name": "쿨링 매트리스 프로텍터 (방수·퀼팅·피티드)",
+      "english_product_name": "Customized Cooling Mattress Pad Quilted Fitted Waterproof Mattress Protector",
+      "price_krw": "₩8,463–13,080",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Customized-Cooling-Mattress-Pad-Quilted-Fitted_1601358915030.html"
+    },
+    {
+      "id": "cooling-mattresses-13",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 13,
+      "image_file": "images/cooling_mattress_13.img",
+      "image_alt": "쿨링 매트리스 프로텍터 (방수·통기성)",
+      "korean_product_name": "쿨링 매트리스 프로텍터 (방수·통기성)",
+      "english_product_name": "Deep Pocket Cooling Breathable Fluffy Soft Mattress Pad Noiseless Mattress Cover Waterproof Mattress Protector",
+      "price_krw": "₩6,618–16,312",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Deep-Pocket-Cooling-Breathable-Fluffy-Soft_1600683568036.html"
+    },
+    {
+      "id": "cooling-mattresses-14",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 14,
+      "image_file": "images/cooling_mattress_14.img",
+      "image_alt": "쿨링 매트리스 토퍼 (퀼팅·킹 사이즈)",
+      "korean_product_name": "쿨링 매트리스 토퍼 (퀼팅·킹 사이즈)",
+      "english_product_name": "Naturally Cooling 100% Cotton Mattress Topper Pad King Size Folded OEKO-TEX Certified Eco-Friendly All-Season Quilted Elastic",
+      "price_krw": "₩9,233–23,082",
+      "moq": "100 pieces",
+      "certificates": [
+        "GRS",
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Naturally-Cooling-100-Cotton-Mattress-Topper_1600410941553.html"
+    },
+    {
+      "id": "cooling-mattresses-15",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 15,
+      "image_file": "images/cooling_mattress_15.img",
+      "image_alt": "대나무 섬유 쿨링 매트리스 토퍼 (퀼팅)",
+      "korean_product_name": "대나무 섬유 쿨링 매트리스 토퍼 (퀼팅)",
+      "english_product_name": "Full Size Extra Plush Rayon From Bamboo Cooling Topper for Restful Sleep Quilted Bamboo Mattress Pad Topper",
+      "price_krw": "₩32,315–36,761",
+      "moq": "300 pieces",
+      "certificates": [
+        "GRS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Full-Size-Extra-Plush-Rayon-From_1600897157135.html"
+    },
+    {
+      "id": "cooling-mattresses-16",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 16,
+      "image_file": "images/cooling_mattress_16.img",
+      "image_alt": "호텔용 메모리폼 쿨링 매트리스 제품",
+      "korean_product_name": "호텔용 메모리폼 쿨링 매트리스 제품",
+      "english_product_name": "COSTFULL 8/10/12/14 Inch Modern School Hotel Use Memory Foam Hybrid Pocket Spring Compressed Mattress Cooling OEKO-TEX Certified",
+      "price_krw": "₩136,793–153,720",
+      "moq": "2 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/COSTFULL-8-10-12-14-Inch_1601594572868.html"
+    },
+    {
+      "id": "cooling-mattresses-17",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 17,
+      "image_file": "images/cooling_mattress_17.img",
+      "image_alt": "쿨링 매트리스 패드 (통기성)",
+      "korean_product_name": "쿨링 매트리스 패드 (통기성)",
+      "english_product_name": "Breathable Sleep Cool Wake Refreshed Quite Soft and Comfortable Cooling Mattress Pad Keep Clean and Free of Dust Mites",
+      "price_krw": "₩11,541–32,006",
+      "moq": "500 pieces",
+      "certificates": [
+        "GRS",
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Breathable-Sleep-Cool-Wake-Refreshed-Quite_62275980125.html"
+    },
+    {
+      "id": "cooling-mattresses-18",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 18,
+      "image_file": "images/cooling_mattress_18.img",
+      "image_alt": "대나무 섬유 쿨링 매트리스 프로텍터 (방수·통기성·피티드)",
+      "korean_product_name": "대나무 섬유 쿨링 매트리스 프로텍터 (방수·통기성·피티드)",
+      "english_product_name": "Oeko-tex 100 Certificated Breathable Cooling Bamboo Viscose Fitted Bed Sheet Waterproof Mattress Protector",
+      "price_krw": "₩4,448–9,081",
+      "moq": "50 sets",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Oeko-tex-100-Certificated-Breathable-Cooling_1601354379281.html"
+    },
+    {
+      "id": "cooling-mattresses-19",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 19,
+      "image_file": "images/cooling_mattress_19.img",
+      "image_alt": "쿨링 매트리스 토퍼",
+      "korean_product_name": "쿨링 매트리스 토퍼",
+      "english_product_name": "OEKO-TEX Certified Modern Cooling Foam Topper Customizable Premium Mattress B2B Private Label Hybrid Comfort Pocket Bedroom",
+      "price_krw": "₩212,344–398,530",
+      "moq": "2 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/OEKO-TEX-Certified-Modern-Cooling-Foam_12000001299118.html"
+    },
+    {
+      "id": "cooling-mattresses-20",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 20,
+      "image_file": "images/cooling_mattress_20.img",
+      "image_alt": "극세사 쿨링 매트리스 토퍼 (방수·퀼팅·피티드·퀸 사이즈)",
+      "korean_product_name": "극세사 쿨링 매트리스 토퍼 (방수·퀼팅·피티드·퀸 사이즈)",
+      "english_product_name": "OEM/ODM 4 Inch Single Queen king Size Microfiber Fitted Quilted Cooling Waterproof Bed Mattress Pad Topper Cover Protector",
+      "price_krw": "₩7,680–11,772",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100",
+        "GRS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/OEM-ODM-4-Inch-Single-Queen_1600739238369.html"
+    },
+    {
+      "id": "cooling-mattresses-21",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 21,
+      "image_file": "images/cooling_mattress_21.img",
+      "image_alt": "쿨링 매트리스 토퍼 (피티드)",
+      "korean_product_name": "쿨링 매트리스 토퍼 (피티드)",
+      "english_product_name": "OEKO BSCI ISO Wholesale Bedroom Plain Style Knitted Bed Mat Cover Cooling Mattress Topper with Fitted Sheet Protector",
+      "price_krw": "₩15,081",
+      "moq": "100 pieces",
+      "certificates": [
+        "BSCI",
+        "ISO"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/OEKO-BSCI-ISO-Wholesale-Bedroom-Plain_1600611903629.html"
+    },
+    {
+      "id": "cooling-mattresses-22",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 22,
+      "image_file": "images/cooling_mattress_22.img",
+      "image_alt": "대나무 섬유 쿨링 매트리스 토퍼 (세탁 가능)",
+      "korean_product_name": "대나무 섬유 쿨링 매트리스 토퍼 (세탁 가능)",
+      "english_product_name": "Eco-Friendly Washable 800gsm Bamboo Polyester Jacquard Protector Cover Pad Cooling Mattress Topper",
+      "price_krw": "₩11,804–18,465",
+      "moq": "50 pieces",
+      "certificates": [
+        "BCI"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Eco-Friendly-Washable-800gsm-Bamboo-Polyester_1601030009000.html"
+    },
+    {
+      "id": "cooling-mattresses-23",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 23,
+      "image_file": "images/cooling_mattress_23.img",
+      "image_alt": "쿨링 매트리스 토퍼 (퀼팅·피티드·킹 사이즈)",
+      "korean_product_name": "쿨링 매트리스 토퍼 (퀼팅·피티드·킹 사이즈)",
+      "english_product_name": "Cooling Mattress Topper Mattress Pad Pillow Top Quilted Fitted Mattress Cover Protector Extra Long Cotton In Rolling Packing",
+      "price_krw": "₩17,696",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Cooling-Mattress-Topper-Mattress-Pad-Pillow_1600230158476.html"
+    },
+    {
+      "id": "cooling-mattresses-24",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 24,
+      "image_file": "images/cooling_mattress_24.img",
+      "image_alt": "쿨링 매트리스 프로텍터 (방수)",
+      "korean_product_name": "쿨링 매트리스 프로텍터 (방수)",
+      "english_product_name": "Noiseless Cooling 360 Pad Protection Spills 100% Waterproof OEKO-TEX Certified Anti-Bacteria Air-permeable Mattress Protector",
+      "price_krw": "₩7,388–10,926",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Noiseless-Cooling-360-Pad-Protection-Spills_1601574263192.html"
+    },
+    {
+      "id": "cooling-mattresses-25",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 25,
+      "image_file": "images/cooling_mattress_25.img",
+      "image_alt": "대나무 섬유 쿨링 매트리스 토퍼 (방수)",
+      "korean_product_name": "대나무 섬유 쿨링 매트리스 토퍼 (방수)",
+      "english_product_name": "Waterproof Mattress Protector Ultra Soft Bamboo Cooling Mattress Cover, Vinyl-Free Mattress Topper,",
+      "price_krw": "₩6,464–9,696",
+      "moq": "100 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Waterproof-Mattress-Protector-Ultra-Soft-Bamboo_1600443266016.html"
+    },
+    {
+      "id": "cooling-mattresses-26",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 26,
+      "image_file": "images/cooling_mattress_26.img",
+      "image_alt": "쿨링 매트리스 프로텍터 (방수·저자극)",
+      "korean_product_name": "쿨링 매트리스 프로텍터 (방수·저자극)",
+      "english_product_name": "Hypoallergenic Soft Cooling Mattress Cover 100% Waterproof Mattress Protector",
+      "price_krw": "₩8,463–12,310",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Hypoallergenic-Soft-Cooling-Mattress-Cover-100_1601250969342.html"
+    },
+    {
+      "id": "cooling-mattresses-27",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 27,
+      "image_file": "images/cooling_mattress_27.img",
+      "image_alt": "극세사 쿨링 매트리스 토퍼",
+      "korean_product_name": "극세사 쿨링 매트리스 토퍼",
+      "english_product_name": "Extra Thick Long Microfiber Protector Cover Soft Cooling Mattress Topper for College Dorm Room Essentials",
+      "price_krw": "₩23,082–29,237",
+      "moq": "500 pieces",
+      "certificates": [
+        "GRS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Extra-Thick-Long-Microfiber-Protector-Cover_1601596436068.html"
+    },
+    {
+      "id": "cooling-mattresses-28",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 28,
+      "image_file": "images/cooling_mattress_28.img",
+      "image_alt": "호텔용 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈·킹 사이즈)",
+      "korean_product_name": "호텔용 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈·킹 사이즈)",
+      "english_product_name": "Queen king Cooling Mattress Topper Pad Quilted Mattress Protector Cover Hotel Superfine Fiber 180x200 90x200 Mattress Topper",
+      "price_krw": "₩7,680–9,464",
+      "moq": "1,000 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Queen-king-Cooling-Mattress-Topper-Pad_1601733999768.html"
+    },
+    {
+      "id": "cooling-mattresses-29",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 29,
+      "image_file": "images/cooling_mattress_29.img",
+      "image_alt": "젤 메모리폼 쿨링 매트리스 토퍼",
+      "korean_product_name": "젤 메모리폼 쿨링 매트리스 토퍼",
+      "english_product_name": "4 Inches Medium Firm Memory Foam Mattress Topper Cooling Gel Shredded Material Folded Pressure Relief OEKO-TEX Certified",
+      "price_krw": "₩46,148",
+      "moq": "500 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/4-Inches-Medium-Firm-Memory-Foam_1601219793724.html"
+    },
+    {
+      "id": "cooling-mattresses-30",
+      "category_id": "cooling-mattresses",
+      "category_zh": "凉感床垫",
+      "category_ko": "쿨링 매트리스",
+      "category_en": "Cooling Mattresses",
+      "category_index": 30,
+      "image_file": "images/cooling_mattress_30.img",
+      "image_alt": "극세사 쿨링 매트리스 프로텍터 (퀼팅)",
+      "korean_product_name": "극세사 쿨링 매트리스 프로텍터 (퀼팅)",
+      "english_product_name": "Manufacturer Full Size Soft Microfiber Mattress Pad Protector Cover Pain Relief Quilted Cooling Pillow Top Deep Pocket Oeko-tex",
+      "price_krw": "₩21,389–29,083",
+      "moq": "300 pieces",
+      "certificates": [
+        "OEKO-TEX 100"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Manufacturer-Full-Size-Soft-Microfiber-Mattress_1601769561583.html"
+    },
+    {
+      "id": "desktop-organizers-01",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 1,
+      "image_file": "images/desktop_organizer_01.img",
+      "image_alt": "원목 월넛 데스크탑 서랍형 수납장",
+      "korean_product_name": "원목 월넛 데스크탑 서랍형 수납장",
+      "english_product_name": "Solid Walnut Desktop Drawer Cabinet Wooden Storage Box Sundries Desk Organizer Storage Cabinet Household Desktop Drawers",
+      "price_krw": "₩13,665–24,160",
+      "moq": "500 units",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Solid-Walnut-Desktop-Drawer-Cabinet-Wooden_1601667196968.html"
+    },
+    {
+      "id": "desktop-organizers-02",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 2,
+      "image_file": "images/desktop_organizer_02.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+      "english_product_name": "Household Office Cabinet Plastic PP Desktop Makeup Cosmetic Drawer Container Organizer Storage Box Bins Set Multi Layer",
+      "price_krw": "₩4,355–13,157",
+      "moq": "200 pieces",
+      "certificates": [
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Household-Office-Cabinet-Plastic-PP-Desktop_1600900254005.html"
+    },
+    {
+      "id": "desktop-organizers-03",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 3,
+      "image_file": "images/desktop_organizer_03.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (스택형·문구 수납·화장품 수납)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (스택형·문구 수납·화장품 수납)",
+      "english_product_name": "Modern Plastic Desktop Storage Drawer Cabinet with Stackable Design for Cosmetics and Stationery, RoHS Certified Home Organizer",
+      "price_krw": "₩1,986–11,988",
+      "moq": "10 pieces",
+      "certificates": [
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Modern-Plastic-Desktop-Storage-Drawer-Cabinet_1601587077454.html"
+    },
+    {
+      "id": "desktop-organizers-04",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 4,
+      "image_file": "images/desktop_organizer_04.img",
+      "image_alt": "금속 스틸 언더데스크 서랍형 수납장 (잠금식·오피스용)",
+      "korean_product_name": "금속 스틸 언더데스크 서랍형 수납장 (잠금식·오피스용)",
+      "english_product_name": "Modern 6-Drawer Metal Mobile Filing Cabinet, Slim Steel Under Desk Storage Organizer with Lock for Office, Home & Hospital",
+      "price_krw": "₩40,009",
+      "moq": "1 piece",
+      "certificates": [
+        "CE",
+        "RoHS",
+        "RED"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Modern-6-Drawer-Metal-Mobile-Filing_1601227308654.html"
+    },
+    {
+      "id": "desktop-organizers-05",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 5,
+      "image_file": "images/desktop_organizer_05.img",
+      "image_alt": "언더데스크 서랍형 수납장 (부착식·슬라이딩·주방 겸용)",
+      "korean_product_name": "언더데스크 서랍형 수납장 (부착식·슬라이딩·주방 겸용)",
+      "english_product_name": "Under Desk Mounted Sliding Adhesive Cupboard Pull Out Kitchen Cabinet Organizer Storage Pull Drawers for Pantry Cabinets Stick",
+      "price_krw": "₩6,003–8,463",
+      "moq": "200 pieces",
+      "certificates": [
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Under-Desk-Mounted-Sliding-Adhesive-Cupboard_1601449192857.html"
+    },
+    {
+      "id": "desktop-organizers-06",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 6,
+      "image_file": "images/desktop_organizer_06.img",
+      "image_alt": "금속 스틸 언더데스크 파일 캐비닛",
+      "korean_product_name": "금속 스틸 언더데스크 파일 캐비닛",
+      "english_product_name": "Metal Drawer File Cabinet Under Desk Filling Cabinet Steel Mobile Storage Drawers Metal Mobile Pedestal Movable 3 Drawers",
+      "price_krw": "₩40,009–43,086",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Metal-Drawer-File-Cabinet-Under-Desk_1601777617552.html"
+    },
+    {
+      "id": "desktop-organizers-07",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 7,
+      "image_file": "images/desktop_organizer_07.img",
+      "image_alt": "데스크탑 서랍형 수납장",
+      "korean_product_name": "데스크탑 서랍형 수납장",
+      "english_product_name": "Art Organizer & Storage Solution 24 Drawer Crafts & Desktop Organization| Apothecary Cabinet Chest Library Card Catalog Cabinet",
+      "price_krw": "₩19,988–24,605",
+      "moq": "500 units",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Art-Organizer-Storage-Solution-24-Drawer_1600869576769.html"
+    },
+    {
+      "id": "desktop-organizers-08",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 8,
+      "image_file": "images/desktop_organizer_08.img",
+      "image_alt": "원목 데스크탑 서랍형 수납장 (오피스용)",
+      "korean_product_name": "원목 데스크탑 서랍형 수납장 (오피스용)",
+      "english_product_name": "Whitewashed Wooden Desktop Office Organizer Notebook Pen Sticky Notes Rack Shelf Drawer Tabletop Wood Storage Cabinet",
+      "price_krw": "₩8,788–11,357",
+      "moq": "100 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Whitewashed-Wooden-Desktop-Office-Organizer-Notebook_1601027439626.html"
+    },
+    {
+      "id": "desktop-organizers-09",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 9,
+      "image_file": "images/desktop_organizer_09.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (화장품 수납)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (화장품 수납)",
+      "english_product_name": "PP Plastic Desktop Organizer Cosmetic Makeup & Jewelry Drawer Storage Cabinet Storage Boxes & Bins",
+      "price_krw": "₩4,616",
+      "moq": "100 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/PP-Plastic-Desktop-Organizer-Cosmetic-Makeup_1600914864240.html"
+    },
+    {
+      "id": "desktop-organizers-10",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 10,
+      "image_file": "images/desktop_organizer_10.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (스택형·주방 겸용)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (스택형·주방 겸용)",
+      "english_product_name": "GREENSIDE Household PP Plastic Storage Bins Boxes Stackable Medicine Cabinet Desktop Drawer Living Room Makeup Organizer Kitchen",
+      "price_krw": "₩402",
+      "moq": "81 pieces",
+      "certificates": [
+        "FSC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/GREENSIDE-Household-PP-Plastic-Storage-Bins_1601559595739.html"
+    },
+    {
+      "id": "desktop-organizers-11",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 11,
+      "image_file": "images/desktop_organizer_11.img",
+      "image_alt": "투명 플라스틱 데스크탑 서랍형 수납장 (스택형)",
+      "korean_product_name": "투명 플라스틱 데스크탑 서랍형 수납장 (스택형)",
+      "english_product_name": "Stackable Rectangle Storage Drawers Plastic Desktop Box Cabinet Closet Organizer Transparent Room Wardrobe Home Storage",
+      "price_krw": "₩1,847–5,540",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Stackable-Rectangle-Storage-Drawers-Plastic-Desktop_1601382146907.html"
+    },
+    {
+      "id": "desktop-organizers-12",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 12,
+      "image_file": "images/desktop_organizer_12.img",
+      "image_alt": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+      "korean_product_name": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+      "english_product_name": "2pcs/set Injection Technics Plastic Storage Organizer Drawer Square Shape under Desk Storage for Office Home Use Free Sample",
+      "price_krw": "₩2,079–2,186",
+      "moq": "500 sets",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2pcs-set-Injection-Technics-Plastic-Storage_1601110809743.html"
+    },
+    {
+      "id": "desktop-organizers-13",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 13,
+      "image_file": "images/desktop_organizer_13.img",
+      "image_alt": "PET 플라스틱 언더데스크 수납 서랍 (오피스용·주방 겸용)",
+      "korean_product_name": "PET 플라스틱 언더데스크 수납 서랍 (오피스용·주방 겸용)",
+      "english_product_name": "Clear PET Under Desk Drawer for Plastic Kitchen Organizer Home Office Desk Layer Drawer Mobile Phone Storage Box",
+      "price_krw": "₩3,333–3,394",
+      "moq": "100 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Clear-PET-Under-Desk-Drawer-for_1600957593804.html"
+    },
+    {
+      "id": "desktop-organizers-14",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 14,
+      "image_file": "images/desktop_organizer_14.img",
+      "image_alt": "플라스틱 언더데스크 수납 서랍 (부착식·슬라이딩·오피스용)",
+      "korean_product_name": "플라스틱 언더데스크 수납 서랍 (부착식·슬라이딩·오피스용)",
+      "english_product_name": "Plastic Sliding Slim Self-Adhesive Double Layer Under Desk Drawer Hidden Storage Box Drawer Office Dormitory",
+      "price_krw": "₩5,709–6,172",
+      "moq": "500 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Plastic-Sliding-Slim-Self-Adhesive-Double_1600376719300.html"
+    },
+    {
+      "id": "desktop-organizers-15",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 15,
+      "image_file": "images/desktop_organizer_15.img",
+      "image_alt": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+      "korean_product_name": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+      "english_product_name": "GREENSIDE Modern Double Drawer Under Desk Storage Box High Quality ABS Plastic Office Household Organizer",
+      "price_krw": "₩2,817–3,817",
+      "moq": "1,000 pieces",
+      "certificates": [
+        "FSC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/GREENSIDE-Modern-Double-Drawer-Under-Desk_1601390457014.html"
+    },
+    {
+      "id": "desktop-organizers-16",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 16,
+      "image_file": "images/desktop_organizer_16.img",
+      "image_alt": "언더데스크 수납 서랍 (부착식·오피스용·주방 겸용)",
+      "korean_product_name": "언더데스크 수납 서랍 (부착식·오피스용·주방 겸용)",
+      "english_product_name": "AU CAT Under Desk Drawer, Set for Office/Bedroom/School/Kitchen, Self-Adhesive Under Desk Storage for Phone/Pens/Pencils",
+      "price_krw": "₩1,832",
+      "moq": "500 pieces",
+      "certificates": [
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/AU-CAT-Under-Desk-Drawer-Set_1600457542796.html"
+    },
+    {
+      "id": "desktop-organizers-17",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 17,
+      "image_file": "images/desktop_organizer_17.img",
+      "image_alt": "언더데스크 수납 서랍 (슬라이드아웃·오피스용)",
+      "korean_product_name": "언더데스크 수납 서랍 (슬라이드아웃·오피스용)",
+      "english_product_name": "Multi Functional Under Desk Drawer Slide Out Hidden Desk Drawers Organizer for Office Home Under Desk Storage",
+      "price_krw": "₩3,003–3,155",
+      "moq": "500 pieces",
+      "certificates": [
+        "GRS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Multi-Functional-Under-Desk-Drawer-Slide_1601419637669.html"
+    },
+    {
+      "id": "desktop-organizers-18",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 18,
+      "image_file": "images/desktop_organizer_18.img",
+      "image_alt": "데스크탑 수납 박스 (오피스용)",
+      "korean_product_name": "데스크탑 수납 박스 (오피스용)",
+      "english_product_name": "FSC&BSCI&EUDR Wood Desktop Storage Cabinet/Workspace Document Office Necessity Organizer",
+      "price_krw": "₩2,079–8,234",
+      "moq": "500 pieces",
+      "certificates": [
+        "FSC",
+        "BSCI"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/FSC-BSCI-EUDR-Wood-Desktop-Storage_1601685226765.html"
+    },
+    {
+      "id": "desktop-organizers-19",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 19,
+      "image_file": "images/desktop_organizer_19.img",
+      "image_alt": "금속 언더데스크 수납 박스 (오피스용)",
+      "korean_product_name": "금속 언더데스크 수납 박스 (오피스용)",
+      "english_product_name": "2 Pack Under Desk Shelf Metal -Under Desk Organizer Under Shelf Storage for Office Tables & Workstations",
+      "price_krw": "₩6,925–7,233",
+      "moq": "500 pieces",
+      "certificates": [
+        "GRS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2-Pack-Under-Desk-Shelf-Metal_1601673897031.html"
+    },
+    {
+      "id": "desktop-organizers-20",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 20,
+      "image_file": "images/desktop_organizer_20.img",
+      "image_alt": "플라스틱 언더데스크 서랍형 수납장 (부착식·주방 겸용)",
+      "korean_product_name": "플라스틱 언더데스크 서랍형 수납장 (부착식·주방 겸용)",
+      "english_product_name": "Plastic Kitchen Cabinet Storage Organizer Box Self-adhesive Under Desk Drawer",
+      "price_krw": "₩10,465–10,758",
+      "moq": "100 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Plastic-Kitchen-Cabinet-Storage-Organizer-Box_1600759193848.html"
+    },
+    {
+      "id": "desktop-organizers-21",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 21,
+      "image_file": "images/desktop_organizer_21.img",
+      "image_alt": "스틸 언더데스크 서랍형 수납장",
+      "korean_product_name": "스틸 언더데스크 서랍형 수납장",
+      "english_product_name": "DA09-3 Under Desk Storage Box Hidden Drawer Slide Mounted Organizer Steel Container Removable Tray Cabinet Shelf Storage",
+      "price_krw": "₩16,927–17,973",
+      "moq": "300 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/DA09-3-Under-Desk-Storage-Box_1600729960417.html"
+    },
+    {
+      "id": "desktop-organizers-22",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 22,
+      "image_file": "images/desktop_organizer_22.img",
+      "image_alt": "언더데스크 서랍형 수납장 (부착식·슬라이드아웃)",
+      "korean_product_name": "언더데스크 서랍형 수납장 (부착식·슬라이드아웃)",
+      "english_product_name": "Hanging Under Desk Storage Box Slide Out Self-adhesive Attachable Under Desk Drawer Organizer Cabinet Hidden Desktop Organizer",
+      "price_krw": "₩2,894–7,417",
+      "moq": "2 sets",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Hanging-Under-Desk-Storage-Box-Slide_1600817144202.html"
+    },
+    {
+      "id": "desktop-organizers-23",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 23,
+      "image_file": "images/desktop_organizer_23.img",
+      "image_alt": "데스크탑 서랍형 수납장 (화장품 수납)",
+      "korean_product_name": "데스크탑 서랍형 수납장 (화장품 수납)",
+      "english_product_name": "Frins Leather Comb Cases Storage Organizer Makeup Skin Care Box Cosmetic Desktop Cabinets Leather With Drawers",
+      "price_krw": "₩22,773–70,476",
+      "moq": "1 piece",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Frins-Leather-Comb-Cases-Storage-Organizer_1600944425690.html"
+    },
+    {
+      "id": "desktop-organizers-24",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 24,
+      "image_file": "images/desktop_organizer_24.img",
+      "image_alt": "플라스틱 금속 데스크탑 서랍형 수납장",
+      "korean_product_name": "플라스틱 금속 데스크탑 서랍형 수납장",
+      "english_product_name": "MFTLong 48 Drawers Plastic Storage Cabinet Wholesale Metal Desktop & Drawer Organizer for Living Room/Bathroom/Tools 48 Drawers",
+      "price_krw": "₩92,325–100,019",
+      "moq": "2 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/MFTLong-48-Drawers-Plastic-Storage-Cabinet_1600555233422.html"
+    },
+    {
+      "id": "desktop-organizers-25",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 25,
+      "image_file": "images/desktop_organizer_25.img",
+      "image_alt": "데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+      "korean_product_name": "데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+      "english_product_name": "Wholesale Professional Factory Desktop Cabinet Office Storage Makeup Organizer Desktop Cosmetics Storage Drawer Cabinet",
+      "price_krw": "₩1,539–3,078",
+      "moq": "200 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Professional-Factory-Desktop-Cabinet-Office_1600771362154.html"
+    },
+    {
+      "id": "desktop-organizers-26",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 26,
+      "image_file": "images/desktop_organizer_26.img",
+      "image_alt": "데스크탑 서랍형 수납장 (주방 겸용)",
+      "korean_product_name": "데스크탑 서랍형 수납장 (주방 겸용)",
+      "english_product_name": "5-Drawer Wood Desktop Organizer with Storage Cabinet Sewing Box DIY Craft Project Solution-for Kitchen and Living Room",
+      "price_krw": "₩4,310–5,386",
+      "moq": "500 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/5-Drawer-Wood-Desktop-Organizer-with_60774815763.html"
+    },
+    {
+      "id": "desktop-organizers-27",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 27,
+      "image_file": "images/desktop_organizer_27.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (스택형·오피스용)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (스택형·오피스용)",
+      "english_product_name": "A4 Paper Drawer Cabinet Plastic Office Storage Organizer With Stackable Desktop Drawer",
+      "price_krw": "₩5,971–8,463",
+      "moq": "128 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/A4-Paper-Drawer-Cabinet-Plastic-Office_60709816273.html"
+    },
+    {
+      "id": "desktop-organizers-28",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 28,
+      "image_file": "images/desktop_organizer_28.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (문구 수납)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (문구 수납)",
+      "english_product_name": "2402 Eco-Friendly Plastic Drawer Cabinet with Two Drawers Modern Student Desktop Storage Organizer Box for Stationery",
+      "price_krw": "₩3,695",
+      "moq": "800 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/2402-Eco-Friendly-Plastic-Drawer-Cabinet_1601341915451.html"
+    },
+    {
+      "id": "desktop-organizers-29",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 29,
+      "image_file": "images/desktop_organizer_29.img",
+      "image_alt": "데스크탑 서랍형 수납장 (오피스용)",
+      "korean_product_name": "데스크탑 서랍형 수납장 (오피스용)",
+      "english_product_name": "Rustic Brown Wood Desktop Office Organizer Drawers/Craft Supplies Storage Cabinet",
+      "price_krw": "₩11,080–18,465",
+      "moq": "500 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Rustic-Brown-Wood-Desktop-Office-Organizer_62128831859.html"
+    },
+    {
+      "id": "desktop-organizers-30",
+      "category_id": "desktop-organizers",
+      "category_zh": "桌面整理柜",
+      "category_ko": "데스크 정리함",
+      "category_en": "Desktop Organizers",
+      "category_index": 30,
+      "image_file": "images/desktop_organizer_30.img",
+      "image_alt": "플라스틱 데스크탑 서랍형 수납장 (문구 수납·오피스용·화장품 수납)",
+      "korean_product_name": "플라스틱 데스크탑 서랍형 수납장 (문구 수납·오피스용·화장품 수납)",
+      "english_product_name": "MONR Wholesale PP Cosmetic Storage Drawer Plastic Desktop Cabinet with Pen Stationery Organizer Box for Office Use",
+      "price_krw": "₩1,586–2,340",
+      "moq": "48 pieces",
+      "certificates": [
+        "Listing not specified"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/MONR-Wholesale-PP-Cosmetic-Storage-Drawer_1601459800178.html"
+    }
+  ]
+}
