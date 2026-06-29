@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "source": "Alibaba.com public product listings collected into local HTML workbook",
-    "generated_from": "power_bank_products_krw.html",
-    "total_products": 120,
+    "source": "Alibaba.com public product listings collected into local HTML/workbook and supplemental memory-card search results",
+    "generated_from": "power_bank_products_krw.html plus scripts/add_memory_cards.py",
+    "total_products": 150,
     "categories": [
       {
         "category_id": "power-bank",
@@ -31,9 +31,17 @@
         "category_ko": "데스크 정리함",
         "category_en": "Desktop Organizers",
         "count": 30
+      },
+      {
+        "category_id": "memory-cards",
+        "category_zh": "存储卡",
+        "category_ko": "메모리 카드",
+        "category_en": "Memory Cards",
+        "count": 30
       }
     ],
     "price_currency": "KRW",
+    "latest_memory_card_exchange_rate": "1 CNY = ₩226.01; 1 USD = ₩1,536.47; rate date 2026-06-26",
     "notes": [
       "source_url stores the Alibaba product detail page.",
       "image_file stores the relative path to the downloaded product main image.",
@@ -2211,6 +2219,590 @@
         "Listing not specified"
       ],
       "source_url": "https://www.alibaba.com/product-detail/MONR-Wholesale-PP-Cosmetic-Storage-Drawer_1601459800178.html"
+    },
+    {
+      "id": "memory-cards-01",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 1,
+      "image_file": "images/memory_card_01.img",
+      "image_alt": "SD 4GB/64GB/128GB 메모리 카드 (고속)",
+      "korean_product_name": "SD 4GB/64GB/128GB 메모리 카드 (고속)",
+      "english_product_name": "4GB SD Card Camera High-Speed Camera Memory Card 64GB 4K for High Endurance 128GB SD Card Gaming",
+      "price_krw": "₩1,225–21,487",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/4GB-SD-Card-Camera-High-Speed_10000013654513.html"
+    },
+    {
+      "id": "memory-cards-02",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 2,
+      "image_file": "images/memory_card_02.img",
+      "image_alt": "마이크로 TF/SD 128GB 메모리 카드 (U3)",
+      "korean_product_name": "마이크로 TF/SD 128GB 메모리 카드 (U3)",
+      "english_product_name": "Abee 128GB U3 Mini SD Plastic Memory Card 50-100MB/s Read/30-50MB/s Write Speed Black CE ROHS FCC UKCA Certified for Dash Cam",
+      "price_krw": "₩81,047",
+      "moq": "1 set",
+      "certificates": [
+        "CE",
+        "RoHS",
+        "FCC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Abee-128GB-U3-Mini-SD-Plastic_10000035603901.html"
+    },
+    {
+      "id": "memory-cards-03",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 3,
+      "image_file": "images/memory_card_03.img",
+      "image_alt": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드 (고속)",
+      "korean_product_name": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드 (고속)",
+      "english_product_name": "High-speed Memory Card 4GB 8GB 16GB 32GB Mini SD CarD 64GB 128GB 256gb 512GB Professional Photography & 4K UHD",
+      "price_krw": "₩1,376–21,622",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-speed-Memory-Card-4GB-8GB_10000041798796.html"
+    },
+    {
+      "id": "memory-cards-04",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 4,
+      "image_file": "images/memory_card_04.img",
+      "image_alt": "마이크로 TF/SD 32GB/64GB/128GB/512GB/1TB 메모리 카드 (고속)",
+      "korean_product_name": "마이크로 TF/SD 32GB/64GB/128GB/512GB/1TB 메모리 카드 (고속)",
+      "english_product_name": "Wholesale 32gb 64gb 128gb 512gb Tf Sd Memory Card High Speed Mini Sd Card Compatible With Dvr 128 Mb to 512 Gb 1tb Capacity",
+      "price_krw": "₩3,365–7,646",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-32gb-64gb-128gb-512gb-Tf_11000024066347.html"
+    },
+    {
+      "id": "memory-cards-05",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 5,
+      "image_file": "images/memory_card_05.img",
+      "image_alt": "마이크로 TF/SD 16GB/32GB/64GB/128GB/256GB/512GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 16GB/32GB/64GB/128GB/256GB/512GB 메모리 카드",
+      "english_product_name": "High Quality Speed Sd Memory Card 16gb 32gb 64gb 128gb 256gb 512gb Memory Sd Cart 32gb 64gb 128gb 256gb Flash Memory Tf Card",
+      "price_krw": "₩3,365–7,646",
+      "moq": "10 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-Quality-Speed-Sd-Memory-Card_11000024114487.html"
+    },
+    {
+      "id": "memory-cards-06",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 6,
+      "image_file": "images/memory_card_06.img",
+      "image_alt": "마이크로 TF/SD 8GB/16GB/32GB/64GB 메모리 카드 (Class 10)",
+      "korean_product_name": "마이크로 TF/SD 8GB/16GB/32GB/64GB 메모리 카드 (Class 10)",
+      "english_product_name": "Gitra Shenzhen Wholesale Micro Memory Card 8GB 16GB 32GB 64GB C10 TF Card Flash Drive for Mobile Phones Camera",
+      "price_krw": "₩2,723–15,751",
+      "moq": "100 pieces",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "UKCA",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Gitra-Shenzhen-Wholesale-Micro-Memory-Card_1600055512840.html"
+    },
+    {
+      "id": "memory-cards-07",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 7,
+      "image_file": "images/memory_card_07.img",
+      "image_alt": "마이크로 TF/SD 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 메모리 카드",
+      "english_product_name": "Original Micro 2 8 16 32 64 128 256 Gb Flash Memory Card",
+      "price_krw": "₩3,930–18,352",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Original-Micro-2-8-16-32_1600312734208.html"
+    },
+    {
+      "id": "memory-cards-08",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 8,
+      "image_file": "images/memory_card_08.img",
+      "image_alt": "마이크로 TF/SD 8GB/16GB/32GB/64GB/128GB/256GB 메모리 카드 (로고 맞춤)",
+      "korean_product_name": "마이크로 TF/SD 8GB/16GB/32GB/64GB/128GB/256GB 메모리 카드 (로고 맞춤)",
+      "english_product_name": "Top Sales 100% Original Custom LOGO TF Card 8GB 16GB 32GB 64GB 128GB 256GB 512GB for Mobile Phone Wholesales Memory Cards",
+      "price_krw": "₩26,303–127,687",
+      "moq": "20 pieces",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Top-Sales-100-Original-Custom-LOGO_1600366669755.html"
+    },
+    {
+      "id": "memory-cards-09",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 9,
+      "image_file": "images/memory_card_09.img",
+      "image_alt": "마이크로 TF/SD 32GB/64GB/128GB/256GB/512GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 32GB/64GB/128GB/256GB/512GB 메모리 카드",
+      "english_product_name": "Factory Ce Rohs Fcc 8 16 32gb 64gb 128gb Phone Memoir Card Car Dvr Gps 128 Gb 256gb Tf Sd Card 512gb Camera Memory Cards",
+      "price_krw": "₩1,928–51,381",
+      "moq": "10 pieces",
+      "certificates": [
+        "RoHS",
+        "FCC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Factory-Ce-Rohs-Fcc-8-16_1600707126189.html"
+    },
+    {
+      "id": "memory-cards-10",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 10,
+      "image_file": "images/memory_card_10.img",
+      "image_alt": "마이크로 TF/SD 1GB/2GB/4GB/8GB/16GB/32GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 1GB/2GB/4GB/8GB/16GB/32GB 메모리 카드",
+      "english_product_name": "Wholesale Sd Card Bulk Micro 1GB 2GB 4GB 8GB 16GB 32GB 64GB 128GB 256GB 512GB TF Disk Flash SD Memory Card",
+      "price_krw": "₩3,670–73,401",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Sd-Card-Bulk-Micro-1GB_1600785800321.html"
+    },
+    {
+      "id": "memory-cards-11",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 11,
+      "image_file": "images/memory_card_11.img",
+      "image_alt": "SD 512GB/256GB 메모리 카드 (Class 10·U3·고속)",
+      "korean_product_name": "SD 512GB/256GB 메모리 카드 (Class 10·U3·고속)",
+      "english_product_name": "High Speed Memory Card 512gb 256gb Flash Memory Sd Card 32 64 128 GB 256 GB 512 GB Sd Card Class 10 U3 for Phone Camera",
+      "price_krw": "₩766–14,040",
+      "moq": "10 pieces",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-Speed-Memory-Card-512gb-256gb_1600886086207.html"
+    },
+    {
+      "id": "memory-cards-12",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 12,
+      "image_file": "images/memory_card_12.img",
+      "image_alt": "SD 64GB/1TB/256GB 메모리 카드",
+      "korean_product_name": "SD 64GB/1TB/256GB 메모리 카드",
+      "english_product_name": "Hot Selling Sd Card 128 Gb 64gb Sd Card 1tb 256gb Memory Card 1tb 256gb Wholesale Price for Phone Camera",
+      "price_krw": "₩766–14,040",
+      "moq": "10 pieces",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Hot-Selling-Sd-Card-128-Gb_1600889964541.html"
+    },
+    {
+      "id": "memory-cards-13",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 13,
+      "image_file": "images/memory_card_13.img",
+      "image_alt": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "english_product_name": "Wholesale Sd Card 4GB 8GB 16GB 32GB 64GB 128GB 256GB 512GB 1TB TF Memory Card for GPS Camera Mobile Phone",
+      "price_krw": "₩2,464–31,289",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Sd-Card-4GB-8GB-16GB_1600909507461.html"
+    },
+    {
+      "id": "memory-cards-14",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 14,
+      "image_file": "images/memory_card_14.img",
+      "image_alt": "SD 32GB/2GB/4GB/8GB/16GB 메모리 카드",
+      "korean_product_name": "SD 32GB/2GB/4GB/8GB/16GB 메모리 카드",
+      "english_product_name": "Memory Card 100% Original Sd 32gb Phone Card 2GB 4GB 8GB 16GB 32GB 64GB Sd Card",
+      "price_krw": "₩2,474–31,436",
+      "moq": "1 piece",
+      "certificates": [
+        "RoHS",
+        "CE",
+        "FCC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Memory-Card-100-Original-Sd-32gb_1600909896757.html"
+    },
+    {
+      "id": "memory-cards-15",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 15,
+      "image_file": "images/memory_card_15.img",
+      "image_alt": "마이크로 TF/SD 64GB/32GB/16GB/128GB/256GB 메모리 카드 (Class 10)",
+      "korean_product_name": "마이크로 TF/SD 64GB/32GB/16GB/128GB/256GB 메모리 카드 (Class 10)",
+      "english_product_name": "Class 10 Tf Memory Card 64gb 32gb 16gb Micro Card Sd/tf 128gb 32gb 256gb Memoire 64G 128G 256 Wholesale Memory Card",
+      "price_krw": "₩4,052–29,973",
+      "moq": "5 pieces",
+      "certificates": [
+        "CE",
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Class-10-Tf-Memory-Card-64gb_1600911540722.html"
+    },
+    {
+      "id": "memory-cards-16",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 16,
+      "image_file": "images/memory_card_16.img",
+      "image_alt": "마이크로 TF/SD 16GB/32GB/64GB/128GB/256GB 메모리 카드 (로고 맞춤)",
+      "korean_product_name": "마이크로 TF/SD 16GB/32GB/64GB/128GB/256GB 메모리 카드 (로고 맞춤)",
+      "english_product_name": "FREE Customization Bulk SD Cards Flash Memory Card 16GB 32GB 64GB 128GB 256GB TF Card Carte Memoire Original Flash Chips",
+      "price_krw": "₩1,229–21,587",
+      "moq": "1 piece",
+      "certificates": [
+        "RoHS",
+        "CE",
+        "FCC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/FREE-Customization-Bulk-SD-Cards-Flash_1600915227233.html"
+    },
+    {
+      "id": "memory-cards-17",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 17,
+      "image_file": "images/memory_card_17.img",
+      "image_alt": "마이크로 TF/SD 메모리 카드 (Class 10)",
+      "korean_product_name": "마이크로 TF/SD 메모리 카드 (Class 10)",
+      "english_product_name": "TF Card 128G16G 32G C10 Memory Card Micro Mobile Phone SD Small Card Storage Tablet Black Camera Oem GPS Logo Rohs Color Accept",
+      "price_krw": "₩4,574–15,278",
+      "moq": "50 pieces",
+      "certificates": [
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/TF-Card-128G16G-32G-C10-Memory_1600928741971.html"
+    },
+    {
+      "id": "memory-cards-18",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 18,
+      "image_file": "images/memory_card_18.img",
+      "image_alt": "SD 32GB/64GB/128GB/256GB/512GB 메모리 카드 (고속)",
+      "korean_product_name": "SD 32GB/64GB/128GB/256GB/512GB 메모리 카드 (고속)",
+      "english_product_name": "Lowest Price Memory Card 32GB 64GB 128GB 256GB 512GB 1T High Speed Memory Camera Card Mobile Storage SD Card",
+      "price_krw": "₩2,464–31,289",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Lowest-Price-Memory-Card-32GB-64GB_1600930971912.html"
+    },
+    {
+      "id": "memory-cards-19",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 19,
+      "image_file": "images/memory_card_19.img",
+      "image_alt": "마이크로 TF/SD 128MB/256MB/512MB 메모리 카드 (고속)",
+      "korean_product_name": "마이크로 TF/SD 128MB/256MB/512MB 메모리 카드 (고속)",
+      "english_product_name": "High-Speed SD Card Memory TF Card 32MB/64MB/128MB/256MB/512MB Mini TF Card",
+      "price_krw": "₩1,225–14,300",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/High-Speed-SD-Card-Memory-TF_1600931496690.html"
+    },
+    {
+      "id": "memory-cards-20",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 20,
+      "image_file": "images/memory_card_20.img",
+      "image_alt": "마이크로 TF/SD 4GB/8GB/16GB/64GB/128GB/32GB 메모리 카드 (U3·A1)",
+      "korean_product_name": "마이크로 TF/SD 4GB/8GB/16GB/64GB/128GB/32GB 메모리 카드 (U3·A1)",
+      "english_product_name": "Wholesale Micro Samples Bulk 4GB 8GB 16GB 64GB 128GB SD TF Card True Capacity 32GB Memory Card Taiwan Chip A1 U3 Speed DVR",
+      "price_krw": "₩750–15,262",
+      "moq": "50 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Micro-Samples-Bulk-4GB-8GB_1600934889926.html"
+    },
+    {
+      "id": "memory-cards-21",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 21,
+      "image_file": "images/memory_card_21.img",
+      "image_alt": "마이크로 TF/SD 16GB/32GB/64GB/128GB/256GB/512GB 메모리 카드 (Class 10·U3·V30·어댑터 포함)",
+      "korean_product_name": "마이크로 TF/SD 16GB/32GB/64GB/128GB/256GB/512GB 메모리 카드 (Class 10·U3·V30·어댑터 포함)",
+      "english_product_name": "Wholesale High Speed C10 U3 V30 Mini Sd Memoria 16gb 32gb 64gb 128gb 256gb TF SD Card 512gb No logo Memory Card and Adapter",
+      "price_krw": "₩3,824–15,140",
+      "moq": "5 pieces",
+      "certificates": [
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-High-Speed-C10-U3-V30_1600984380771.html"
+    },
+    {
+      "id": "memory-cards-22",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 22,
+      "image_file": "images/memory_card_22.img",
+      "image_alt": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "english_product_name": "LEVOFAST 4gb 8gb 16gb 32gb 64gb 128gb 256gb 512gb 1tb Sd Tf Memory Cards for Camera",
+      "price_krw": "₩3,060–6,882",
+      "moq": "5 pieces",
+      "certificates": [
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/LEVOFAST-4gb-8gb-16gb-32gb-64gb_1600984660476.html"
+    },
+    {
+      "id": "memory-cards-23",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 23,
+      "image_file": "images/memory_card_23.img",
+      "image_alt": "마이크로 TF/SD 16GB/64GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 16GB/64GB 메모리 카드",
+      "english_product_name": "SD/TF Mobile Phone Card Micro Memory SD Card Full Capacity 16GB 64GB Flash Drive",
+      "price_krw": "₩5,797–5,964",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/SD-TF-Mobile-Phone-Card-Micro_1601002740589.html"
+    },
+    {
+      "id": "memory-cards-24",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 24,
+      "image_file": "images/memory_card_24.img",
+      "image_alt": "SD 128MB/256MB/1GB/2GB/512MB 메모리 카드",
+      "korean_product_name": "SD 128MB/256MB/1GB/2GB/512MB 메모리 카드",
+      "english_product_name": "Small Capacity 128MB 256MB 1GB 2GB 512MB SD Memory Card for Mobile Phones DVRs Cameras Game Devices MP3 Players GPS Units",
+      "price_krw": "₩1,229–21,587",
+      "moq": "1 piece",
+      "certificates": [
+        "RoHS",
+        "CE",
+        "FCC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Small-Capacity-128MB-256MB-1GB-2GB_1601023522053.html"
+    },
+    {
+      "id": "memory-cards-25",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 25,
+      "image_file": "images/memory_card_25.img",
+      "image_alt": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "english_product_name": "Wholesale Custom 4GB 8GB 16GB 32Gb 64Gb 128GB Memoir Card Car DVR 256Gb TF SD Card Phone Camera Memory Card",
+      "price_krw": "₩766–14,040",
+      "moq": "10 pieces",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-4GB-8GB-16GB-32Gb_1601112402775.html"
+    },
+    {
+      "id": "memory-cards-26",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 26,
+      "image_file": "images/memory_card_26.img",
+      "image_alt": "마이크로 TF/SD 1GB/2GB/4GB/8GB/256GB/16GB 메모리 카드 (Class 10·U3·A1)",
+      "korean_product_name": "마이크로 TF/SD 1GB/2GB/4GB/8GB/256GB/16GB 메모리 카드 (Class 10·U3·A1)",
+      "english_product_name": "TF Class 10 A1 SD Card Original 1GB/2GB/4GB/8GB/256GB/16GB/32GB Memory Card for Phone GPS MP3 DVR Blackmagic U3 Sd Plastic",
+      "price_krw": "₩2,074–21,587",
+      "moq": "1 piece",
+      "certificates": [
+        "RoHS",
+        "CE",
+        "FCC"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/TF-Class-10-A1-SD-Card_1601135895326.html"
+    },
+    {
+      "id": "memory-cards-27",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 27,
+      "image_file": "images/memory_card_27.img",
+      "image_alt": "마이크로 TF/SD 128GB 메모리 카드 (Class 10)",
+      "korean_product_name": "마이크로 TF/SD 128GB 메모리 카드 (Class 10)",
+      "english_product_name": "Youlen 100% Original Bulk 128GB for TF SD Class 10 UHS-3 Surveillance IP Cameras CE RoHS FCC Certified 1-5 Memory Card",
+      "price_krw": "₩6,715–79,180",
+      "moq": "500 pieces",
+      "certificates": [
+        "FCC",
+        "CE",
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Youlen-100-Original-Bulk-128GB-for_1601184269806.html"
+    },
+    {
+      "id": "memory-cards-28",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 28,
+      "image_file": "images/memory_card_28.img",
+      "image_alt": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "korean_product_name": "마이크로 TF/SD 4GB/8GB/16GB/32GB/64GB/128GB 메모리 카드",
+      "english_product_name": "SD Memory Card 4GB 8GB 16GB 32GB 64GB 128GB Memory Cards Sd Cart 32gb 64gb 128gb Flash Memory Tf Sd Card",
+      "price_krw": "₩2,891–15,981",
+      "moq": "20 pieces",
+      "certificates": [
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/SD-Memory-Card-4GB-8GB-16GB_1601233592742.html"
+    },
+    {
+      "id": "memory-cards-29",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 29,
+      "image_file": "images/memory_card_29.img",
+      "image_alt": "마이크로 TF/SD 1TB/128GB/32GB/256GB/64GB 메모리 카드 (Class 10·A1)",
+      "korean_product_name": "마이크로 TF/SD 1TB/128GB/32GB/256GB/64GB 메모리 카드 (Class 10·A1)",
+      "english_product_name": "26 100% Original Micro TF Memory Card 1TB 128GB 32GB 256GB 16G 400GB Class 10 A1 Compatible With Phones and DVRs 64GB Capacity",
+      "price_krw": "₩7,036–9,022",
+      "moq": "1 piece",
+      "certificates": [
+        "FCC",
+        "CE",
+        "RoHS"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/26-100-Original-Micro-TF-Memory_1601236333752.html"
+    },
+    {
+      "id": "memory-cards-30",
+      "category_id": "memory-cards",
+      "category_zh": "存储卡",
+      "category_ko": "메모리 카드",
+      "category_en": "Memory Cards",
+      "category_index": 30,
+      "image_file": "images/memory_card_30.img",
+      "image_alt": "마이크로 TF/SD 128GB/64GB 메모리 카드 (Class 10·A1)",
+      "korean_product_name": "마이크로 TF/SD 128GB/64GB 메모리 카드 (Class 10·A1)",
+      "english_product_name": "Gitra Micro TF CARD Custom SD Micro TF Card Ultra Class 10 A1 Memory Card 100 Original 128GB 32GB16G 64gb",
+      "price_krw": "₩1,302–21,103",
+      "moq": "100 pieces",
+      "certificates": [
+        "FCC",
+        "RoHS",
+        "UKCA",
+        "CE"
+      ],
+      "source_url": "https://www.alibaba.com/product-detail/Gitra-Micro-TF-CARD-Custom-SD_1601242080621.html"
     }
   ]
 }
