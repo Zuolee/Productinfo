@@ -51,6 +51,7 @@ def category_metadata(source_payload: dict, category: dict, products: list[dict]
         "supplier_fields",
         "supplier_korean_fields",
         "latest_memory_card_exchange_rate",
+        "image_storage",
     ]:
         if key in source_metadata:
             metadata[key] = source_metadata[key]

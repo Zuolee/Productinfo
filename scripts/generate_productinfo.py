@@ -6,6 +6,7 @@ import re
 import shutil
 from pathlib import Path
 
+from organize_images_as_png import CATEGORY_IMAGE_DIRS, convert_to_png
 from sync_category_files import write_category_files
 
 
@@ -92,8 +93,9 @@ def parse_products() -> list[dict]:
                 raise RuntimeError(f"Unable to parse row {row.group(1)} in {panel_id}")
 
             src_image = SOURCE_DIR / decode_attr(image_match.group(1))
-            image_name = src_image.name
-            target_image = IMAGE_DIR / image_name
+            category_dir = CATEGORY_IMAGE_DIRS[category["category_id"]]
+            image_name = f"{src_image.stem}.png"
+            target_image = IMAGE_DIR / category_dir / image_name
 
             products.append(
                 {
@@ -103,7 +105,7 @@ def parse_products() -> list[dict]:
                     "category_ko": category["category_ko"],
                     "category_en": category["category_en"],
                     "category_index": category_index,
-                    "image_file": f"images/{image_name}",
+                    "image_file": f"images/{category_dir}/{image_name}",
                     "image_alt": decode_attr(image_match.group(2)),
                     "korean_product_name": strip_tags(korean_match.group(1)),
                     "english_product_name": strip_tags(english_match.group(1)),
@@ -191,7 +193,7 @@ def copy_assets(products: list[dict]) -> None:
         target = product["_target_image"]
         if not src.exists():
             raise RuntimeError(f"Missing image: {src}")
-        shutil.copy2(src, target)
+        convert_to_png(src, target)
     if SOURCE_XLSX.exists():
         shutil.copy2(SOURCE_XLSX, EXPORT_DIR / "alibaba_products_with_images.xlsx")
 

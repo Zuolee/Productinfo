@@ -4,10 +4,12 @@ import html
 import json
 import re
 import time
+from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote
 
 import requests
+from PIL import Image
 
 from sync_category_files import write_category_files
 
@@ -273,7 +275,16 @@ def download_image(url: str, target: Path) -> None:
     response.raise_for_status()
     if len(response.content) < 1000:
         raise RuntimeError(f"Image too small: {url}")
-    target.write_bytes(response.content)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(BytesIO(response.content)) as image:
+        image.load()
+        if image.mode in {"RGBA", "LA"} or (
+            image.mode == "P" and "transparency" in image.info
+        ):
+            converted = image.convert("RGBA")
+        else:
+            converted = image.convert("RGB")
+        converted.save(target, format="PNG", optimize=True)
 
 
 def build_memory_card_products() -> tuple[list[dict], str]:
@@ -285,7 +296,7 @@ def build_memory_card_products() -> tuple[list[dict], str]:
     products = []
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
     for index, product in enumerate(selected, start=1):
-        image_file = f"images/memory_card_{index:02d}.img"
+        image_file = f"images/memory_cards/memory_card_{index:02d}.png"
         image_path = REPO_DIR / image_file
         download_image(image_url(product), image_path)
         title = clean_title(product.get("title", ""))

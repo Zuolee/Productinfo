@@ -12,7 +12,12 @@ Structured Alibaba.com product information for Korea-market research.
 - `data/desktop_organizers.json` — desktop organizers category subset using the same `metadata` + `products` structure as `products.json`.
 - `data/memory_cards.json` — memory cards category subset using the same `metadata` + `products` structure as `products.json`.
 - `data/suppliers.json` — supplier cache keyed by Alibaba product detail URL.
-- `images/` — downloaded product main images referenced by `image_file`.
+- `images/` — downloaded product main images converted to PNG and grouped by category.
+  - `images/power_bank/`
+  - `images/womens_dresses/`
+  - `images/cooling_mattresses/`
+  - `images/desktop_organizers/`
+  - `images/memory_cards/`
 - `exports/alibaba_products_with_images.xlsx` — Excel workbook with embedded product images.
 
 ## Product counts
@@ -43,7 +48,11 @@ All category JSON files use the same top-level shape:
       "count": 30
     },
     "total_products": 30,
-    "price_currency": "KRW"
+    "price_currency": "KRW",
+    "image_storage": {
+      "format": "PNG",
+      "directory": "images/<category>/"
+    }
   },
   "products": []
 }
@@ -54,7 +63,7 @@ Each product row contains:
 - `id`: stable product ID within this dataset.
 - `category_id`, `category_zh`, `category_ko`, `category_en`: category labels.
 - `category_index`: product number inside its category.
-- `image_file`: relative path to the downloaded main image.
+- `image_file`: relative path to the downloaded PNG main image under the matching category folder.
 - `image_alt`: image alt text from the source HTML or generated Korean product label.
 - `korean_product_name`: Korean product title.
 - `english_product_name`: English source/comparable product title.
