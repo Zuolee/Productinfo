@@ -67,6 +67,22 @@
         "supplier_verified"
       ],
       "note": "Supplier fields are public page fields and may change over time."
+    },
+    "supplier_korean_fields": {
+      "source": "Generated from supplier fields in data/products.json",
+      "note": "Korean supplier values are display translations/transliterations. Original Alibaba supplier values are preserved.",
+      "fields": [
+        "supplier_name_ko",
+        "supplier_years_ko",
+        "supplier_country_ko",
+        "supplier_business_type_ko",
+        "supplier_employee_count_ko",
+        "supplier_response_time_ko",
+        "supplier_on_time_delivery_rate_ko",
+        "supplier_rating_ko",
+        "supplier_total_review_order_count_ko",
+        "supplier_verified_ko"
+      ]
     }
   },
   "products": [
@@ -102,7 +118,17 @@
       "supplier_company_id": 250907871,
       "supplier_owner_member_seq": 243328892,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Remax 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "166건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-02",
@@ -136,7 +162,17 @@
       "supplier_company_id": 292099311,
       "supplier_owner_member_seq": 285672386,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Xuhongchuang 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-03",
@@ -170,7 +206,17 @@
       "supplier_company_id": 238666691,
       "supplier_owner_member_seq": 276231063,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광둥 Mcdodo 산업 유한회사. (중국)",
+      "supplier_years_ko": "10년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤8시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "26건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-04",
@@ -205,7 +251,17 @@
       "supplier_company_id": 231532148,
       "supplier_owner_member_seq": 223533800,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Fxn 전자 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "12년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 69.2%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "27건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-05",
@@ -239,7 +295,17 @@
       "supplier_company_id": 257109938,
       "supplier_owner_member_seq": 249692017,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Istyle 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "16건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-06",
@@ -273,7 +339,17 @@
       "supplier_company_id": 213642656,
       "supplier_owner_member_seq": 200950472,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 XTW 전자 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 94.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "15건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-07",
@@ -307,7 +383,17 @@
       "supplier_company_id": 242253275,
       "supplier_owner_member_seq": 233124163,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Infinite 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 92.4%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "149건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-08",
@@ -341,7 +427,17 @@
       "supplier_company_id": 240777554,
       "supplier_owner_member_seq": 231441056,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Honstar Memory 테크놀로지 유한회사 (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.3%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "157건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-09",
@@ -375,7 +471,17 @@
       "supplier_company_id": 292278488,
       "supplier_owner_member_seq": 285877539,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Xinjintai 무역 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.9%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "11건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-10",
@@ -409,7 +515,17 @@
       "supplier_company_id": 230029924,
       "supplier_owner_member_seq": 239657014,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Golf & Feihuang 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 87.5%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-11",
@@ -443,7 +559,17 @@
       "supplier_company_id": 213642656,
       "supplier_owner_member_seq": 200950472,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 XTW 전자 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 94.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "15건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-12",
@@ -477,7 +603,17 @@
       "supplier_company_id": 237503923,
       "supplier_owner_member_seq": 227786510,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Okzu 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 64.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "33건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-13",
@@ -511,7 +647,17 @@
       "supplier_company_id": 290779905,
       "supplier_owner_member_seq": 284326366,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 SML 전자 테크놀로지 유한회사 (중국)",
+      "supplier_years_ko": "2년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-14",
@@ -545,7 +691,17 @@
       "supplier_company_id": 259557068,
       "supplier_owner_member_seq": 252687764,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Golf & Feihuang 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-15",
@@ -579,7 +735,17 @@
       "supplier_company_id": 247838333,
       "supplier_owner_member_seq": 240234952,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 ZOGI 테크놀로지 유한회사 (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 91.2%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "48건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-16",
@@ -613,7 +779,17 @@
       "supplier_company_id": 281409875,
       "supplier_owner_member_seq": 274605052,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Hainan Topone 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.8%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "48건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-17",
@@ -647,7 +823,17 @@
       "supplier_company_id": 265024737,
       "supplier_owner_member_seq": 257947255,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광저우 Xinyongyuan 전자 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "55건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-18",
@@ -681,7 +867,17 @@
       "supplier_company_id": 200274111,
       "supplier_owner_member_seq": 200202295,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Mingqun 전자 유한회사. (중국)",
+      "supplier_years_ko": "18년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 89.6%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "27건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-19",
@@ -715,7 +911,17 @@
       "supplier_company_id": 235889898,
       "supplier_owner_member_seq": 226536734,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 E-Teck Offer 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 72.9%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "67건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-20",
@@ -749,7 +955,17 @@
       "supplier_company_id": 230482161,
       "supplier_owner_member_seq": 220433670,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Shengyi 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 90.4%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "22건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-21",
@@ -783,7 +999,17 @@
       "supplier_company_id": 250907871,
       "supplier_owner_member_seq": 243328892,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Remax 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "166건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-22",
@@ -817,7 +1043,17 @@
       "supplier_company_id": 214553903,
       "supplier_owner_member_seq": 202040267,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광저우 Veaqee 전자 유한회사. (중국)",
+      "supplier_years_ko": "14년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 92.2%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "16건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-23",
@@ -851,7 +1087,17 @@
       "supplier_company_id": 218378465,
       "supplier_owner_member_seq": 205975882,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Istyle 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "55건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-24",
@@ -885,7 +1131,17 @@
       "supplier_company_id": 231240276,
       "supplier_owner_member_seq": 284893619,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Prosub 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.7%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "171건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-25",
@@ -919,7 +1175,17 @@
       "supplier_company_id": 213577055,
       "supplier_owner_member_seq": 200833516,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Baolifeng Opto-Elec 유한회사. (중국)",
+      "supplier_years_ko": "15년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.9%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "139건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-26",
@@ -953,7 +1219,17 @@
       "supplier_company_id": 282014837,
       "supplier_owner_member_seq": 275241479,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광둥 Paipai Communication 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.2%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "82건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-27",
@@ -987,7 +1263,17 @@
       "supplier_company_id": 265532876,
       "supplier_owner_member_seq": 258370905,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Ysap 전자 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 98.6%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "73건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "power-bank-28",
@@ -1021,7 +1307,17 @@
       "supplier_company_id": 242253275,
       "supplier_owner_member_seq": 233124163,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Infinite 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 92.4%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "149건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-29",
@@ -1055,7 +1351,17 @@
       "supplier_company_id": 50146407,
       "supplier_owner_member_seq": 6876445,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Toptai 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "19년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 87.6%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "65건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "power-bank-30",
@@ -1089,7 +1395,17 @@
       "supplier_company_id": 257109938,
       "supplier_owner_member_seq": 249692017,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Istyle 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "16건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-01",
@@ -1123,7 +1439,17 @@
       "supplier_company_id": 200991870,
       "supplier_owner_member_seq": 200742520,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Manni 의류 유한회사. (중국)",
+      "supplier_years_ko": "16년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-02",
@@ -1157,7 +1483,17 @@
       "supplier_company_id": 278805305,
       "supplier_owner_member_seq": 272008125,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Hubei Huili 의류 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-03",
@@ -1191,7 +1527,17 @@
       "supplier_company_id": 200991870,
       "supplier_owner_member_seq": 200742520,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Manni 의류 유한회사. (중국)",
+      "supplier_years_ko": "16년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-04",
@@ -1225,7 +1571,17 @@
       "supplier_company_id": 255475493,
       "supplier_owner_member_seq": 248131840,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Gaomi Jia He Yuan Garments 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.7%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "193건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-05",
@@ -1259,7 +1615,17 @@
       "supplier_company_id": 200823056,
       "supplier_owner_member_seq": 285587051,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "샤먼 Feeling 섬유 And 의류 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "1건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-06",
@@ -1293,7 +1659,17 @@
       "supplier_company_id": 200991870,
       "supplier_owner_member_seq": 200742520,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Manni 의류 유한회사. (중국)",
+      "supplier_years_ko": "16년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-07",
@@ -1327,7 +1703,17 @@
       "supplier_company_id": 247506185,
       "supplier_owner_member_seq": 239840035,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Shandong Saier 의류 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.2%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "138건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-08",
@@ -1361,7 +1747,17 @@
       "supplier_company_id": 235331402,
       "supplier_owner_member_seq": 225599492,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광저우 Miying 패션 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-09",
@@ -1395,7 +1791,17 @@
       "supplier_company_id": 280251301,
       "supplier_owner_member_seq": 273456256,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "샤먼 Indigo 의류 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 82.3%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-10",
@@ -1429,7 +1835,17 @@
       "supplier_company_id": 255475493,
       "supplier_owner_member_seq": 248131840,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Gaomi Jia He Yuan Garments 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.7%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "193건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-11",
@@ -1463,7 +1879,17 @@
       "supplier_company_id": 246637436,
       "supplier_owner_member_seq": 275061362,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Zibo Daranfang Silk Group 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "1000+명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 94.5%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "33건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-12",
@@ -1497,7 +1923,17 @@
       "supplier_company_id": 292412413,
       "supplier_owner_member_seq": 286330723,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Shengfu 섬유 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 92.3%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-13",
@@ -1531,7 +1967,17 @@
       "supplier_company_id": 278805305,
       "supplier_owner_member_seq": 272008125,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Hubei Huili 의류 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-14",
@@ -1565,7 +2011,17 @@
       "supplier_company_id": 259318741,
       "supplier_owner_member_seq": 252124666,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Liangliang 의류 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "30건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-15",
@@ -1599,7 +2055,17 @@
       "supplier_company_id": 200704179,
       "supplier_owner_member_seq": 267834873,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "샤먼 Heailun Garments 유한회사. (중국)",
+      "supplier_years_ko": "17년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 95.5%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "79건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-16",
@@ -1633,7 +2099,17 @@
       "supplier_company_id": 241176569,
       "supplier_owner_member_seq": 250699425,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Ipretty Sports 유한회사 (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.3%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "67건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-17",
@@ -1667,7 +2143,17 @@
       "supplier_company_id": 280410916,
       "supplier_owner_member_seq": 274247021,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Zibo Daranfang E-Commerce 유한회사 (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-18",
@@ -1701,7 +2187,17 @@
       "supplier_company_id": 292070818,
       "supplier_owner_member_seq": 285571513,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Beefey 의류 (weifang) 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 81.6%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-19",
@@ -1735,7 +2231,17 @@
       "supplier_company_id": 200991870,
       "supplier_owner_member_seq": 200742520,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Manni 의류 유한회사. (중국)",
+      "supplier_years_ko": "16년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-20",
@@ -1769,7 +2275,17 @@
       "supplier_company_id": 247506185,
       "supplier_owner_member_seq": 239840035,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Shandong Saier 의류 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.2%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "138건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-21",
@@ -1803,7 +2319,17 @@
       "supplier_company_id": 235331402,
       "supplier_owner_member_seq": 225599492,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광저우 Miying 패션 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-22",
@@ -1837,7 +2363,17 @@
       "supplier_company_id": 292412413,
       "supplier_owner_member_seq": 286330723,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Shengfu 섬유 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 92.3%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-23",
@@ -1871,7 +2407,17 @@
       "supplier_company_id": 246637436,
       "supplier_owner_member_seq": 239118088,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Zibo Daranfang Silk Group 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "1000+명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 94.5%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "33건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-24",
@@ -1905,7 +2451,17 @@
       "supplier_company_id": 280251301,
       "supplier_owner_member_seq": 273456256,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "샤먼 Indigo 의류 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 82.3%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-25",
@@ -1939,7 +2495,17 @@
       "supplier_company_id": 255475493,
       "supplier_owner_member_seq": 248131840,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Gaomi Jia He Yuan Garments 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.7%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "193건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-26",
@@ -1973,7 +2539,17 @@
       "supplier_company_id": 259318741,
       "supplier_owner_member_seq": 252124666,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Liangliang 의류 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "30건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-27",
@@ -2007,7 +2583,17 @@
       "supplier_company_id": 200704179,
       "supplier_owner_member_seq": 267672324,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "샤먼 Heailun Garments 유한회사. (중국)",
+      "supplier_years_ko": "17년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 95.5%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "79건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-28",
@@ -2041,7 +2627,17 @@
       "supplier_company_id": 280410916,
       "supplier_owner_member_seq": 274247021,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Zibo Daranfang E-Commerce 유한회사 (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "womens-dresses-29",
@@ -2075,7 +2671,17 @@
       "supplier_company_id": 241176569,
       "supplier_owner_member_seq": 250699425,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Ipretty Sports 유한회사 (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.3%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "67건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "womens-dresses-30",
@@ -2109,7 +2715,17 @@
       "supplier_company_id": 278805305,
       "supplier_owner_member_seq": 272008125,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Hubei Huili 의류 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-01",
@@ -2143,7 +2759,17 @@
       "supplier_company_id": 234601201,
       "supplier_owner_member_seq": 285073769,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "항저우 Musen 수출입 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "10건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-02",
@@ -2177,7 +2803,17 @@
       "supplier_company_id": 264970117,
       "supplier_owner_member_seq": 257800030,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Sheerfond 신소재 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 82.5%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "6건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-03",
@@ -2211,7 +2847,17 @@
       "supplier_company_id": 29201114037,
       "supplier_owner_member_seq": 1701159950,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI (튀르키예)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "튀르키예",
+      "supplier_business_type_ko": "제조업체",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 -",
+      "supplier_rating_ko": "정보 없음",
+      "supplier_total_review_order_count_ko": "정보 없음",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "cooling-mattresses-04",
@@ -2246,7 +2892,17 @@
       "supplier_company_id": 291683898,
       "supplier_owner_member_seq": 285316017,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Shanxi Jinbiao 인터내셔널 무역 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤10시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "3.6/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "cooling-mattresses-05",
@@ -2281,7 +2937,17 @@
       "supplier_company_id": 50066809,
       "supplier_owner_member_seq": 1305685,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Hebei Spring-Tex I/e 주식회사., 유한회사. (중국)",
+      "supplier_years_ko": "20년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 86.7%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "19건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-06",
@@ -2315,7 +2981,17 @@
       "supplier_company_id": 236350587,
       "supplier_owner_member_seq": 227704133,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "칭다오 Shengsheng 섬유 Co., 유한회사 (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "37건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-07",
@@ -2349,7 +3025,17 @@
       "supplier_company_id": 237914454,
       "supplier_owner_member_seq": 240527411,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "우시 KX 섬유 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 88.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "7건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-08",
@@ -2384,7 +3070,17 @@
       "supplier_company_id": 259851519,
       "supplier_owner_member_seq": 252561806,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "칭다오 Etrip Smart 홈 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.6%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "6건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-09",
@@ -2418,7 +3114,17 @@
       "supplier_company_id": 50142030,
       "supplier_owner_member_seq": 231968245,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "난퉁 Wenbo Foam Art 유한회사. (중국)",
+      "supplier_years_ko": "20년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤14시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 76.5%",
+      "supplier_rating_ko": "4.3/5점",
+      "supplier_total_review_order_count_ko": "3건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-10",
@@ -2452,7 +3158,17 @@
       "supplier_company_id": 241170380,
       "supplier_owner_member_seq": 285036112,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "우시 Huierjia 인터내셔널 무역 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "7건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-11",
@@ -2486,7 +3202,17 @@
       "supplier_company_id": 50136035,
       "supplier_owner_member_seq": 2216477,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "톈진 Rongcheng 무역 유한회사. (중국)",
+      "supplier_years_ko": "20년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 77.8%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "16건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-12",
@@ -2520,7 +3246,17 @@
       "supplier_company_id": 200008956,
       "supplier_owner_member_seq": 200029407,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Tex-Cel 상하이 유한회사. (중국)",
+      "supplier_years_ko": "19년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "8건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-13",
@@ -2554,7 +3290,17 @@
       "supplier_company_id": 233197454,
       "supplier_owner_member_seq": 242963311,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "상하이 Homax 유한회사. (중국)",
+      "supplier_years_ko": "12년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 75.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-14",
@@ -2589,7 +3335,17 @@
       "supplier_company_id": 247979229,
       "supplier_owner_member_seq": 240411131,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤6시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-15",
@@ -2623,7 +3379,17 @@
       "supplier_company_id": 277156596,
       "supplier_owner_member_seq": 270258260,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Anhui Sunrise 홈 섬유 유한회사 (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 83.3%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-16",
@@ -2657,7 +3423,17 @@
       "supplier_company_id": 291490515,
       "supplier_owner_member_seq": 284959349,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Huizhou Kangzhifu Smart 홈 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 유통/도매업체",
+      "supplier_employee_count_ko": "501-1000명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "3건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "cooling-mattresses-17",
@@ -2692,7 +3468,17 @@
       "supplier_company_id": 200179584,
       "supplier_owner_member_seq": 200133014,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+      "supplier_years_ko": "18년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤6시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 80.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "12건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-18",
@@ -2726,7 +3512,17 @@
       "supplier_company_id": 247990735,
       "supplier_owner_member_seq": 240271318,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Liaocheng Shanlian 섬유 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "128건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-19",
@@ -2760,7 +3556,17 @@
       "supplier_company_id": 29201114037,
       "supplier_owner_member_seq": 1701159950,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI (튀르키예)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "튀르키예",
+      "supplier_business_type_ko": "제조업체",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 -",
+      "supplier_rating_ko": "정보 없음",
+      "supplier_total_review_order_count_ko": "정보 없음",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "cooling-mattresses-20",
@@ -2795,7 +3601,17 @@
       "supplier_company_id": 259851519,
       "supplier_owner_member_seq": 257803955,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "칭다오 Etrip Smart 홈 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "201-300명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.6%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "6건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-21",
@@ -2830,7 +3646,17 @@
       "supplier_company_id": 50031253,
       "supplier_owner_member_seq": 190570,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Jintian 섬유(난퉁) 유한회사. (중국)",
+      "supplier_years_ko": "21년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "1건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-22",
@@ -2864,7 +3690,17 @@
       "supplier_company_id": 231774022,
       "supplier_owner_member_seq": 284839143,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "우시 Aoka Homeware 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤13시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 80.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-23",
@@ -2898,7 +3734,17 @@
       "supplier_company_id": 233197454,
       "supplier_owner_member_seq": 243520488,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "상하이 Homax 유한회사. (중국)",
+      "supplier_years_ko": "12년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 75.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-24",
@@ -2932,7 +3778,17 @@
       "supplier_company_id": 231887944,
       "supplier_owner_member_seq": 224547650,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+      "supplier_years_ko": "12년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-25",
@@ -2966,7 +3822,17 @@
       "supplier_company_id": 265056538,
       "supplier_owner_member_seq": 278827002,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "장쑤 Etang 생활용품 제품 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.2%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-26",
@@ -3000,7 +3866,17 @@
       "supplier_company_id": 200008956,
       "supplier_owner_member_seq": 200029407,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Tex-Cel 상하이 유한회사. (중국)",
+      "supplier_years_ko": "19년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "8건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-27",
@@ -3034,7 +3910,17 @@
       "supplier_company_id": 247979229,
       "supplier_owner_member_seq": 240411131,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+      "supplier_years_ko": "7년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤6시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-28",
@@ -3068,7 +3954,17 @@
       "supplier_company_id": 292382875,
       "supplier_owner_member_seq": 286141897,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "항저우 Maxhome 섬유 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "정보 없음",
+      "supplier_total_review_order_count_ko": "정보 없음",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "cooling-mattresses-29",
@@ -3102,7 +3998,17 @@
       "supplier_company_id": 241047002,
       "supplier_owner_member_seq": 231710936,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "항저우 Gravity 산업 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 80.9%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "cooling-mattresses-30",
@@ -3136,7 +4042,17 @@
       "supplier_company_id": 235277912,
       "supplier_owner_member_seq": 285952056,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "항저우 Yintex 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "1건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-01",
@@ -3170,7 +4086,17 @@
       "supplier_company_id": 258507169,
       "supplier_owner_member_seq": 252564762,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "칭다오 Enjoy Global 산업 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-02",
@@ -3204,7 +4130,17 @@
       "supplier_company_id": 259777008,
       "supplier_owner_member_seq": 252497802,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "저장 Jinmao 플라스틱 산업 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "8건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-03",
@@ -3238,7 +4174,17 @@
       "supplier_company_id": 291892683,
       "supplier_owner_member_seq": 285358478,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Chengdu Green Pocket 무역 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "27건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-04",
@@ -3274,7 +4220,17 @@
       "supplier_company_id": 284791150,
       "supplier_owner_member_seq": 278930013,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Hainan Shengyao 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 90.6%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "10건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-05",
@@ -3308,7 +4264,17 @@
       "supplier_company_id": 240409053,
       "supplier_owner_member_seq": 276217353,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Qingyuan Xing Xiang Hardware 제품 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "13건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-06",
@@ -3342,7 +4308,17 @@
       "supplier_company_id": 292568644,
       "supplier_owner_member_seq": 286168491,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Luoyang Unite Office 가구 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "301-500명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "정보 없음",
+      "supplier_total_review_order_count_ko": "정보 없음",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-07",
@@ -3376,7 +4352,17 @@
       "supplier_company_id": 258507169,
       "supplier_owner_member_seq": 270347775,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "칭다오 Enjoy Global 산업 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-08",
@@ -3410,7 +4396,17 @@
       "supplier_company_id": 265102438,
       "supplier_owner_member_seq": 258051520,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Caoxian Shangrun Handicraft 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.2%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "16건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-09",
@@ -3444,7 +4440,17 @@
       "supplier_company_id": 241101537,
       "supplier_owner_member_seq": 234784543,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Huizhou Jamie 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 96.1%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "45건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-10",
@@ -3478,7 +4484,17 @@
       "supplier_company_id": 200810113,
       "supplier_owner_member_seq": 285866119,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Taizhou Greenside 유한회사. (중국)",
+      "supplier_years_ko": "16년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "11건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-11",
@@ -3512,7 +4528,17 @@
       "supplier_company_id": 286359394,
       "supplier_owner_member_seq": 279761328,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "베이징 Hongshiji 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "2년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.5%",
+      "supplier_rating_ko": "3.9/5점",
+      "supplier_total_review_order_count_ko": "94건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-12",
@@ -3546,7 +4572,17 @@
       "supplier_company_id": 241184220,
       "supplier_owner_member_seq": 231851405,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "원저우 Samanl Houseware 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 89.2%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "15건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-13",
@@ -3580,7 +4616,17 @@
       "supplier_company_id": 241184220,
       "supplier_owner_member_seq": 240020674,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "원저우 Samanl Houseware 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 89.2%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "15건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-14",
@@ -3614,7 +4660,17 @@
       "supplier_company_id": 241184220,
       "supplier_owner_member_seq": 240020674,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "원저우 Samanl Houseware 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 89.2%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "15건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-15",
@@ -3648,7 +4704,17 @@
       "supplier_company_id": 200810113,
       "supplier_owner_member_seq": 200533367,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Taizhou Greenside 유한회사. (중국)",
+      "supplier_years_ko": "16년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "11건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-16",
@@ -3682,7 +4748,17 @@
       "supplier_company_id": 259777008,
       "supplier_owner_member_seq": 252497802,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "저장 Jinmao 플라스틱 산업 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "8건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-17",
@@ -3716,7 +4792,17 @@
       "supplier_company_id": 50041367,
       "supplier_owner_member_seq": 626262,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Huangyan Tongling 플라스틱 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-18",
@@ -3751,7 +4837,17 @@
       "supplier_company_id": 231952840,
       "supplier_owner_member_seq": 222140711,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Caoxian Zhongyi 목재 유한회사. (중국)",
+      "supplier_years_ko": "12년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "1건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-19",
@@ -3785,7 +4881,17 @@
       "supplier_company_id": 281593207,
       "supplier_owner_member_seq": 274687322,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "닝보 Homecrest Imp.& Exp. 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 86.5%",
+      "supplier_rating_ko": "4.1/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-20",
@@ -3819,7 +4925,17 @@
       "supplier_company_id": 276298976,
       "supplier_owner_member_seq": 269272988,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "닝보 JINJUN 생활용품 제품 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-21",
@@ -3853,7 +4969,17 @@
       "supplier_company_id": 274864872,
       "supplier_owner_member_seq": 267834652,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Lumi Legend 주식회사 (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤10시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "정보 없음",
+      "supplier_total_review_order_count_ko": "정보 없음",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-22",
@@ -3887,7 +5013,17 @@
       "supplier_company_id": 259682847,
       "supplier_owner_member_seq": 258969784,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광저우 Qinfeng 플라스틱 Hardware 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 99.5%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "114건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-23",
@@ -3921,7 +5057,17 @@
       "supplier_company_id": 279014435,
       "supplier_owner_member_seq": 272075544,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Frins 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사, 유통/도매업체",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.2/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-24",
@@ -3955,7 +5101,17 @@
       "supplier_company_id": 259871883,
       "supplier_owner_member_seq": 252714397,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Leadloong 플라스틱 제품 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "10건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-25",
@@ -3989,7 +5145,17 @@
       "supplier_company_id": 233189377,
       "supplier_owner_member_seq": 223432473,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Jieyang Jiqing 플라스틱 유한회사. (중국)",
+      "supplier_years_ko": "12년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 95.3%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "33건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-26",
@@ -4023,7 +5189,17 @@
       "supplier_company_id": 242161678,
       "supplier_owner_member_seq": 232955774,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Caoxian Tianfeng 목재 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "0.0/5점",
+      "supplier_total_review_order_count_ko": "0건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-27",
@@ -4057,7 +5233,17 @@
       "supplier_company_id": 214621812,
       "supplier_owner_member_seq": 234408701,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "산터우 Eversmily Daily Necessities 유한회사. (중국)",
+      "supplier_years_ko": "14년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "5건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-28",
@@ -4091,7 +5277,17 @@
       "supplier_company_id": 239840464,
       "supplier_owner_member_seq": 230391748,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "닝보 Ariste 인터내셔널 유한회사. (중국)",
+      "supplier_years_ko": "10년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 87.8%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "26건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "desktop-organizers-29",
@@ -4125,7 +5321,17 @@
       "supplier_company_id": 240803694,
       "supplier_owner_member_seq": 232814388,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Caoxian Smart And Thrive Woodwork 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤5시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 91.7%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "6건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "desktop-organizers-30",
@@ -4159,7 +5365,17 @@
       "supplier_company_id": 240596425,
       "supplier_owner_member_seq": 231247391,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Linhai Wangfeng 플라스틱 유한회사. (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 90.5%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "4건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-01",
@@ -4195,7 +5411,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 284826431,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-02",
@@ -4231,7 +5457,17 @@
       "supplier_company_id": 285473317,
       "supplier_owner_member_seq": 278952243,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "INSTANT 테크놀로지 유한회사. (대만)",
+      "supplier_years_ko": "2년",
+      "supplier_country_ko": "대만",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤11시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "3건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-03",
@@ -4267,7 +5503,17 @@
       "supplier_company_id": 292556577,
       "supplier_owner_member_seq": 286149278,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "Dillon 전자 테크놀로지 (선전) 유한회사. (중국)",
+      "supplier_years_ko": "1년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "5.0/5점",
+      "supplier_total_review_order_count_ko": "2건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-04",
@@ -4301,7 +5547,17 @@
       "supplier_company_id": 285437138,
       "supplier_owner_member_seq": 284424743,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Yumei 전자 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "3.2/5점",
+      "supplier_total_review_order_count_ko": "3건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-05",
@@ -4335,7 +5591,17 @@
       "supplier_company_id": 285437138,
       "supplier_owner_member_seq": 284424743,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "둥관 Yumei 전자 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "3.2/5점",
+      "supplier_total_review_order_count_ko": "3건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-06",
@@ -4372,7 +5638,17 @@
       "supplier_company_id": 236868021,
       "supplier_owner_member_seq": 227223342,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Gitra 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 90.4%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "72건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-07",
@@ -4406,7 +5682,17 @@
       "supplier_company_id": 230847363,
       "supplier_owner_member_seq": 242179319,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "광저우 Eletree 전자 Company 유한회사. (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤8시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.5%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "70건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-08",
@@ -4442,7 +5728,17 @@
       "supplier_company_id": 236572742,
       "supplier_owner_member_seq": 227017846,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Promotion Union 전자 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "21건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-09",
@@ -4477,7 +5773,17 @@
       "supplier_company_id": 259733158,
       "supplier_owner_member_seq": 252416107,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hengfenghaiye 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "5년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "정보 없음",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "44건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-10",
@@ -4511,7 +5817,17 @@
       "supplier_company_id": 245418129,
       "supplier_owner_member_seq": 238077306,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Xinlong Xing 전자 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "8년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "5-10명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 65.0%",
+      "supplier_rating_ko": "4.8/5점",
+      "supplier_total_review_order_count_ko": "42건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-11",
@@ -4547,7 +5863,17 @@
       "supplier_company_id": 236858277,
       "supplier_owner_member_seq": 227207030,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Coosure 전자 Co., 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 95.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "57건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-12",
@@ -4583,7 +5909,17 @@
       "supplier_company_id": 236858277,
       "supplier_owner_member_seq": 227207030,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Coosure 전자 Co., 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 95.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "57건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-13",
@@ -4619,7 +5955,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 272950210,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-14",
@@ -4655,7 +6001,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 272950210,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-15",
@@ -4690,7 +6046,17 @@
       "supplier_company_id": 230506759,
       "supplier_owner_member_seq": 220493999,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Usky 테크놀로지 유한회사 (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 92.5%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "162건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-16",
@@ -4726,7 +6092,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 272950210,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-17",
@@ -4760,7 +6136,17 @@
       "supplier_company_id": 240777554,
       "supplier_owner_member_seq": 231796511,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Honstar Memory 테크놀로지 유한회사 (중국)",
+      "supplier_years_ko": "9년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 97.3%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "157건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-18",
@@ -4796,7 +6182,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 284826431,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-19",
@@ -4832,7 +6228,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 272950210,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-20",
@@ -4866,7 +6272,17 @@
       "supplier_company_id": 218506680,
       "supplier_owner_member_seq": 206119383,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Midi 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "13년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "25건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-21",
@@ -4901,7 +6317,17 @@
       "supplier_company_id": 255551694,
       "supplier_owner_member_seq": 248056680,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Usky 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 84.6%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "101건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-22",
@@ -4936,7 +6362,17 @@
       "supplier_company_id": 274779496,
       "supplier_owner_member_seq": 267930731,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Lefan 전자 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤7시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 93.7%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "75건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-23",
@@ -4972,7 +6408,17 @@
       "supplier_company_id": 255551694,
       "supplier_owner_member_seq": 248056680,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Usky 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "6년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "101-200명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 84.6%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "101건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-24",
@@ -5008,7 +6454,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 272950210,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-25",
@@ -5044,7 +6500,17 @@
       "supplier_company_id": 236858277,
       "supplier_owner_member_seq": 227207030,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Coosure 전자 Co., 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "51-100명",
+      "supplier_response_time_ko": "≤3시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 95.0%",
+      "supplier_rating_ko": "4.7/5점",
+      "supplier_total_review_order_count_ko": "57건",
+      "supplier_verified_ko": "인증됨"
     },
     {
       "id": "memory-cards-26",
@@ -5080,7 +6546,17 @@
       "supplier_company_id": 279877857,
       "supplier_owner_member_seq": 272950210,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Hangxingda 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "3년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "174건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-27",
@@ -5116,7 +6592,17 @@
       "supplier_company_id": 280484009,
       "supplier_owner_member_seq": 273540019,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Youlen 전자 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "41건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-28",
@@ -5150,7 +6636,17 @@
       "supplier_company_id": 200499018,
       "supplier_owner_member_seq": 200299082,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Jintian Tech 개발 유한회사. (중국)",
+      "supplier_years_ko": "18년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤2시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 94.7%",
+      "supplier_rating_ko": "4.6/5점",
+      "supplier_total_review_order_count_ko": "97건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-29",
@@ -5186,7 +6682,17 @@
       "supplier_company_id": 280484009,
       "supplier_owner_member_seq": 273540019,
       "supplier_verified": false,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Youlen 전자 유한회사. (중국)",
+      "supplier_years_ko": "4년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "제조업체, 무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤1시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
+      "supplier_rating_ko": "4.9/5점",
+      "supplier_total_review_order_count_ko": "41건",
+      "supplier_verified_ko": "미인증"
     },
     {
       "id": "memory-cards-30",
@@ -5223,7 +6729,17 @@
       "supplier_company_id": 236868021,
       "supplier_owner_member_seq": 769113237,
       "supplier_verified": true,
-      "supplier_source": "Alibaba product detail page"
+      "supplier_source": "Alibaba product detail page",
+      "supplier_name_ko": "선전 Gitra 테크놀로지 유한회사. (중국)",
+      "supplier_years_ko": "11년",
+      "supplier_country_ko": "중국",
+      "supplier_business_type_ko": "무역회사",
+      "supplier_employee_count_ko": "11-50명",
+      "supplier_response_time_ko": "≤4시간",
+      "supplier_on_time_delivery_rate_ko": "정시 배송률 90.4%",
+      "supplier_rating_ko": "4.5/5점",
+      "supplier_total_review_order_count_ko": "72건",
+      "supplier_verified_ko": "인증됨"
     }
   ]
 }

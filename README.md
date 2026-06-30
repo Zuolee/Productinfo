@@ -36,14 +36,14 @@ Each product row contains:
 - `price_krw`: KRW price string.
 - `moq`: minimum order quantity.
 - `certificates`: list of visible certificate labels.
-- `supplier_name`: Alibaba supplier/company name shown on the product detail page.
-- `supplier_years`, `supplier_years_text`: Alibaba join/supplier tenure.
-- `supplier_country`: supplier registered country/region code.
+- `supplier_name`, `supplier_name_ko`: Alibaba supplier/company name and Korean display name.
+- `supplier_years`, `supplier_years_text`, `supplier_years_ko`: Alibaba join/supplier tenure.
+- `supplier_country`, `supplier_country_ko`: supplier registered country/region code and Korean label.
 - `supplier_profile_url`, `supplier_home_url`: Alibaba supplier profile/home links.
 - `supplier_company_id`: Alibaba company ID when exposed by the detail page.
-- `supplier_business_type`, `supplier_employee_count`: supplier profile attributes when exposed.
-- `supplier_response_time`, `supplier_on_time_delivery_rate`, `supplier_rating`, `supplier_total_review_order_count`: public supplier performance fields when exposed.
-- `supplier_verified`: whether the detail page exposes pass-assessment/verified signal.
+- `supplier_business_type`, `supplier_business_type_ko`, `supplier_employee_count`, `supplier_employee_count_ko`: supplier profile attributes.
+- `supplier_response_time`, `supplier_response_time_ko`, `supplier_on_time_delivery_rate`, `supplier_on_time_delivery_rate_ko`, `supplier_rating`, `supplier_rating_ko`, `supplier_total_review_order_count`, `supplier_total_review_order_count_ko`: public supplier performance fields.
+- `supplier_verified`, `supplier_verified_ko`: whether the detail page exposes pass-assessment/verified signal.
 - `source_url`: Alibaba.com source product URL.
 
 ## Notes
@@ -52,3 +52,4 @@ Each product row contains:
 - Certificate values reflect public listing badges or explicit title text. `Listing not specified` means the list page did not expose a concrete certificate.
 - KRW prices were converted in the source workbook or supplemental category script before this repository export.
 - Supplier fields are collected from public Alibaba.com product detail pages and may change over time.
+- Korean supplier fields are display translations/transliterations for Korean-facing review; original Alibaba supplier fields are preserved.
