@@ -6,7 +6,12 @@ Structured Alibaba.com product information for Korea-market research.
 
 - `data/products.json` — canonical structured data for agents and scripts.
 - `data/products.csv` — flat table version for spreadsheets or lightweight parsing.
-- `data/memory_cards.json` — memory card category rows generated from the supplemental Alibaba search.
+- `data/power_bank.json` — power bank category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/womens_dresses.json` — women's dresses category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/cooling_mattresses.json` — cooling mattresses category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/desktop_organizers.json` — desktop organizers category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/memory_cards.json` — memory cards category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/suppliers.json` — supplier cache keyed by Alibaba product detail URL.
 - `images/` — downloaded product main images referenced by `image_file`.
 - `exports/alibaba_products_with_images.xlsx` — Excel workbook with embedded product images.
 
@@ -23,6 +28,26 @@ Structured Alibaba.com product information for Korea-market research.
 Total products: **150**
 
 ## Schema
+
+All category JSON files use the same top-level shape:
+
+```json
+{
+  "metadata": {
+    "dataset_type": "category_subset",
+    "category": {
+      "category_id": "...",
+      "category_zh": "...",
+      "category_ko": "...",
+      "category_en": "...",
+      "count": 30
+    },
+    "total_products": 30,
+    "price_currency": "KRW"
+  },
+  "products": []
+}
+```
 
 Each product row contains:
 

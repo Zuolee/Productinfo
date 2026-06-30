@@ -6,6 +6,8 @@ import re
 import shutil
 from pathlib import Path
 
+from sync_category_files import write_category_files
+
 
 REPO_DIR = Path(__file__).resolve().parents[1]
 SOURCE_DIR = REPO_DIR.parent
@@ -150,6 +152,7 @@ def write_json(products: list[dict]) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    write_category_files(payload)
 
 
 def write_csv(products: list[dict]) -> None:

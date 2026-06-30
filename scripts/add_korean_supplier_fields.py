@@ -4,11 +4,12 @@ import json
 import re
 from pathlib import Path
 
+from sync_category_files import write_category_files
+
 
 REPO_DIR = Path(__file__).resolve().parents[1]
 PRODUCTS_JSON = REPO_DIR / "data/products.json"
 PRODUCTS_CSV = REPO_DIR / "data/products.csv"
-MEMORY_CARDS_JSON = REPO_DIR / "data/memory_cards.json"
 SUPPLIERS_JSON = REPO_DIR / "data/suppliers.json"
 README = REPO_DIR / "README.md"
 INFO_MISSING_KO = "정보 없음"
@@ -325,8 +326,7 @@ def main() -> None:
     }
 
     PRODUCTS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    memory_cards = [product for product in products if product["category_id"] == "memory-cards"]
-    MEMORY_CARDS_JSON.write_text(json.dumps(memory_cards, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_category_files(payload)
     update_suppliers_cache(products)
     write_csv(products)
     update_readme()

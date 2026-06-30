@@ -9,13 +9,14 @@ from urllib.parse import quote
 
 import requests
 
+from sync_category_files import write_category_files
+
 
 REPO_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_DIR / "data"
 IMAGE_DIR = REPO_DIR / "images"
 PRODUCTS_JSON = DATA_DIR / "products.json"
 PRODUCTS_CSV = DATA_DIR / "products.csv"
-MEMORY_CARDS_JSON = DATA_DIR / "memory_cards.json"
 README = REPO_DIR / "README.md"
 
 HEADERS = {
@@ -366,6 +367,7 @@ def write_json(products: list[dict], rate_note: str) -> None:
         "products": products,
     }
     PRODUCTS_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_category_files(payload)
 
 
 def write_readme(products: list[dict]) -> None:
@@ -434,7 +436,6 @@ def main() -> None:
     products = existing + memory_cards
     write_json(products, rate_note)
     write_csv(products)
-    MEMORY_CARDS_JSON.write_text(json.dumps(memory_cards, ensure_ascii=False, indent=2), encoding="utf-8")
     write_readme(products)
     print(f"Generated {len(memory_cards)} memory card products")
     print(f"Dataset total: {len(products)}")
