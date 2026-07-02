@@ -52,6 +52,14 @@ All category JSON files use the same top-level shape:
     "image_storage": {
       "format": "PNG",
       "directory": "images/<category>/"
+    },
+    "multilingual_fields": {
+      "object": "localized",
+      "languages": ["ko", "en"]
+    },
+    "price_fields": {
+      "currency": "KRW",
+      "numeric_fields": ["price_krw_min", "price_krw_max"]
     }
   },
   "products": []
@@ -65,9 +73,14 @@ Each product row contains:
 - `category_index`: product number inside its category.
 - `image_file`: relative path to the downloaded PNG main image under the matching category folder.
 - `image_alt`: image alt text from the source HTML or generated Korean product label.
-- `korean_product_name`: Korean product title.
-- `english_product_name`: English source/comparable product title.
-- `price_krw`: KRW price string.
+- `korean_product_name`, `product_name_ko`: Korean product title.
+- `english_product_name`, `product_name_en`: English source/comparable product title.
+- `category_name_ko`, `category_name_en`: explicit Korean and English category names.
+- `localized`: separated Korean (`localized.ko`) and English/source (`localized.en`) display values for category, product, and supplier fields.
+- `price_krw`: original KRW price display string.
+- `price_krw_min`, `price_krw_max`: numeric KRW minimum and maximum price. Single prices use the same value for both fields.
+- `price_krw_is_range`: whether the original display price was a range.
+- `price`: structured KRW price object with `currency`, `display`, `min`, `max`, and `is_range`.
 - `moq`: minimum order quantity.
 - `certificates`: list of visible certificate labels.
 - `supplier_name`, `supplier_name_ko`: Alibaba supplier/company name and Korean display name.

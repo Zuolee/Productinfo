@@ -60,6 +60,25 @@
       "format": "PNG",
       "directory": "images/<category>/",
       "note": "Product main images are converted to PNG and grouped by category for Figma compatibility."
+    },
+    "data_structure_version": "2026-07-02.multilingual-price-v2",
+    "multilingual_fields": {
+      "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+      "object": "localized",
+      "languages": [
+        "ko",
+        "en"
+      ]
+    },
+    "price_fields": {
+      "currency": "KRW",
+      "display_field": "price_krw",
+      "numeric_fields": [
+        "price_krw_min",
+        "price_krw_max"
+      ],
+      "object": "price",
+      "note": "Range prices are split into min and max integer KRW values. Single prices use the same value for min and max."
     }
   },
   "products": [
@@ -105,7 +124,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "10건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "호텔용 대나무 섬유 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈)",
+      "product_name_en": "Hotel Bamboo Mattress Topper Queen Size OEKO-TEX Quilted Mattress Pad Extra Thick Noiseless Cooling Protector Factory Wholesale",
+      "supplier_name_en": "Hangzhou Musen Import And Export Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 14973,
+      "price_krw_max": 27930,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩14,973–27,930",
+        "min": 14973,
+        "max": 27930,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "호텔용 대나무 섬유 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈)",
+          "supplier_name": "항저우 Musen 수출입 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "10건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Hotel Bamboo Mattress Topper Queen Size OEKO-TEX Quilted Mattress Pad Extra Thick Noiseless Cooling Protector Factory Wholesale",
+          "supplier_name": "Hangzhou Musen Import And Export Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 10,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-02",
@@ -149,7 +212,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 82.5%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "6건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "워터 순환 쿨링 매트리스 커버",
+      "product_name_en": "Cooling Mattress OEM Cooling and Heating Mattress Cover Customized Temperature Controller Water Cooling Heating Mattress Pad",
+      "supplier_name_en": "Dongguan Sheerfond New Materials Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 423918,
+      "price_krw_max": 613334,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩423,918–613,334",
+        "min": 423918,
+        "max": 613334,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "워터 순환 쿨링 매트리스 커버",
+          "supplier_name": "둥관 Sheerfond 신소재 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 82.5%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "6건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Cooling Mattress OEM Cooling and Heating Mattress Cover Customized Temperature Controller Water Cooling Heating Mattress Pad",
+          "supplier_name": "Dongguan Sheerfond New Materials Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "82.5%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 6,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-03",
@@ -193,7 +300,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 -",
       "supplier_rating_ko": "정보 없음",
       "supplier_total_review_order_count_ko": "정보 없음",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "호텔용 쿨링 매트리스 제품",
+      "product_name_en": "Laurel Black Modern Hybrid Euro Top Mattress Cooling OEKO-TEX Certified Soft Touch Fabric Pocket Spring Core 30cm Thick Hotel",
+      "supplier_name_en": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI",
+      "price_currency": "KRW",
+      "price_krw_min": 472388,
+      "price_krw_max": 924771,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩472,388–924,771",
+        "min": 472388,
+        "max": 924771,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "호텔용 쿨링 매트리스 제품",
+          "supplier_name": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI (튀르키예)",
+          "supplier_country": "튀르키예",
+          "supplier_business_type": "제조업체",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 -",
+          "supplier_rating": "정보 없음",
+          "supplier_total_review_order_count": "정보 없음",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Laurel Black Modern Hybrid Euro Top Mattress Cooling OEKO-TEX Certified Soft Touch Fabric Pocket Spring Core 30cm Thick Hotel",
+          "supplier_name": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI",
+          "supplier_country": "TR",
+          "supplier_business_type": "Manufacturer",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "-",
+          "supplier_rating": "",
+          "supplier_total_review_order_count": "",
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "cooling-mattresses-04",
@@ -238,7 +389,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "3.6/5점",
       "supplier_total_review_order_count_ko": "2건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "젤 메모리폼 쿨링 매트리스 제품 (퀸 사이즈)",
+      "product_name_en": "High Quality 10 Inch Queen Diamond Innerspring Hybrid and Cooling Gel Memory Foam Mattress With CertiPUR-US & Oeko TEX Certified",
+      "supplier_name_en": "Shanxi Jinbiao International Trade Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 300052,
+      "price_krw_max": 300052,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩300,052",
+        "min": 300052,
+        "max": 300052,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "젤 메모리폼 쿨링 매트리스 제품 (퀸 사이즈)",
+          "supplier_name": "Shanxi Jinbiao 인터내셔널 무역 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤10시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "3.6/5점",
+          "supplier_total_review_order_count": "2건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "High Quality 10 Inch Queen Diamond Innerspring Hybrid and Cooling Gel Memory Foam Mattress With CertiPUR-US & Oeko TEX Certified",
+          "supplier_name": "Shanxi Jinbiao International Trade Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤10h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "3.6",
+          "supplier_total_review_order_count": 2,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "cooling-mattresses-05",
@@ -283,7 +478,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 86.7%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "19건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "호텔용 극세사 쿨링 매트리스 토퍼 (방수·퀼팅·통기성)",
+      "product_name_en": "Breathable Quilted Microfiber Bed Protection Pad Waterproof Plain 160x200 Mattress Topper Plush Pad Cooling for Hospital Hotel",
+      "supplier_name_en": "Hebei Spring-Tex I/e Corp., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6264,
+      "price_krw_max": 7526,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,264–7,526",
+        "min": 6264,
+        "max": 7526,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "호텔용 극세사 쿨링 매트리스 토퍼 (방수·퀼팅·통기성)",
+          "supplier_name": "Hebei Spring-Tex I/e 주식회사., 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 86.7%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "19건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Breathable Quilted Microfiber Bed Protection Pad Waterproof Plain 160x200 Mattress Topper Plush Pad Cooling for Hospital Hotel",
+          "supplier_name": "Hebei Spring-Tex I/e Corp., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "86.7%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 19,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-06",
@@ -327,7 +566,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "37건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 프로텍터 (방수·퀼팅)",
+      "product_name_en": "Cooling Quilted Mattress Pad Mattress Cover Stretch Skirt Waterproof Mattress Protector",
+      "supplier_name_en": "Qingdao Shengsheng Textile Co., Limited",
+      "price_currency": "KRW",
+      "price_krw_min": 9233,
+      "price_krw_max": 10772,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩9,233–10,772",
+        "min": 9233,
+        "max": 10772,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 프로텍터 (방수·퀼팅)",
+          "supplier_name": "칭다오 Shengsheng 섬유 Co., 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 98.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "37건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Cooling Quilted Mattress Pad Mattress Cover Stretch Skirt Waterproof Mattress Protector",
+          "supplier_name": "Qingdao Shengsheng Textile Co., Limited",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "98.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 37,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-07",
@@ -371,7 +654,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 88.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "7건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼 (퀼팅·통기성)",
+      "product_name_en": "Cooling 10cm Extra Thick Quilted +Nylon Mattress Pad Cover Super Soft Breathable Bed Topper OEKO-TEX Certified All-Season",
+      "supplier_name_en": "Wuxi KX Textiles Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 12310,
+      "price_krw_max": 16312,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩12,310–16,312",
+        "min": 12310,
+        "max": 16312,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼 (퀼팅·통기성)",
+          "supplier_name": "우시 KX 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 88.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "7건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Cooling 10cm Extra Thick Quilted +Nylon Mattress Pad Cover Super Soft Breathable Bed Topper OEKO-TEX Certified All-Season",
+          "supplier_name": "Wuxi KX Textiles Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "88.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 7,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-08",
@@ -416,7 +743,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.6%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "6건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼 (방수·퀸 사이즈·킹 사이즈·저자극)",
+      "product_name_en": "Queen king Cooling Mattress Topper Pad Full Size Hypoallergenic Waterproof Mattress Pad",
+      "supplier_name_en": "Qingdao Etrip Smart Home Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7680,
+      "price_krw_max": 12294,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,680–12,294",
+        "min": 7680,
+        "max": 12294,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼 (방수·퀸 사이즈·킹 사이즈·저자극)",
+          "supplier_name": "칭다오 Etrip Smart 홈 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.6%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "6건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Queen king Cooling Mattress Topper Pad Full Size Hypoallergenic Waterproof Mattress Pad",
+          "supplier_name": "Qingdao Etrip Smart Home Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "96.6%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 6,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-09",
@@ -460,7 +831,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 76.5%",
       "supplier_rating_ko": "4.3/5점",
       "supplier_total_review_order_count_ko": "3건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "젤 메모리폼 쿨링 매트리스 토퍼 (통기성)",
+      "product_name_en": "Gel Infused Memory Foam Mattress Topper Cooling Mattress Pad Ventilated and Breathable",
+      "supplier_name_en": "Nantong Wenbo Foam Art Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 26159,
+      "price_krw_max": 27698,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩26,159–27,698",
+        "min": 26159,
+        "max": 27698,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "젤 메모리폼 쿨링 매트리스 토퍼 (통기성)",
+          "supplier_name": "난퉁 Wenbo Foam Art 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤14시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 76.5%",
+          "supplier_rating": "4.3/5점",
+          "supplier_total_review_order_count": "3건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Gel Infused Memory Foam Mattress Topper Cooling Mattress Pad Ventilated and Breathable",
+          "supplier_name": "Nantong Wenbo Foam Art Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤14h",
+          "supplier_on_time_delivery_rate": "76.5%",
+          "supplier_rating": "4.3",
+          "supplier_total_review_order_count": 3,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-10",
@@ -504,7 +919,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "7건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼 (방수·통기성·퀸 사이즈·킹 사이즈)",
+      "product_name_en": "Cooling Waterproof King Queen Twin Mattress Protector Smooth Soft Breathable Fluffy Mattress Topper Pad",
+      "supplier_name_en": "Wuxi Huierjia International Trade Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7694,
+      "price_krw_max": 10002,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,694–10,002",
+        "min": 7694,
+        "max": 10002,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼 (방수·통기성·퀸 사이즈·킹 사이즈)",
+          "supplier_name": "우시 Huierjia 인터내셔널 무역 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 98.0%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "7건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Cooling Waterproof King Queen Twin Mattress Protector Smooth Soft Breathable Fluffy Mattress Topper Pad",
+          "supplier_name": "Wuxi Huierjia International Trade Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "98.0%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 7,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-11",
@@ -548,7 +1007,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 77.8%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "16건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "대나무 섬유 젤 메모리폼 쿨링 매트리스 토퍼 (퀸 사이즈·킹 사이즈)",
+      "product_name_en": "OEKO-TEX Cooling Gel Infused Memory Foam Mattress Topper Foldable King/Queen Size Bed Pads Bamboo Cover Folded Folding Mat",
+      "supplier_name_en": "Tianjin Rongcheng Trading Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 27405,
+      "price_krw_max": 34623,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩27,405–34,623",
+        "min": 27405,
+        "max": 34623,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "대나무 섬유 젤 메모리폼 쿨링 매트리스 토퍼 (퀸 사이즈·킹 사이즈)",
+          "supplier_name": "톈진 Rongcheng 무역 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤7시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 77.8%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "16건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "OEKO-TEX Cooling Gel Infused Memory Foam Mattress Topper Foldable King/Queen Size Bed Pads Bamboo Cover Folded Folding Mat",
+          "supplier_name": "Tianjin Rongcheng Trading Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤7h",
+          "supplier_on_time_delivery_rate": "77.8%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 16,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-12",
@@ -592,7 +1095,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "8건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 프로텍터 (방수·퀼팅·피티드)",
+      "product_name_en": "Customized Cooling Mattress Pad Quilted Fitted Waterproof Mattress Protector",
+      "supplier_name_en": "Tex-Cel Shanghai Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 8463,
+      "price_krw_max": 13080,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩8,463–13,080",
+        "min": 8463,
+        "max": 13080,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 프로텍터 (방수·퀼팅·피티드)",
+          "supplier_name": "Tex-Cel 상하이 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "8건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Customized Cooling Mattress Pad Quilted Fitted Waterproof Mattress Protector",
+          "supplier_name": "Tex-Cel Shanghai Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 8,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-13",
@@ -636,7 +1183,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 75.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 프로텍터 (방수·통기성)",
+      "product_name_en": "Deep Pocket Cooling Breathable Fluffy Soft Mattress Pad Noiseless Mattress Cover Waterproof Mattress Protector",
+      "supplier_name_en": "Shanghai Homax Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6618,
+      "price_krw_max": 16312,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,618–16,312",
+        "min": 6618,
+        "max": 16312,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 프로텍터 (방수·통기성)",
+          "supplier_name": "상하이 Homax 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤7시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 75.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Deep Pocket Cooling Breathable Fluffy Soft Mattress Pad Noiseless Mattress Cover Waterproof Mattress Protector",
+          "supplier_name": "Shanghai Homax Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤7h",
+          "supplier_on_time_delivery_rate": "75.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-14",
@@ -681,7 +1272,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼 (퀼팅·킹 사이즈)",
+      "product_name_en": "Naturally Cooling 100% Cotton Mattress Topper Pad King Size Folded OEKO-TEX Certified Eco-Friendly All-Season Quilted Elastic",
+      "supplier_name_en": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 9233,
+      "price_krw_max": 23082,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩9,233–23,082",
+        "min": 9233,
+        "max": 23082,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼 (퀼팅·킹 사이즈)",
+          "supplier_name": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤6시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Naturally Cooling 100% Cotton Mattress Topper Pad King Size Folded OEKO-TEX Certified Eco-Friendly All-Season Quilted Elastic",
+          "supplier_name": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤6h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-15",
@@ -725,7 +1360,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 83.3%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "대나무 섬유 쿨링 매트리스 토퍼 (퀼팅)",
+      "product_name_en": "Full Size Extra Plush Rayon From Bamboo Cooling Topper for Restful Sleep Quilted Bamboo Mattress Pad Topper",
+      "supplier_name_en": "Anhui Sunrise Home Textiles Co., Ltd",
+      "price_currency": "KRW",
+      "price_krw_min": 32315,
+      "price_krw_max": 36761,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩32,315–36,761",
+        "min": 32315,
+        "max": 36761,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "대나무 섬유 쿨링 매트리스 토퍼 (퀼팅)",
+          "supplier_name": "Anhui Sunrise 홈 섬유 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 83.3%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Full Size Extra Plush Rayon From Bamboo Cooling Topper for Restful Sleep Quilted Bamboo Mattress Pad Topper",
+          "supplier_name": "Anhui Sunrise Home Textiles Co., Ltd",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "83.3%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-16",
@@ -769,7 +1448,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "3건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "호텔용 메모리폼 쿨링 매트리스 제품",
+      "product_name_en": "COSTFULL 8/10/12/14 Inch Modern School Hotel Use Memory Foam Hybrid Pocket Spring Compressed Mattress Cooling OEKO-TEX Certified",
+      "supplier_name_en": "Huizhou Kangzhifu Smart Home Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 136793,
+      "price_krw_max": 153720,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩136,793–153,720",
+        "min": 136793,
+        "max": 153720,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "호텔용 메모리폼 쿨링 매트리스 제품",
+          "supplier_name": "Huizhou Kangzhifu Smart 홈 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 유통/도매업체",
+          "supplier_employee_count": "501-1000명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "3건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "COSTFULL 8/10/12/14 Inch Modern School Hotel Use Memory Foam Hybrid Pocket Spring Compressed Mattress Cooling OEKO-TEX Certified",
+          "supplier_name": "Huizhou Kangzhifu Smart Home Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Distributor/Wholesaler",
+          "supplier_employee_count": "501-1000",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 3,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "cooling-mattresses-17",
@@ -814,7 +1537,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 80.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "12건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 패드 (통기성)",
+      "product_name_en": "Breathable Sleep Cool Wake Refreshed Quite Soft and Comfortable Cooling Mattress Pad Keep Clean and Free of Dust Mites",
+      "supplier_name_en": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 11541,
+      "price_krw_max": 32006,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩11,541–32,006",
+        "min": 11541,
+        "max": 32006,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 패드 (통기성)",
+          "supplier_name": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤6시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 80.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "12건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Breathable Sleep Cool Wake Refreshed Quite Soft and Comfortable Cooling Mattress Pad Keep Clean and Free of Dust Mites",
+          "supplier_name": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤6h",
+          "supplier_on_time_delivery_rate": "80.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 12,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-18",
@@ -858,7 +1625,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.0%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "128건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "대나무 섬유 쿨링 매트리스 프로텍터 (방수·통기성·피티드)",
+      "product_name_en": "Oeko-tex 100 Certificated Breathable Cooling Bamboo Viscose Fitted Bed Sheet Waterproof Mattress Protector",
+      "supplier_name_en": "Liaocheng Shanlian Textile Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 4448,
+      "price_krw_max": 9081,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,448–9,081",
+        "min": 4448,
+        "max": 9081,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "대나무 섬유 쿨링 매트리스 프로텍터 (방수·통기성·피티드)",
+          "supplier_name": "Liaocheng Shanlian 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.0%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "128건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Oeko-tex 100 Certificated Breathable Cooling Bamboo Viscose Fitted Bed Sheet Waterproof Mattress Protector",
+          "supplier_name": "Liaocheng Shanlian Textile Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "96.0%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 128,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-19",
@@ -902,7 +1713,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 -",
       "supplier_rating_ko": "정보 없음",
       "supplier_total_review_order_count_ko": "정보 없음",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼",
+      "product_name_en": "OEKO-TEX Certified Modern Cooling Foam Topper Customizable Premium Mattress B2B Private Label Hybrid Comfort Pocket Bedroom",
+      "supplier_name_en": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI",
+      "price_currency": "KRW",
+      "price_krw_min": 212344,
+      "price_krw_max": 398530,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩212,344–398,530",
+        "min": 212344,
+        "max": 398530,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼",
+          "supplier_name": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI (튀르키예)",
+          "supplier_country": "튀르키예",
+          "supplier_business_type": "제조업체",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 -",
+          "supplier_rating": "정보 없음",
+          "supplier_total_review_order_count": "정보 없음",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "OEKO-TEX Certified Modern Cooling Foam Topper Customizable Premium Mattress B2B Private Label Hybrid Comfort Pocket Bedroom",
+          "supplier_name": "MUNDO YATAK MUSTAFA NEBI DOGAN KOLLEKTIF SIRKETI",
+          "supplier_country": "TR",
+          "supplier_business_type": "Manufacturer",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "-",
+          "supplier_rating": "",
+          "supplier_total_review_order_count": "",
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "cooling-mattresses-20",
@@ -947,7 +1802,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.6%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "6건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "극세사 쿨링 매트리스 토퍼 (방수·퀼팅·피티드·퀸 사이즈)",
+      "product_name_en": "OEM/ODM 4 Inch Single Queen king Size Microfiber Fitted Quilted Cooling Waterproof Bed Mattress Pad Topper Cover Protector",
+      "supplier_name_en": "Qingdao Etrip Smart Home Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7680,
+      "price_krw_max": 11772,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,680–11,772",
+        "min": 7680,
+        "max": 11772,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "극세사 쿨링 매트리스 토퍼 (방수·퀼팅·피티드·퀸 사이즈)",
+          "supplier_name": "칭다오 Etrip Smart 홈 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.6%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "6건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "OEM/ODM 4 Inch Single Queen king Size Microfiber Fitted Quilted Cooling Waterproof Bed Mattress Pad Topper Cover Protector",
+          "supplier_name": "Qingdao Etrip Smart Home Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "96.6%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 6,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-21",
@@ -992,7 +1891,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "1건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼 (피티드)",
+      "product_name_en": "OEKO BSCI ISO Wholesale Bedroom Plain Style Knitted Bed Mat Cover Cooling Mattress Topper with Fitted Sheet Protector",
+      "supplier_name_en": "Jintian Textile(Nantong) Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 15081,
+      "price_krw_max": 15081,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩15,081",
+        "min": 15081,
+        "max": 15081,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼 (피티드)",
+          "supplier_name": "Jintian 섬유(난퉁) 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "1건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "OEKO BSCI ISO Wholesale Bedroom Plain Style Knitted Bed Mat Cover Cooling Mattress Topper with Fitted Sheet Protector",
+          "supplier_name": "Jintian Textile(Nantong) Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 1,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-22",
@@ -1036,7 +1979,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 80.0%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "2건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "대나무 섬유 쿨링 매트리스 토퍼 (세탁 가능)",
+      "product_name_en": "Eco-Friendly Washable 800gsm Bamboo Polyester Jacquard Protector Cover Pad Cooling Mattress Topper",
+      "supplier_name_en": "Wuxi Aoka Homeware Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 11804,
+      "price_krw_max": 18465,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩11,804–18,465",
+        "min": 11804,
+        "max": 18465,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "대나무 섬유 쿨링 매트리스 토퍼 (세탁 가능)",
+          "supplier_name": "우시 Aoka Homeware 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤13시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 80.0%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "2건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Eco-Friendly Washable 800gsm Bamboo Polyester Jacquard Protector Cover Pad Cooling Mattress Topper",
+          "supplier_name": "Wuxi Aoka Homeware Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤13h",
+          "supplier_on_time_delivery_rate": "80.0%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 2,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-23",
@@ -1080,7 +2067,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 75.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 토퍼 (퀼팅·피티드·킹 사이즈)",
+      "product_name_en": "Cooling Mattress Topper Mattress Pad Pillow Top Quilted Fitted Mattress Cover Protector Extra Long Cotton In Rolling Packing",
+      "supplier_name_en": "Shanghai Homax Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 17696,
+      "price_krw_max": 17696,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩17,696",
+        "min": 17696,
+        "max": 17696,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 토퍼 (퀼팅·피티드·킹 사이즈)",
+          "supplier_name": "상하이 Homax 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤7시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 75.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Cooling Mattress Topper Mattress Pad Pillow Top Quilted Fitted Mattress Cover Protector Extra Long Cotton In Rolling Packing",
+          "supplier_name": "Shanghai Homax Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤7h",
+          "supplier_on_time_delivery_rate": "75.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-24",
@@ -1124,7 +2155,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 프로텍터 (방수)",
+      "product_name_en": "Noiseless Cooling 360 Pad Protection Spills 100% Waterproof OEKO-TEX Certified Anti-Bacteria Air-permeable Mattress Protector",
+      "supplier_name_en": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7388,
+      "price_krw_max": 10926,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,388–10,926",
+        "min": 7388,
+        "max": 10926,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 프로텍터 (방수)",
+          "supplier_name": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Noiseless Cooling 360 Pad Protection Spills 100% Waterproof OEKO-TEX Certified Anti-Bacteria Air-permeable Mattress Protector",
+          "supplier_name": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-25",
@@ -1168,7 +2243,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.2%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "대나무 섬유 쿨링 매트리스 토퍼 (방수)",
+      "product_name_en": "Waterproof Mattress Protector Ultra Soft Bamboo Cooling Mattress Cover, Vinyl-Free Mattress Topper,",
+      "supplier_name_en": "Jiangsu Etang Household Products Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6464,
+      "price_krw_max": 9696,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,464–9,696",
+        "min": 6464,
+        "max": 9696,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "대나무 섬유 쿨링 매트리스 토퍼 (방수)",
+          "supplier_name": "장쑤 Etang 생활용품 제품 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.2%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Waterproof Mattress Protector Ultra Soft Bamboo Cooling Mattress Cover, Vinyl-Free Mattress Topper,",
+          "supplier_name": "Jiangsu Etang Household Products Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "96.2%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-26",
@@ -1212,7 +2331,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "8건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "쿨링 매트리스 프로텍터 (방수·저자극)",
+      "product_name_en": "Hypoallergenic Soft Cooling Mattress Cover 100% Waterproof Mattress Protector",
+      "supplier_name_en": "Tex-Cel Shanghai Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 8463,
+      "price_krw_max": 12310,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩8,463–12,310",
+        "min": 8463,
+        "max": 12310,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "쿨링 매트리스 프로텍터 (방수·저자극)",
+          "supplier_name": "Tex-Cel 상하이 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "8건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Hypoallergenic Soft Cooling Mattress Cover 100% Waterproof Mattress Protector",
+          "supplier_name": "Tex-Cel Shanghai Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 8,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-27",
@@ -1256,7 +2419,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "극세사 쿨링 매트리스 토퍼",
+      "product_name_en": "Extra Thick Long Microfiber Protector Cover Soft Cooling Mattress Topper for College Dorm Room Essentials",
+      "supplier_name_en": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 23082,
+      "price_krw_max": 29237,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩23,082–29,237",
+        "min": 23082,
+        "max": 29237,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "극세사 쿨링 매트리스 토퍼",
+          "supplier_name": "저장 Moncanol 홈 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤6시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Extra Thick Long Microfiber Protector Cover Soft Cooling Mattress Topper for College Dorm Room Essentials",
+          "supplier_name": "Zhejiang Moncanol Home Textiles Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤6h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-28",
@@ -1300,7 +2507,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "정보 없음",
       "supplier_total_review_order_count_ko": "정보 없음",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "호텔용 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈·킹 사이즈)",
+      "product_name_en": "Queen king Cooling Mattress Topper Pad Quilted Mattress Protector Cover Hotel Superfine Fiber 180x200 90x200 Mattress Topper",
+      "supplier_name_en": "Hangzhou Maxhome Textile Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7680,
+      "price_krw_max": 9464,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,680–9,464",
+        "min": 7680,
+        "max": 9464,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "호텔용 쿨링 매트리스 토퍼 (퀼팅·퀸 사이즈·킹 사이즈)",
+          "supplier_name": "항저우 Maxhome 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "정보 없음",
+          "supplier_total_review_order_count": "정보 없음",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Queen king Cooling Mattress Topper Pad Quilted Mattress Protector Cover Hotel Superfine Fiber 180x200 90x200 Mattress Topper",
+          "supplier_name": "Hangzhou Maxhome Textile Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "",
+          "supplier_total_review_order_count": "",
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "cooling-mattresses-29",
@@ -1344,7 +2595,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 80.9%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "젤 메모리폼 쿨링 매트리스 토퍼",
+      "product_name_en": "4 Inches Medium Firm Memory Foam Mattress Topper Cooling Gel Shredded Material Folded Pressure Relief OEKO-TEX Certified",
+      "supplier_name_en": "Hangzhou Gravity Industrial Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 46148,
+      "price_krw_max": 46148,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩46,148",
+        "min": 46148,
+        "max": 46148,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "젤 메모리폼 쿨링 매트리스 토퍼",
+          "supplier_name": "항저우 Gravity 산업 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 80.9%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "4 Inches Medium Firm Memory Foam Mattress Topper Cooling Gel Shredded Material Folded Pressure Relief OEKO-TEX Certified",
+          "supplier_name": "Hangzhou Gravity Industrial Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "80.9%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "cooling-mattresses-30",
@@ -1388,7 +2683,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "1건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "쿨링 매트리스",
+      "category_name_en": "Cooling Mattresses",
+      "product_name_ko": "극세사 쿨링 매트리스 프로텍터 (퀼팅)",
+      "product_name_en": "Manufacturer Full Size Soft Microfiber Mattress Pad Protector Cover Pain Relief Quilted Cooling Pillow Top Deep Pocket Oeko-tex",
+      "supplier_name_en": "Hangzhou Yintex Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 21389,
+      "price_krw_max": 29083,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩21,389–29,083",
+        "min": 21389,
+        "max": 29083,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "쿨링 매트리스",
+          "product_name": "극세사 쿨링 매트리스 프로텍터 (퀼팅)",
+          "supplier_name": "항저우 Yintex 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤7시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "1건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Cooling Mattresses",
+          "product_name": "Manufacturer Full Size Soft Microfiber Mattress Pad Protector Cover Pain Relief Quilted Cooling Pillow Top Deep Pocket Oeko-tex",
+          "supplier_name": "Hangzhou Yintex Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤7h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 1,
+          "supplier_verified": true
+        }
+      }
     }
   ]
 }

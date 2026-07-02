@@ -60,6 +60,25 @@
       "format": "PNG",
       "directory": "images/<category>/",
       "note": "Product main images are converted to PNG and grouped by category for Figma compatibility."
+    },
+    "data_structure_version": "2026-07-02.multilingual-price-v2",
+    "multilingual_fields": {
+      "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+      "object": "localized",
+      "languages": [
+        "ko",
+        "en"
+      ]
+    },
+    "price_fields": {
+      "currency": "KRW",
+      "display_field": "price_krw",
+      "numeric_fields": [
+        "price_krw_min",
+        "price_krw_max"
+      ],
+      "object": "price",
+      "note": "Range prices are split into min and max integer KRW values. Single prices use the same value for min and max."
     }
   },
   "products": [
@@ -105,7 +124,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "원목 월넛 데스크탑 서랍형 수납장",
+      "product_name_en": "Solid Walnut Desktop Drawer Cabinet Wooden Storage Box Sundries Desk Organizer Storage Cabinet Household Desktop Drawers",
+      "supplier_name_en": "Qingdao Enjoy Global Industry Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 13665,
+      "price_krw_max": 24160,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩13,665–24,160",
+        "min": 13665,
+        "max": 24160,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "원목 월넛 데스크탑 서랍형 수납장",
+          "supplier_name": "칭다오 Enjoy Global 산업 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.4%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Solid Walnut Desktop Drawer Cabinet Wooden Storage Box Sundries Desk Organizer Storage Cabinet Household Desktop Drawers",
+          "supplier_name": "Qingdao Enjoy Global Industry Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "97.4%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-02",
@@ -149,7 +212,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "8건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+      "product_name_en": "Household Office Cabinet Plastic PP Desktop Makeup Cosmetic Drawer Container Organizer Storage Box Bins Set Multi Layer",
+      "supplier_name_en": "Zhejiang Jinmao Plastic Industry Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 4355,
+      "price_krw_max": 13157,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,355–13,157",
+        "min": 4355,
+        "max": 13157,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+          "supplier_name": "저장 Jinmao 플라스틱 산업 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "8건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Household Office Cabinet Plastic PP Desktop Makeup Cosmetic Drawer Container Organizer Storage Box Bins Set Multi Layer",
+          "supplier_name": "Zhejiang Jinmao Plastic Industry Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 8,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-03",
@@ -193,7 +300,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "27건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (스택형·문구 수납·화장품 수납)",
+      "product_name_en": "Modern Plastic Desktop Storage Drawer Cabinet with Stackable Design for Cosmetics and Stationery, RoHS Certified Home Organizer",
+      "supplier_name_en": "Chengdu Green Pocket Trading Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 1986,
+      "price_krw_max": 11988,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩1,986–11,988",
+        "min": 1986,
+        "max": 11988,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (스택형·문구 수납·화장품 수납)",
+          "supplier_name": "Chengdu Green Pocket 무역 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "27건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Modern Plastic Desktop Storage Drawer Cabinet with Stackable Design for Cosmetics and Stationery, RoHS Certified Home Organizer",
+          "supplier_name": "Chengdu Green Pocket Trading Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 27,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-04",
@@ -239,7 +390,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 90.6%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "10건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "금속 스틸 언더데스크 서랍형 수납장 (잠금식·오피스용)",
+      "product_name_en": "Modern 6-Drawer Metal Mobile Filing Cabinet, Slim Steel Under Desk Storage Organizer with Lock for Office, Home & Hospital",
+      "supplier_name_en": "Hainan Shengyao Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 40009,
+      "price_krw_max": 40009,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩40,009",
+        "min": 40009,
+        "max": 40009,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "금속 스틸 언더데스크 서랍형 수납장 (잠금식·오피스용)",
+          "supplier_name": "Hainan Shengyao 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 90.6%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "10건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Modern 6-Drawer Metal Mobile Filing Cabinet, Slim Steel Under Desk Storage Organizer with Lock for Office, Home & Hospital",
+          "supplier_name": "Hainan Shengyao Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "90.6%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 10,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-05",
@@ -283,7 +478,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "언더데스크 서랍형 수납장 (부착식·슬라이딩·주방 겸용)",
+      "product_name_en": "Under Desk Mounted Sliding Adhesive Cupboard Pull Out Kitchen Cabinet Organizer Storage Pull Drawers for Pantry Cabinets Stick",
+      "supplier_name_en": "Qingyuan Xing Xiang Hardware Products Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6003,
+      "price_krw_max": 8463,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,003–8,463",
+        "min": 6003,
+        "max": 8463,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "언더데스크 서랍형 수납장 (부착식·슬라이딩·주방 겸용)",
+          "supplier_name": "Qingyuan Xing Xiang Hardware 제품 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Under Desk Mounted Sliding Adhesive Cupboard Pull Out Kitchen Cabinet Organizer Storage Pull Drawers for Pantry Cabinets Stick",
+          "supplier_name": "Qingyuan Xing Xiang Hardware Products Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-06",
@@ -327,7 +566,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "정보 없음",
       "supplier_total_review_order_count_ko": "정보 없음",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "금속 스틸 언더데스크 파일 캐비닛",
+      "product_name_en": "Metal Drawer File Cabinet Under Desk Filling Cabinet Steel Mobile Storage Drawers Metal Mobile Pedestal Movable 3 Drawers",
+      "supplier_name_en": "Luoyang Unite Office Furniture Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 40009,
+      "price_krw_max": 43086,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩40,009–43,086",
+        "min": 40009,
+        "max": 43086,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "금속 스틸 언더데스크 파일 캐비닛",
+          "supplier_name": "Luoyang Unite Office 가구 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "정보 없음",
+          "supplier_total_review_order_count": "정보 없음",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Metal Drawer File Cabinet Under Desk Filling Cabinet Steel Mobile Storage Drawers Metal Mobile Pedestal Movable 3 Drawers",
+          "supplier_name": "Luoyang Unite Office Furniture Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "",
+          "supplier_total_review_order_count": "",
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-07",
@@ -371,7 +654,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "데스크탑 서랍형 수납장",
+      "product_name_en": "Art Organizer & Storage Solution 24 Drawer Crafts & Desktop Organization| Apothecary Cabinet Chest Library Card Catalog Cabinet",
+      "supplier_name_en": "Qingdao Enjoy Global Industry Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 19988,
+      "price_krw_max": 24605,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩19,988–24,605",
+        "min": 19988,
+        "max": 24605,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "데스크탑 서랍형 수납장",
+          "supplier_name": "칭다오 Enjoy Global 산업 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.4%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Art Organizer & Storage Solution 24 Drawer Crafts & Desktop Organization| Apothecary Cabinet Chest Library Card Catalog Cabinet",
+          "supplier_name": "Qingdao Enjoy Global Industry Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "97.4%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-08",
@@ -415,7 +742,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.2%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "16건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "원목 데스크탑 서랍형 수납장 (오피스용)",
+      "product_name_en": "Whitewashed Wooden Desktop Office Organizer Notebook Pen Sticky Notes Rack Shelf Drawer Tabletop Wood Storage Cabinet",
+      "supplier_name_en": "Caoxian Shangrun Handicraft Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 8788,
+      "price_krw_max": 11357,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩8,788–11,357",
+        "min": 8788,
+        "max": 11357,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "원목 데스크탑 서랍형 수납장 (오피스용)",
+          "supplier_name": "Caoxian Shangrun Handicraft 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.2%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "16건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Whitewashed Wooden Desktop Office Organizer Notebook Pen Sticky Notes Rack Shelf Drawer Tabletop Wood Storage Cabinet",
+          "supplier_name": "Caoxian Shangrun Handicraft Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "96.2%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 16,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-09",
@@ -459,7 +830,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.1%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "45건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (화장품 수납)",
+      "product_name_en": "PP Plastic Desktop Organizer Cosmetic Makeup & Jewelry Drawer Storage Cabinet Storage Boxes & Bins",
+      "supplier_name_en": "Huizhou Jamie Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 4616,
+      "price_krw_max": 4616,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,616",
+        "min": 4616,
+        "max": 4616,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (화장품 수납)",
+          "supplier_name": "Huizhou Jamie 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.1%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "45건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "PP Plastic Desktop Organizer Cosmetic Makeup & Jewelry Drawer Storage Cabinet Storage Boxes & Bins",
+          "supplier_name": "Huizhou Jamie Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "96.1%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 45,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-10",
@@ -503,7 +918,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "11건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (스택형·주방 겸용)",
+      "product_name_en": "GREENSIDE Household PP Plastic Storage Bins Boxes Stackable Medicine Cabinet Desktop Drawer Living Room Makeup Organizer Kitchen",
+      "supplier_name_en": "Taizhou Greenside Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 402,
+      "price_krw_max": 402,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩402",
+        "min": 402,
+        "max": 402,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (스택형·주방 겸용)",
+          "supplier_name": "Taizhou Greenside 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.1%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "11건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "GREENSIDE Household PP Plastic Storage Bins Boxes Stackable Medicine Cabinet Desktop Drawer Living Room Makeup Organizer Kitchen",
+          "supplier_name": "Taizhou Greenside Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "97.1%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 11,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-11",
@@ -547,7 +1006,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.5%",
       "supplier_rating_ko": "3.9/5점",
       "supplier_total_review_order_count_ko": "94건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "투명 플라스틱 데스크탑 서랍형 수납장 (스택형)",
+      "product_name_en": "Stackable Rectangle Storage Drawers Plastic Desktop Box Cabinet Closet Organizer Transparent Room Wardrobe Home Storage",
+      "supplier_name_en": "Beijing Hongshiji Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 1847,
+      "price_krw_max": 5540,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩1,847–5,540",
+        "min": 1847,
+        "max": 5540,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "투명 플라스틱 데스크탑 서랍형 수납장 (스택형)",
+          "supplier_name": "베이징 Hongshiji 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.5%",
+          "supplier_rating": "3.9/5점",
+          "supplier_total_review_order_count": "94건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Stackable Rectangle Storage Drawers Plastic Desktop Box Cabinet Closet Organizer Transparent Room Wardrobe Home Storage",
+          "supplier_name": "Beijing Hongshiji Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "97.5%",
+          "supplier_rating": "3.9",
+          "supplier_total_review_order_count": 94,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-12",
@@ -591,7 +1094,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 89.2%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "15건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+      "product_name_en": "2pcs/set Injection Technics Plastic Storage Organizer Drawer Square Shape under Desk Storage for Office Home Use Free Sample",
+      "supplier_name_en": "Wenzhou Samanl Houseware Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 2079,
+      "price_krw_max": 2186,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩2,079–2,186",
+        "min": 2079,
+        "max": 2186,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+          "supplier_name": "원저우 Samanl Houseware 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 89.2%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "15건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "2pcs/set Injection Technics Plastic Storage Organizer Drawer Square Shape under Desk Storage for Office Home Use Free Sample",
+          "supplier_name": "Wenzhou Samanl Houseware Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "89.2%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 15,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-13",
@@ -635,7 +1182,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 89.2%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "15건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "PET 플라스틱 언더데스크 수납 서랍 (오피스용·주방 겸용)",
+      "product_name_en": "Clear PET Under Desk Drawer for Plastic Kitchen Organizer Home Office Desk Layer Drawer Mobile Phone Storage Box",
+      "supplier_name_en": "Wenzhou Samanl Houseware Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 3333,
+      "price_krw_max": 3394,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩3,333–3,394",
+        "min": 3333,
+        "max": 3394,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "PET 플라스틱 언더데스크 수납 서랍 (오피스용·주방 겸용)",
+          "supplier_name": "원저우 Samanl Houseware 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 89.2%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "15건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Clear PET Under Desk Drawer for Plastic Kitchen Organizer Home Office Desk Layer Drawer Mobile Phone Storage Box",
+          "supplier_name": "Wenzhou Samanl Houseware Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "89.2%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 15,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-14",
@@ -679,7 +1270,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 89.2%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "15건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 언더데스크 수납 서랍 (부착식·슬라이딩·오피스용)",
+      "product_name_en": "Plastic Sliding Slim Self-Adhesive Double Layer Under Desk Drawer Hidden Storage Box Drawer Office Dormitory",
+      "supplier_name_en": "Wenzhou Samanl Houseware Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 5709,
+      "price_krw_max": 6172,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩5,709–6,172",
+        "min": 5709,
+        "max": 6172,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 언더데스크 수납 서랍 (부착식·슬라이딩·오피스용)",
+          "supplier_name": "원저우 Samanl Houseware 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 89.2%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "15건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Plastic Sliding Slim Self-Adhesive Double Layer Under Desk Drawer Hidden Storage Box Drawer Office Dormitory",
+          "supplier_name": "Wenzhou Samanl Houseware Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "89.2%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 15,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-15",
@@ -723,7 +1358,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "11건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+      "product_name_en": "GREENSIDE Modern Double Drawer Under Desk Storage Box High Quality ABS Plastic Office Household Organizer",
+      "supplier_name_en": "Taizhou Greenside Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 2817,
+      "price_krw_max": 3817,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩2,817–3,817",
+        "min": 2817,
+        "max": 3817,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 언더데스크 수납 서랍 (오피스용)",
+          "supplier_name": "Taizhou Greenside 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.1%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "11건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "GREENSIDE Modern Double Drawer Under Desk Storage Box High Quality ABS Plastic Office Household Organizer",
+          "supplier_name": "Taizhou Greenside Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "97.1%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 11,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-16",
@@ -767,7 +1446,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "8건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "언더데스크 수납 서랍 (부착식·오피스용·주방 겸용)",
+      "product_name_en": "AU CAT Under Desk Drawer, Set for Office/Bedroom/School/Kitchen, Self-Adhesive Under Desk Storage for Phone/Pens/Pencils",
+      "supplier_name_en": "Zhejiang Jinmao Plastic Industry Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 1832,
+      "price_krw_max": 1832,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩1,832",
+        "min": 1832,
+        "max": 1832,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "언더데스크 수납 서랍 (부착식·오피스용·주방 겸용)",
+          "supplier_name": "저장 Jinmao 플라스틱 산업 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "8건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "AU CAT Under Desk Drawer, Set for Office/Bedroom/School/Kitchen, Self-Adhesive Under Desk Storage for Phone/Pens/Pencils",
+          "supplier_name": "Zhejiang Jinmao Plastic Industry Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 8,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-17",
@@ -811,7 +1534,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "언더데스크 수납 서랍 (슬라이드아웃·오피스용)",
+      "product_name_en": "Multi Functional Under Desk Drawer Slide Out Hidden Desk Drawers Organizer for Office Home Under Desk Storage",
+      "supplier_name_en": "Huangyan Tongling Plastic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 3003,
+      "price_krw_max": 3155,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩3,003–3,155",
+        "min": 3003,
+        "max": 3155,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "언더데스크 수납 서랍 (슬라이드아웃·오피스용)",
+          "supplier_name": "Huangyan Tongling 플라스틱 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Multi Functional Under Desk Drawer Slide Out Hidden Desk Drawers Organizer for Office Home Under Desk Storage",
+          "supplier_name": "Huangyan Tongling Plastic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-18",
@@ -856,7 +1623,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "1건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "데스크탑 수납 박스 (오피스용)",
+      "product_name_en": "FSC&BSCI&EUDR Wood Desktop Storage Cabinet/Workspace Document Office Necessity Organizer",
+      "supplier_name_en": "Caoxian Zhongyi Wooden Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 2079,
+      "price_krw_max": 8234,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩2,079–8,234",
+        "min": 2079,
+        "max": 8234,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "데스크탑 수납 박스 (오피스용)",
+          "supplier_name": "Caoxian Zhongyi 목재 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "1건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "FSC&BSCI&EUDR Wood Desktop Storage Cabinet/Workspace Document Office Necessity Organizer",
+          "supplier_name": "Caoxian Zhongyi Wooden Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 1,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-19",
@@ -900,7 +1711,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 86.5%",
       "supplier_rating_ko": "4.1/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "금속 언더데스크 수납 박스 (오피스용)",
+      "product_name_en": "2 Pack Under Desk Shelf Metal -Under Desk Organizer Under Shelf Storage for Office Tables & Workstations",
+      "supplier_name_en": "Ningbo Homecrest Imp.& Exp. Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6925,
+      "price_krw_max": 7233,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,925–7,233",
+        "min": 6925,
+        "max": 7233,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "금속 언더데스크 수납 박스 (오피스용)",
+          "supplier_name": "닝보 Homecrest Imp.& Exp. 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 86.5%",
+          "supplier_rating": "4.1/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "2 Pack Under Desk Shelf Metal -Under Desk Organizer Under Shelf Storage for Office Tables & Workstations",
+          "supplier_name": "Ningbo Homecrest Imp.& Exp. Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "86.5%",
+          "supplier_rating": "4.1",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-20",
@@ -944,7 +1799,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "2건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 언더데스크 서랍형 수납장 (부착식·주방 겸용)",
+      "product_name_en": "Plastic Kitchen Cabinet Storage Organizer Box Self-adhesive Under Desk Drawer",
+      "supplier_name_en": "NINGBO JINJUN HOUSEHOLD PRODUCTS CO.,LTD.",
+      "price_currency": "KRW",
+      "price_krw_min": 10465,
+      "price_krw_max": 10758,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩10,465–10,758",
+        "min": 10465,
+        "max": 10758,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 언더데스크 서랍형 수납장 (부착식·주방 겸용)",
+          "supplier_name": "닝보 JINJUN 생활용품 제품 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "2건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Plastic Kitchen Cabinet Storage Organizer Box Self-adhesive Under Desk Drawer",
+          "supplier_name": "NINGBO JINJUN HOUSEHOLD PRODUCTS CO.,LTD.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 2,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-21",
@@ -988,7 +1887,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "정보 없음",
       "supplier_total_review_order_count_ko": "정보 없음",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "스틸 언더데스크 서랍형 수납장",
+      "product_name_en": "DA09-3 Under Desk Storage Box Hidden Drawer Slide Mounted Organizer Steel Container Removable Tray Cabinet Shelf Storage",
+      "supplier_name_en": "Lumi Legend Corporation",
+      "price_currency": "KRW",
+      "price_krw_min": 16927,
+      "price_krw_max": 17973,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩16,927–17,973",
+        "min": 16927,
+        "max": 17973,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "스틸 언더데스크 서랍형 수납장",
+          "supplier_name": "Lumi Legend 주식회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤10시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "정보 없음",
+          "supplier_total_review_order_count": "정보 없음",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "DA09-3 Under Desk Storage Box Hidden Drawer Slide Mounted Organizer Steel Container Removable Tray Cabinet Shelf Storage",
+          "supplier_name": "Lumi Legend Corporation",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤10h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "",
+          "supplier_total_review_order_count": "",
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-22",
@@ -1032,7 +1975,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.5%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "114건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "언더데스크 서랍형 수납장 (부착식·슬라이드아웃)",
+      "product_name_en": "Hanging Under Desk Storage Box Slide Out Self-adhesive Attachable Under Desk Drawer Organizer Cabinet Hidden Desktop Organizer",
+      "supplier_name_en": "Guangzhou Qinfeng Plastic Hardware Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 2894,
+      "price_krw_max": 7417,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩2,894–7,417",
+        "min": 2894,
+        "max": 7417,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "언더데스크 서랍형 수납장 (부착식·슬라이드아웃)",
+          "supplier_name": "광저우 Qinfeng 플라스틱 Hardware 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.5%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "114건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Hanging Under Desk Storage Box Slide Out Self-adhesive Attachable Under Desk Drawer Organizer Cabinet Hidden Desktop Organizer",
+          "supplier_name": "Guangzhou Qinfeng Plastic Hardware Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "99.5%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 114,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-23",
@@ -1076,7 +2063,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.2/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "데스크탑 서랍형 수납장 (화장품 수납)",
+      "product_name_en": "Frins Leather Comb Cases Storage Organizer Makeup Skin Care Box Cosmetic Desktop Cabinets Leather With Drawers",
+      "supplier_name_en": "Shenzhen Frins Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 22773,
+      "price_krw_max": 70476,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩22,773–70,476",
+        "min": 22773,
+        "max": 70476,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "데스크탑 서랍형 수납장 (화장품 수납)",
+          "supplier_name": "선전 Frins 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사, 유통/도매업체",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.2/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Frins Leather Comb Cases Storage Organizer Makeup Skin Care Box Cosmetic Desktop Cabinets Leather With Drawers",
+          "supplier_name": "Shenzhen Frins Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company,Distributor/Wholesaler",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.2",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-24",
@@ -1120,7 +2151,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "10건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 금속 데스크탑 서랍형 수납장",
+      "product_name_en": "MFTLong 48 Drawers Plastic Storage Cabinet Wholesale Metal Desktop & Drawer Organizer for Living Room/Bathroom/Tools 48 Drawers",
+      "supplier_name_en": "Shenzhen Leadloong Plastic Product Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 92325,
+      "price_krw_max": 100019,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩92,325–100,019",
+        "min": 92325,
+        "max": 100019,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 금속 데스크탑 서랍형 수납장",
+          "supplier_name": "선전 Leadloong 플라스틱 제품 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "10건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "MFTLong 48 Drawers Plastic Storage Cabinet Wholesale Metal Desktop & Drawer Organizer for Living Room/Bathroom/Tools 48 Drawers",
+          "supplier_name": "Shenzhen Leadloong Plastic Product Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 10,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-25",
@@ -1164,7 +2239,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 95.3%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "33건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+      "product_name_en": "Wholesale Professional Factory Desktop Cabinet Office Storage Makeup Organizer Desktop Cosmetics Storage Drawer Cabinet",
+      "supplier_name_en": "Jieyang Jiqing Plastic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 1539,
+      "price_krw_max": 3078,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩1,539–3,078",
+        "min": 1539,
+        "max": 3078,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "데스크탑 서랍형 수납장 (오피스용·화장품 수납)",
+          "supplier_name": "Jieyang Jiqing 플라스틱 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 95.3%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "33건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Wholesale Professional Factory Desktop Cabinet Office Storage Makeup Organizer Desktop Cosmetics Storage Drawer Cabinet",
+          "supplier_name": "Jieyang Jiqing Plastic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "95.3%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 33,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-26",
@@ -1208,7 +2327,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "0.0/5점",
       "supplier_total_review_order_count_ko": "0건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "데스크탑 서랍형 수납장 (주방 겸용)",
+      "product_name_en": "5-Drawer Wood Desktop Organizer with Storage Cabinet Sewing Box DIY Craft Project Solution-for Kitchen and Living Room",
+      "supplier_name_en": "Caoxian Tianfeng Wood Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 4310,
+      "price_krw_max": 5386,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,310–5,386",
+        "min": 4310,
+        "max": 5386,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "데스크탑 서랍형 수납장 (주방 겸용)",
+          "supplier_name": "Caoxian Tianfeng 목재 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "0.0/5점",
+          "supplier_total_review_order_count": "0건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "5-Drawer Wood Desktop Organizer with Storage Cabinet Sewing Box DIY Craft Project Solution-for Kitchen and Living Room",
+          "supplier_name": "Caoxian Tianfeng Wood Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "0.0",
+          "supplier_total_review_order_count": 0,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-27",
@@ -1252,7 +2415,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (스택형·오피스용)",
+      "product_name_en": "A4 Paper Drawer Cabinet Plastic Office Storage Organizer With Stackable Desktop Drawer",
+      "supplier_name_en": "Shantou Eversmily Daily Necessities Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 5971,
+      "price_krw_max": 8463,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩5,971–8,463",
+        "min": 5971,
+        "max": 8463,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (스택형·오피스용)",
+          "supplier_name": "산터우 Eversmily Daily Necessities 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "정보 없음",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "A4 Paper Drawer Cabinet Plastic Office Storage Organizer With Stackable Desktop Drawer",
+          "supplier_name": "Shantou Eversmily Daily Necessities Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-28",
@@ -1296,7 +2503,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 87.8%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "26건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (문구 수납)",
+      "product_name_en": "2402 Eco-Friendly Plastic Drawer Cabinet with Two Drawers Modern Student Desktop Storage Organizer Box for Stationery",
+      "supplier_name_en": "Ningbo Ariste International Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 3695,
+      "price_krw_max": 3695,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩3,695",
+        "min": 3695,
+        "max": 3695,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (문구 수납)",
+          "supplier_name": "닝보 Ariste 인터내셔널 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 87.8%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "26건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "2402 Eco-Friendly Plastic Drawer Cabinet with Two Drawers Modern Student Desktop Storage Organizer Box for Stationery",
+          "supplier_name": "Ningbo Ariste International Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "87.8%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 26,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "desktop-organizers-29",
@@ -1340,7 +2591,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 91.7%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "6건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "데스크탑 서랍형 수납장 (오피스용)",
+      "product_name_en": "Rustic Brown Wood Desktop Office Organizer Drawers/Craft Supplies Storage Cabinet",
+      "supplier_name_en": "Caoxian Smart And Thrive Woodwork Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 11080,
+      "price_krw_max": 18465,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩11,080–18,465",
+        "min": 11080,
+        "max": 18465,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "데스크탑 서랍형 수납장 (오피스용)",
+          "supplier_name": "Caoxian Smart And Thrive Woodwork 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 91.7%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "6건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "Rustic Brown Wood Desktop Office Organizer Drawers/Craft Supplies Storage Cabinet",
+          "supplier_name": "Caoxian Smart And Thrive Woodwork Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "91.7%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 6,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "desktop-organizers-30",
@@ -1384,7 +2679,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 90.5%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "데스크 정리함",
+      "category_name_en": "Desktop Organizers",
+      "product_name_ko": "플라스틱 데스크탑 서랍형 수납장 (문구 수납·오피스용·화장품 수납)",
+      "product_name_en": "MONR Wholesale PP Cosmetic Storage Drawer Plastic Desktop Cabinet with Pen Stationery Organizer Box for Office Use",
+      "supplier_name_en": "Linhai Wangfeng Plastic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 1586,
+      "price_krw_max": 2340,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩1,586–2,340",
+        "min": 1586,
+        "max": 2340,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "데스크 정리함",
+          "product_name": "플라스틱 데스크탑 서랍형 수납장 (문구 수납·오피스용·화장품 수납)",
+          "supplier_name": "Linhai Wangfeng 플라스틱 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 90.5%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Desktop Organizers",
+          "product_name": "MONR Wholesale PP Cosmetic Storage Drawer Plastic Desktop Cabinet with Pen Stationery Organizer Box for Office Use",
+          "supplier_name": "Linhai Wangfeng Plastic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "90.5%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": false
+        }
+      }
     }
   ]
 }

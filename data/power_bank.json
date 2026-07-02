@@ -60,6 +60,25 @@
       "format": "PNG",
       "directory": "images/<category>/",
       "note": "Product main images are converted to PNG and grouped by category for Figma compatibility."
+    },
+    "data_structure_version": "2026-07-02.multilingual-price-v2",
+    "multilingual_fields": {
+      "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+      "object": "localized",
+      "languages": [
+        "ko",
+        "en"
+      ]
+    },
+    "price_fields": {
+      "currency": "KRW",
+      "display_field": "price_krw",
+      "numeric_fields": [
+        "price_krw_min",
+        "price_krw_max"
+      ],
+      "object": "price",
+      "note": "Range prices are split into min and max integer KRW values. Single prices use the same value for min and max."
     }
   },
   "products": [
@@ -105,7 +124,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "166건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "REMAX FP-22 20W+22.5W PD+QC 30000mAh 휴대용 고속 충전 보조배터리",
+      "product_name_en": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Portable Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Remax Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 19236,
+      "price_krw_max": 21067,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩19,236–21,067",
+        "min": 19236,
+        "max": 21067,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh 휴대용 고속 충전 보조배터리",
+          "supplier_name": "선전 Remax 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.1%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "166건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Portable Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.1%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 166,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-02",
@@ -149,7 +212,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "대용량 50000mAh 22.5W 고속 충전 보조배터리 (내장 케이블·휴대용 스트랩)",
+      "product_name_en": "50000mAh 22.5W Fast-Charging Power Bank with Built-in Cable and Carry Strap",
+      "supplier_name_en": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 15647,
+      "price_krw_max": 17861,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩15,647–17,861",
+        "min": 15647,
+        "max": 17861,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "대용량 50000mAh 22.5W 고속 충전 보조배터리 (내장 케이블·휴대용 스트랩)",
+          "supplier_name": "선전 Xuhongchuang 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "50000mAh 22.5W Fast-Charging Power Bank with Built-in Cable and Carry Strap",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-03",
@@ -193,7 +300,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "26건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "Mcdodo 423 트리플 USB 출력 20000mAh 22.5W 고속 충전 LED 보조배터리",
+      "product_name_en": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank with LED Display",
+      "supplier_name_en": "Guangdong Mcdodo Industrial Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 21373,
+      "price_krw_max": 21373,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩21,373",
+        "min": 21373,
+        "max": 21373,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "Mcdodo 423 트리플 USB 출력 20000mAh 22.5W 고속 충전 LED 보조배터리",
+          "supplier_name": "광둥 Mcdodo 산업 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤8시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.8%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "26건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank with LED Display",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤8h",
+          "supplier_on_time_delivery_rate": "93.8%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 26,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-04",
@@ -238,7 +389,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 69.2%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "27건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "PD 22.5W 고속 충전 20000mAh 휴대용 보조배터리",
+      "product_name_en": "PD 22.5W Fast-Charging 20000mAh Portable Power Bank",
+      "supplier_name_en": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 9619,
+      "price_krw_max": 10533,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩9,619–10,533",
+        "min": 9619,
+        "max": 10533,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "PD 22.5W 고속 충전 20000mAh 휴대용 보조배터리",
+          "supplier_name": "선전 Fxn 전자 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 69.2%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "27건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "PD 22.5W Fast-Charging 20000mAh Portable Power Bank",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "69.2%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 27,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-05",
@@ -282,7 +477,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "16건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "휴대용 8000/10000mAh 대용량 스마트폰 보조배터리",
+      "product_name_en": "Portable 8000/10000mAh High-Capacity Smartphone Power Bank",
+      "supplier_name_en": "Shenzhen Istyle Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6001,
+      "price_krw_max": 6993,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,001–6,993",
+        "min": 6001,
+        "max": 6993,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "휴대용 8000/10000mAh 대용량 스마트폰 보조배터리",
+          "supplier_name": "선전 Istyle 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.4%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "16건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Portable 8000/10000mAh High-Capacity Smartphone Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.4%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 16,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-06",
@@ -326,7 +565,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 94.0%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "15건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "초슬림 5000/10000mAh 15W 마그네틱 무선 보조배터리 (로고 맞춤 제작)",
+      "product_name_en": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank with Custom Logo",
+      "supplier_name_en": "Shenzhen XTW Electronic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 8702,
+      "price_krw_max": 9924,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩8,702–9,924",
+        "min": 8702,
+        "max": 9924,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "초슬림 5000/10000mAh 15W 마그네틱 무선 보조배터리 (로고 맞춤 제작)",
+          "supplier_name": "선전 XTW 전자 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 94.0%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "15건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank with Custom Logo",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "94.0%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 15,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-07",
@@ -370,7 +653,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 92.4%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "149건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "PD100W 디지털 표시 20000mAh 리튬폴리머 노트북 고속 충전 보조배터리",
+      "product_name_en": "PD100W 20000mAh Li-Polymer Laptop Power Bank with Digital Display",
+      "supplier_name_en": "Shenzhen Infinite Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 22882,
+      "price_krw_max": 25493,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩22,882–25,493",
+        "min": 22882,
+        "max": 25493,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "PD100W 디지털 표시 20000mAh 리튬폴리머 노트북 고속 충전 보조배터리",
+          "supplier_name": "선전 Infinite 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 92.4%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "149건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "PD100W 20000mAh Li-Polymer Laptop Power Bank with Digital Display",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "92.4%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 149,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-08",
@@ -414,7 +741,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.3%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "157건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "로고 맞춤형 10000mAh 보조배터리 (듀얼 USB 출력·Type-C 입력)",
+      "product_name_en": "Custom-Logo 10000mAh Power Bank with Dual USB Output and Type-C Input",
+      "supplier_name_en": "Shenzhen Honstar Memory Technology Limited",
+      "price_currency": "KRW",
+      "price_krw_min": 5481,
+      "price_krw_max": 6413,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩5,481–6,413",
+        "min": 5481,
+        "max": 6413,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "로고 맞춤형 10000mAh 보조배터리 (듀얼 USB 출력·Type-C 입력)",
+          "supplier_name": "선전 Honstar Memory 테크놀로지 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.3%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "157건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Custom-Logo 10000mAh Power Bank with Dual USB Output and Type-C Input",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.3%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 157,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-09",
@@ -458,7 +829,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 96.9%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "11건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "LISEN 초슬림 5000mAh 마그네틱 무선 고속 충전 보조배터리",
+      "product_name_en": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Xinjintai Trading Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 15847,
+      "price_krw_max": 16700,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩15,847–16,700",
+        "min": 15847,
+        "max": 16700,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "LISEN 초슬림 5000mAh 마그네틱 무선 고속 충전 보조배터리",
+          "supplier_name": "선전 Xinjintai 무역 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 96.9%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "11건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "96.9%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 11,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-10",
@@ -502,7 +917,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 87.5%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "초슬림 5000mAh 무선 보조배터리 OEM PD 20W 고속 충전",
+      "product_name_en": "Ultra-Slim 5000mAh Wireless Power Bank with OEM PD 20W Fast Charging",
+      "supplier_name_en": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7846,
+      "price_krw_max": 7846,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,846",
+        "min": 7846,
+        "max": 7846,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "초슬림 5000mAh 무선 보조배터리 OEM PD 20W 고속 충전",
+          "supplier_name": "선전 Golf & Feihuang 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 87.5%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Ultra-Slim 5000mAh Wireless Power Bank with OEM PD 20W Fast Charging",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "87.5%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-11",
@@ -546,7 +1005,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 94.0%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "15건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "Oraimo 20000mAh 듀얼 USB 대용량 고속 충전 보조배터리",
+      "product_name_en": "Oraimo 20000mAh High-Capacity Fast-Charging Power Bank with Dual USB Output",
+      "supplier_name_en": "Shenzhen XTW Electronic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 30210,
+      "price_krw_max": 33583,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩30,210–33,583",
+        "min": 30210,
+        "max": 33583,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "Oraimo 20000mAh 듀얼 USB 대용량 고속 충전 보조배터리",
+          "supplier_name": "선전 XTW 전자 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 94.0%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "15건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Oraimo 20000mAh High-Capacity Fast-Charging Power Bank with Dual USB Output",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "94.0%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 15,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-12",
@@ -590,7 +1093,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 64.0%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "33건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "휴대용 10000mAh 리튬폴리머 보조배터리 (표시등·10W 출력)",
+      "product_name_en": "Portable 10000mAh Li-Polymer Power Bank with Indicator Light and 10W Output",
+      "supplier_name_en": "Shenzhen Okzu Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6778,
+      "price_krw_max": 7618,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,778–7,618",
+        "min": 6778,
+        "max": 7618,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "휴대용 10000mAh 리튬폴리머 보조배터리 (표시등·10W 출력)",
+          "supplier_name": "선전 Okzu 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 64.0%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "33건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Portable 10000mAh Li-Polymer Power Bank with Indicator Light and 10W Output",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "64.0%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 33,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-13",
@@ -634,7 +1181,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "10000mAh 알루미늄 합금 초슬림 20W 마그네틱 무선 고속 충전 보조배터리",
+      "product_name_en": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "supplier_name_en": "Dongguan SML Electronic Technology Co.,Ltd",
+      "price_currency": "KRW",
+      "price_krw_min": 22593,
+      "price_krw_max": 22898,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩22,593–22,898",
+        "min": 22593,
+        "max": 22898,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "10000mAh 알루미늄 합금 초슬림 20W 마그네틱 무선 고속 충전 보조배터리",
+          "supplier_name": "둥관 SML 전자 테크놀로지 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-14",
@@ -678,7 +1269,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "2건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "신용카드 크기 5000mAh 미니 LCD 디지털 보조배터리",
+      "product_name_en": "Credit-Card-Size 5000mAh Mini Power Bank with LCD Digital Display",
+      "supplier_name_en": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 4138,
+      "price_krw_max": 4138,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,138",
+        "min": 4138,
+        "max": 4138,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "신용카드 크기 5000mAh 미니 LCD 디지털 보조배터리",
+          "supplier_name": "선전 Golf & Feihuang 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "2건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Credit-Card-Size 5000mAh Mini Power Bank with LCD Digital Display",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 2,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-15",
@@ -722,7 +1357,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 91.2%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "48건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "친환경 코코넛 소재 Type-C 10000mAh 기업 판촉용 보조배터리",
+      "product_name_en": "Eco-Friendly Coconut Type-C 10000mAh Corporate Gift Power Bank with Custom Logo",
+      "supplier_name_en": "Shenzhen ZOGI Technology Limited",
+      "price_currency": "KRW",
+      "price_krw_min": 4566,
+      "price_krw_max": 7618,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,566–7,618",
+        "min": 4566,
+        "max": 7618,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "친환경 코코넛 소재 Type-C 10000mAh 기업 판촉용 보조배터리",
+          "supplier_name": "선전 ZOGI 테크놀로지 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 91.2%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "48건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Eco-Friendly Coconut Type-C 10000mAh Corporate Gift Power Bank with Custom Logo",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "91.2%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 48,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-16",
@@ -766,7 +1445,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.8%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "48건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "미니 휴대용 고속 충전 보조배터리",
+      "product_name_en": "Mini Portable Fast-Charging Power Bank",
+      "supplier_name_en": "Hainan Topone Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 2458,
+      "price_krw_max": 3038,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩2,458–3,038",
+        "min": 2458,
+        "max": 3038,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "미니 휴대용 고속 충전 보조배터리",
+          "supplier_name": "Hainan Topone 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "5-10명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.8%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "48건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Mini Portable Fast-Charging Power Bank",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "5-10",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.8%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 48,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-17",
@@ -810,7 +1533,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "55건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "20000mAh 스마트폰 고속 충전 휴대용 무선 보조배터리",
+      "product_name_en": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+      "supplier_name_en": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 3742,
+      "price_krw_max": 11618,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩3,742–11,618",
+        "min": 3742,
+        "max": 11618,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "20000mAh 스마트폰 고속 충전 휴대용 무선 보조배터리",
+          "supplier_name": "광저우 Xinyongyuan 전자 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "5-10명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "55건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "5-10",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 55,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-18",
@@ -854,7 +1621,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 89.6%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "27건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "로고 맞춤형 2000/4000mAh 내장 케이블 키링 미니 보조배터리",
+      "product_name_en": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank with Built-in Cable",
+      "supplier_name_en": "Shenzhen Mingqun Electronic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 5114,
+      "price_krw_max": 6108,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩5,114–6,108",
+        "min": 5114,
+        "max": 6108,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "로고 맞춤형 2000/4000mAh 내장 케이블 키링 미니 보조배터리",
+          "supplier_name": "선전 Mingqun 전자 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 89.6%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "27건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank with Built-in Cable",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "89.6%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 27,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-19",
@@ -898,7 +1709,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 72.9%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "67건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "로고 맞춤형 초슬림 10000/20000mAh 여행용 고속 충전 보조배터리",
+      "product_name_en": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 4428,
+      "price_krw_max": 5345,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩4,428–5,345",
+        "min": 4428,
+        "max": 5345,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "로고 맞춤형 초슬림 10000/20000mAh 여행용 고속 충전 보조배터리",
+          "supplier_name": "선전 E-Teck Offer 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 72.9%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "67건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "72.9%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 67,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-20",
@@ -942,7 +1797,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 90.4%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "22건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "4개 내장 케이블 PD 22.5W 20000mAh 휴대용 보조배터리 (Type-C 포트)",
+      "product_name_en": "PD 22.5W 20000mAh Portable Power Bank with Four Built-in Cables and Type-C Port",
+      "supplier_name_en": "Shenzhen Shengyi Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7466,
+      "price_krw_max": 12351,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,466–12,351",
+        "min": 7466,
+        "max": 12351,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "4개 내장 케이블 PD 22.5W 20000mAh 휴대용 보조배터리 (Type-C 포트)",
+          "supplier_name": "선전 Shengyi 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤5시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 90.4%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "22건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "PD 22.5W 20000mAh Portable Power Bank with Four Built-in Cables and Type-C Port",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤5h",
+          "supplier_on_time_delivery_rate": "90.4%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 22,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-21",
@@ -986,7 +1885,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.1%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "166건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "Remax Amzo 10000mAh 초슬림 경량 고속 충전 보조배터리",
+      "product_name_en": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Remax Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6336,
+      "price_krw_max": 6977,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,336–6,977",
+        "min": 6336,
+        "max": 6977,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "Remax Amzo 10000mAh 초슬림 경량 고속 충전 보조배터리",
+          "supplier_name": "선전 Remax 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.1%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "166건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.1%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 166,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-22",
@@ -1030,7 +1973,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 92.2%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "16건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "Miccell PD 35W 10000mAh 내장 케이블 LED 표시 방수 보조배터리",
+      "product_name_en": "Miccell PD 35W 10000mAh Waterproof Power Bank with Built-in Cable and LED Display",
+      "supplier_name_en": "Guangzhou Veaqee Electronic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 13510,
+      "price_krw_max": 13787,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩13,510–13,787",
+        "min": 13510,
+        "max": 13787,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "Miccell PD 35W 10000mAh 내장 케이블 LED 표시 방수 보조배터리",
+          "supplier_name": "광저우 Veaqee 전자 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 92.2%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "16건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Miccell PD 35W 10000mAh Waterproof Power Bank with Built-in Cable and LED Display",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "92.2%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 16,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-23",
@@ -1074,7 +2061,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "55건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "립스틱형 5000mAh 미니 비상용 보조배터리 (내장 케이블·스탠드)",
+      "product_name_en": "Lipstick-Style 5000mAh Mini Emergency Power Bank with Built-in Cable and Stand",
+      "supplier_name_en": "Shenzhen Istyle Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 5451,
+      "price_krw_max": 6520,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩5,451–6,520",
+        "min": 5451,
+        "max": 6520,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "립스틱형 5000mAh 미니 비상용 보조배터리 (내장 케이블·스탠드)",
+          "supplier_name": "선전 Istyle 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "55건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Lipstick-Style 5000mAh Mini Emergency Power Bank with Built-in Cable and Stand",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 55,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-24",
@@ -1118,7 +2149,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.7%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "171건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "Prosub 5000mAh 휴대용 마그네틱 무선 고속 충전 보조배터리",
+      "product_name_en": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charging Power Bank",
+      "supplier_name_en": "Dongguan Prosub Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 9159,
+      "price_krw_max": 9924,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩9,159–9,924",
+        "min": 9159,
+        "max": 9924,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "Prosub 5000mAh 휴대용 마그네틱 무선 고속 충전 보조배터리",
+          "supplier_name": "둥관 Prosub 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.7%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "171건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charging Power Bank",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "93.7%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 171,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-25",
@@ -1162,7 +2237,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.9%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "139건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "10000mAh 휴대용 외장 배터리 고속 충전 보조배터리",
+      "product_name_en": "10000mAh Portable External-Battery Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6717,
+      "price_krw_max": 7634,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,717–7,634",
+        "min": 6717,
+        "max": 7634,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "10000mAh 휴대용 외장 배터리 고속 충전 보조배터리",
+          "supplier_name": "선전 Baolifeng Opto-Elec 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.9%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "139건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "10000mAh Portable External-Battery Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.9%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 139,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-26",
@@ -1206,7 +2325,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.2%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "82건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "아이폰용 5000/10000mAh 무선 마그네틱 고속 충전 보조배터리",
+      "product_name_en": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank for iPhone",
+      "supplier_name_en": "Guangdong Paipai Communication Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 6092,
+      "price_krw_max": 10977,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩6,092–10,977",
+        "min": 6092,
+        "max": 10977,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "아이폰용 5000/10000mAh 무선 마그네틱 고속 충전 보조배터리",
+          "supplier_name": "광둥 Paipai Communication 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.2%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "82건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank for iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "99.2%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 82,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-27",
@@ -1250,7 +2413,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 98.6%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "73건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "공장 맞춤형 50000mAh 초슬림 휴대용 22.5W 고속 충전 보조배터리",
+      "product_name_en": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Ysap Electronic Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 11892,
+      "price_krw_max": 13388,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩11,892–13,388",
+        "min": 11892,
+        "max": 13388,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "공장 맞춤형 50000mAh 초슬림 휴대용 22.5W 고속 충전 보조배터리",
+          "supplier_name": "선전 Ysap 전자 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 98.6%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "73건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "98.6%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 73,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "power-bank-28",
@@ -1294,7 +2501,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 92.4%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "149건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "초슬림 5000/10000mAh 15W/20W 무선 마그네틱 고속 충전 보조배터리",
+      "product_name_en": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Infinite Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 14946,
+      "price_krw_max": 15251,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩14,946–15,251",
+        "min": 14946,
+        "max": 15251,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "초슬림 5000/10000mAh 15W/20W 무선 마그네틱 고속 충전 보조배터리",
+          "supplier_name": "선전 Infinite 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 92.4%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "149건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "92.4%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 149,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-29",
@@ -1338,7 +2589,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 87.6%",
       "supplier_rating_ko": "4.6/5점",
       "supplier_total_review_order_count_ko": "65건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "5000mAh 내장 케이블·스탠드 미니 보조배터리",
+      "product_name_en": "5000mAh Mini Power Bank with Built-in Cable and Stand",
+      "supplier_name_en": "Shenzhen Toptai Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 5345,
+      "price_krw_max": 6108,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩5,345–6,108",
+        "min": 5345,
+        "max": 6108,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "5000mAh 내장 케이블·스탠드 미니 보조배터리",
+          "supplier_name": "선전 Toptai 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 87.6%",
+          "supplier_rating": "4.6/5점",
+          "supplier_total_review_order_count": "65건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "5000mAh Mini Power Bank with Built-in Cable and Stand",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "87.6%",
+          "supplier_rating": "4.6",
+          "supplier_total_review_order_count": 65,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "power-bank-30",
@@ -1382,7 +2677,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 97.4%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "16건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "보조배터리",
+      "category_name_en": "Power Banks",
+      "product_name_ko": "마그네틱 알루미늄 합금 5000mAh 초슬림 무선 충전 보조배터리",
+      "product_name_en": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+      "supplier_name_en": "Shenzhen Istyle Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 10060,
+      "price_krw_max": 11068,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩10,060–11,068",
+        "min": 10060,
+        "max": 11068,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "보조배터리",
+          "product_name": "마그네틱 알루미늄 합금 5000mAh 초슬림 무선 충전 보조배터리",
+          "supplier_name": "선전 Istyle 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 97.4%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "16건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Power Banks",
+          "product_name": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "97.4%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 16,
+          "supplier_verified": true
+        }
+      }
     }
   ]
 }

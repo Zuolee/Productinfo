@@ -60,6 +60,25 @@
       "format": "PNG",
       "directory": "images/<category>/",
       "note": "Product main images are converted to PNG and grouped by category for Figma compatibility."
+    },
+    "data_structure_version": "2026-07-02.multilingual-price-v2",
+    "multilingual_fields": {
+      "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+      "object": "localized",
+      "languages": [
+        "ko",
+        "en"
+      ]
+    },
+    "price_fields": {
+      "currency": "KRW",
+      "display_field": "price_krw",
+      "numeric_fields": [
+        "price_krw_min",
+        "price_krw_max"
+      ],
+      "object": "price",
+      "note": "Range prices are split into min and max integer KRW values. Single prices use the same value for min and max."
     }
   },
   "products": [
@@ -105,7 +124,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "맞춤형 여름 A라인 미니 원피스 반소매 V넥 Y2K 스타일",
+      "product_name_en": "Custom Summer A-Line Mini Dress with Short Sleeves and V-Neck, Y2K Style",
+      "supplier_name_en": "Dongguan Manni Clothing Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 19082,
+      "price_krw_max": 22898,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩19,082–22,898",
+        "min": 19082,
+        "max": 22898,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "맞춤형 여름 A라인 미니 원피스 반소매 V넥 Y2K 스타일",
+          "supplier_name": "둥관 Manni 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 86.4%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Custom Summer A-Line Mini Dress with Short Sleeves and V-Neck, Y2K Style",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "86.4%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-02",
@@ -149,7 +212,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "맞춤 프린트 V넥 민소매 벨티드 맥시 원피스",
+      "product_name_en": "Custom-Print V-Neck Sleeveless Belted Maxi Dress",
+      "supplier_name_en": "Hubei Huili Apparel Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 19541,
+      "price_krw_max": 22593,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩19,541–22,593",
+        "min": 19541,
+        "max": 22593,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "맞춤 프린트 V넥 민소매 벨티드 맥시 원피스",
+          "supplier_name": "Hubei Huili 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.8%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Custom-Print V-Neck Sleeveless Belted Maxi Dress",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "93.8%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-03",
@@ -193,7 +300,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "올드머니 브라운 스웨이드 셔츠형 맥시 원피스 (허리끈·긴소매)",
+      "product_name_en": "Old-Money Brown Suede Shirt Maxi Dress with Long Sleeves and Tie Waist",
+      "supplier_name_en": "Dongguan Manni Clothing Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 15267,
+      "price_krw_max": 15267,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩15,267",
+        "min": 15267,
+        "max": 15267,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "올드머니 브라운 스웨이드 셔츠형 맥시 원피스 (허리끈·긴소매)",
+          "supplier_name": "둥관 Manni 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 86.4%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Old-Money Brown Suede Shirt Maxi Dress with Long Sleeves and Tie Waist",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "86.4%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-04",
@@ -237,7 +388,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.7%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "193건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "로고 맞춤형 여름 바디콘 롱 원피스",
+      "product_name_en": "Custom-Logo Summer Bodycon Long Dress",
+      "supplier_name_en": "Gaomi Jia He Yuan Garments Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 14961,
+      "price_krw_max": 26561,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩14,961–26,561",
+        "min": 14961,
+        "max": 26561,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "로고 맞춤형 여름 바디콘 롱 원피스",
+          "supplier_name": "Gaomi Jia He Yuan Garments 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.7%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "193건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Custom-Logo Summer Bodycon Long Dress",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "99.7%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 193,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-05",
@@ -281,7 +476,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "1건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "여성 캐주얼 무릎길이 민소매 슬림핏 원피스",
+      "product_name_en": "Women's Casual Knee-Length Sleeveless Slim-Fit Dress",
+      "supplier_name_en": "Xiamen Feeling Textile And Garment Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 7267,
+      "price_krw_max": 10382,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩7,267–10,382",
+        "min": 7267,
+        "max": 10382,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "여성 캐주얼 무릎길이 민소매 슬림핏 원피스",
+          "supplier_name": "샤먼 Feeling 섬유 And 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "1건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Women's Casual Knee-Length Sleeveless Slim-Fit Dress",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 1,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-06",
@@ -325,7 +564,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "MANNI 스트라이프 홀터넥 보헤미안 선드레스 (컷아웃·러플 밑단)",
+      "product_name_en": "MANNI Striped Halter Bohemian Sundress with Cutout Detail and Ruffle Hem",
+      "supplier_name_en": "Dongguan Manni Clothing Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 28089,
+      "price_krw_max": 35569,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩28,089–35,569",
+        "min": 28089,
+        "max": 35569,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "MANNI 스트라이프 홀터넥 보헤미안 선드레스 (컷아웃·러플 밑단)",
+          "supplier_name": "둥관 Manni 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 86.4%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "MANNI Striped Halter Bohemian Sundress with Cutout Detail and Ruffle Hem",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "86.4%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-07",
@@ -369,7 +652,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.2%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "138건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "여름 입체 텍스처 섹시 미니 파티 원피스",
+      "product_name_en": "Summer 3D-Textured Sexy Mini Party Dress",
+      "supplier_name_en": "Shandong Saier Garment Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 10579,
+      "price_krw_max": 10579,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩10,579",
+        "min": 10579,
+        "max": 10579,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "여름 입체 텍스처 섹시 미니 파티 원피스",
+          "supplier_name": "Shandong Saier 의류 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.2%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "138건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Summer 3D-Textured Sexy Mini Party Dress",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "99.2%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 138,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-08",
@@ -413,7 +740,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "여름 스트랩리스 더블 레이스 패널 미니 원피스",
+      "product_name_en": "Summer Strapless Mini Dress with Double Lace Panels",
+      "supplier_name_en": "Guangzhou Miying Fashion Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 18167,
+      "price_krw_max": 21219,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩18,167–21,219",
+        "min": 18167,
+        "max": 21219,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "여름 스트랩리스 더블 레이스 패널 미니 원피스",
+          "supplier_name": "광저우 Miying 패션 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤7시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 98.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Summer Strapless Mini Dress with Double Lace Panels",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤7h",
+          "supplier_on_time_delivery_rate": "98.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-09",
@@ -457,7 +828,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 82.3%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "빈티지 핑크 스퀘어넥 맥시 원피스 (퍼프소매·레이스 장식)",
+      "product_name_en": "Vintage Pink Square-Neck Maxi Dress with Puff Sleeves and Lace Trim",
+      "supplier_name_en": "Xiamen Indigo Clothing Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 20395,
+      "price_krw_max": 24669,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩20,395–24,669",
+        "min": 20395,
+        "max": 24669,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "빈티지 핑크 스퀘어넥 맥시 원피스 (퍼프소매·레이스 장식)",
+          "supplier_name": "샤먼 Indigo 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 82.3%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Vintage Pink Square-Neck Maxi Dress with Puff Sleeves and Lace Trim",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "82.3%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-10",
@@ -501,7 +916,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.7%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "193건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "맞춤형 바디콘 섹시 이브닝 롱 원피스",
+      "product_name_en": "Custom Bodycon Sexy Evening Long Dress",
+      "supplier_name_en": "Gaomi Jia He Yuan Garments Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 16639,
+      "price_krw_max": 26258,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩16,639–26,258",
+        "min": 16639,
+        "max": 26258,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "맞춤형 바디콘 섹시 이브닝 롱 원피스",
+          "supplier_name": "Gaomi Jia He Yuan Garments 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.7%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "193건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Custom Bodycon Sexy Evening Long Dress",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "99.7%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 193,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-11",
@@ -545,7 +1004,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 94.5%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "33건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "QIYUE 100% 실크 럭셔리 슬립 드레스",
+      "product_name_en": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+      "supplier_name_en": "Zibo Daranfang Silk Group Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 160284,
+      "price_krw_max": 160284,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩160,284",
+        "min": 160284,
+        "max": 160284,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "QIYUE 100% 실크 럭셔리 슬립 드레스",
+          "supplier_name": "Zibo Daranfang Silk Group 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "1000+명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 94.5%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "33건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "1000+",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "94.5%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 33,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-12",
@@ -589,7 +1092,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 92.3%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "2건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "프리미엄 맞춤형 여성 원피스 OEM/ODM",
+      "product_name_en": "Premium Custom Women's Dress, OEM/ODM Manufacturing",
+      "supplier_name_en": "Dongguan Shengfu Textile Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 24272,
+      "price_krw_max": 26715,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩24,272–26,715",
+        "min": 24272,
+        "max": 26715,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "프리미엄 맞춤형 여성 원피스 OEM/ODM",
+          "supplier_name": "둥관 Shengfu 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 92.3%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "2건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Premium Custom Women's Dress, OEM/ODM Manufacturing",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "92.3%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 2,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-13",
@@ -633,7 +1180,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "Huili 여성 2피스 핑크 민소매 니트 파티 원피스 세트",
+      "product_name_en": "Huili Women's 2-Piece Pink Sleeveless Knit Party Dress Set",
+      "supplier_name_en": "Hubei Huili Apparel Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 16639,
+      "price_krw_max": 22747,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩16,639–22,747",
+        "min": 16639,
+        "max": 22747,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "Huili 여성 2피스 핑크 민소매 니트 파티 원피스 세트",
+          "supplier_name": "Hubei Huili 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.8%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Huili Women's 2-Piece Pink Sleeveless Knit Party Dress Set",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "93.8%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-14",
@@ -677,7 +1268,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "30건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "솔리드 딥 V넥 슬립 비대칭 플리츠 이브닝 원피스",
+      "product_name_en": "Solid Deep-V Slip Asymmetric Pleated Evening Dress",
+      "supplier_name_en": "Dongguan Liangliang Garment Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 31906,
+      "price_krw_max": 36486,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩31,906–36,486",
+        "min": 31906,
+        "max": 36486,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "솔리드 딥 V넥 슬립 비대칭 플리츠 이브닝 원피스",
+          "supplier_name": "둥관 Liangliang 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "30건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Solid Deep-V Slip Asymmetric Pleated Evening Dress",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 30,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-15",
@@ -721,7 +1356,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 95.5%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "79건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "블랙 긴소매 심리스 맥시 원피스 (내장 보정복)",
+      "product_name_en": "Black Long-Sleeve Seamless Maxi Dress with Built-in Shapewear",
+      "supplier_name_en": "Xiamen Heailun Garments Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 17556,
+      "price_krw_max": 22106,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩17,556–22,106",
+        "min": 17556,
+        "max": 22106,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "블랙 긴소매 심리스 맥시 원피스 (내장 보정복)",
+          "supplier_name": "샤먼 Heailun Garments 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 95.5%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "79건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Black Long-Sleeve Seamless Maxi Dress with Built-in Shapewear",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "95.5%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 79,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-16",
@@ -765,7 +1444,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.3%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "67건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "여성 크로스백 테니스 원피스 2피스 세트 (포켓·골프 겸용)",
+      "product_name_en": "Women's Cross-Back Tennis Dress 2-Piece Set with Pockets for Golf and Outdoor Sports",
+      "supplier_name_en": "Shenzhen Ipretty Sports Company Limited",
+      "price_currency": "KRW",
+      "price_krw_min": 21357,
+      "price_krw_max": 25325,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩21,357–25,325",
+        "min": 21357,
+        "max": 25325,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "여성 크로스백 테니스 원피스 2피스 세트 (포켓·골프 겸용)",
+          "supplier_name": "선전 Ipretty Sports 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.3%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "67건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Women's Cross-Back Tennis Dress 2-Piece Set with Pockets for Golf and Outdoor Sports",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "93.3%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 67,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-17",
@@ -809,7 +1532,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "16MM 플로럴 코티지코어 실크 코튼 원피스",
+      "product_name_en": "16MM Floral Cottagecore Silk-Cotton Dress",
+      "supplier_name_en": "Zibo Daranfang E-Commerce Co., Ltd",
+      "price_currency": "KRW",
+      "price_krw_min": 53154,
+      "price_krw_max": 60099,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩53,154–60,099",
+        "min": 53154,
+        "max": 60099,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "16MM 플로럴 코티지코어 실크 코튼 원피스",
+          "supplier_name": "Zibo Daranfang E-Commerce 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "16MM Floral Cottagecore Silk-Cotton Dress",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "93.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-18",
@@ -853,7 +1620,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 81.6%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "4건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "Beefey 봄여름 스위트 스타일 경량 통기성 캐주얼 원피스",
+      "product_name_en": "Beefey Spring/Summer Sweet-Style Lightweight Breathable Casual Dress",
+      "supplier_name_en": "Beefey Apparel (weifang) Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 16594,
+      "price_krw_max": 24424,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩16,594–24,424",
+        "min": 16594,
+        "max": 24424,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "Beefey 봄여름 스위트 스타일 경량 통기성 캐주얼 원피스",
+          "supplier_name": "Beefey 의류 (weifang) 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤1시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 81.6%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "4건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Beefey Spring/Summer Sweet-Style Lightweight Breathable Casual Dress",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤1h",
+          "supplier_on_time_delivery_rate": "81.6%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 4,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-19",
@@ -897,7 +1708,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 86.4%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "피터팬 칼라 더블브레스트 골드 버튼 플리츠 A라인 오피스 미디 원피스",
+      "product_name_en": "Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Office Midi Dress",
+      "supplier_name_en": "Dongguan Manni Clothing Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 30011,
+      "price_krw_max": 30349,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩30,011–30,349",
+        "min": 30011,
+        "max": 30349,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "피터팬 칼라 더블브레스트 골드 버튼 플리츠 A라인 오피스 미디 원피스",
+          "supplier_name": "둥관 Manni 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 86.4%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Office Midi Dress",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "86.4%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-20",
@@ -941,7 +1796,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.2%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "138건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "여름 홀터넥 백리스 바디콘 미니 원피스",
+      "product_name_en": "Summer Halter-Neck Backless Bodycon Mini Dress",
+      "supplier_name_en": "Shandong Saier Garment Technology Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 16213,
+      "price_krw_max": 16213,
+      "price_krw_is_range": false,
+      "price": {
+        "currency": "KRW",
+        "display": "₩16,213",
+        "min": 16213,
+        "max": 16213,
+        "is_range": false
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "여름 홀터넥 백리스 바디콘 미니 원피스",
+          "supplier_name": "Shandong Saier 의류 테크놀로지 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.2%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "138건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Summer Halter-Neck Backless Bodycon Mini Dress",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "99.2%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 138,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-21",
@@ -985,7 +1884,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 98.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "솔리드 딥 V넥 플리츠 허리라인 미니 원피스",
+      "product_name_en": "Solid Deep-V Pleated Waist Mini Dress",
+      "supplier_name_en": "Guangzhou Miying Fashion Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 14183,
+      "price_krw_max": 16365,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩14,183–16,365",
+        "min": 14183,
+        "max": 16365,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "솔리드 딥 V넥 플리츠 허리라인 미니 원피스",
+          "supplier_name": "광저우 Miying 패션 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤7시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 98.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Solid Deep-V Pleated Waist Mini Dress",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤7h",
+          "supplier_on_time_delivery_rate": "98.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-22",
@@ -1029,7 +1972,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 92.3%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "2건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "SHENGFU 소량 주문 맞춤형 여성 원피스 OEM/ODM",
+      "product_name_en": "SHENGFU Low-MOQ Custom Women's Dress, OEM/ODM Manufacturing",
+      "supplier_name_en": "Dongguan Shengfu Textile Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 25798,
+      "price_krw_max": 28241,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩25,798–28,241",
+        "min": 25798,
+        "max": 28241,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "SHENGFU 소량 주문 맞춤형 여성 원피스 OEM/ODM",
+          "supplier_name": "둥관 Shengfu 섬유 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "301-500명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 92.3%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "2건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "SHENGFU Low-MOQ Custom Women's Dress, OEM/ODM Manufacturing",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "301-500",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "92.3%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 2,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-23",
@@ -1073,7 +2060,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 94.5%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "33건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "100% 멀버리 실크 레이스 V넥 캐미솔 A라인 원피스",
+      "product_name_en": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+      "supplier_name_en": "Zibo Daranfang Silk Group Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 54177,
+      "price_krw_max": 61229,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩54,177–61,229",
+        "min": 54177,
+        "max": 61229,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "100% 멀버리 실크 레이스 V넥 캐미솔 A라인 원피스",
+          "supplier_name": "Zibo Daranfang Silk Group 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "1000+명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 94.5%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "33건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "1000+",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "94.5%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 33,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-24",
@@ -1117,7 +2148,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 82.3%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "플로럴 스퀘어넥 퍼프소매 러플 밑단 코티지코어 미디 원피스",
+      "product_name_en": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+      "supplier_name_en": "Xiamen Indigo Clothing Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 22898,
+      "price_krw_max": 32592,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩22,898–32,592",
+        "min": 22898,
+        "max": 32592,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "플로럴 스퀘어넥 퍼프소매 러플 밑단 코티지코어 미디 원피스",
+          "supplier_name": "샤먼 Indigo 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤4시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 82.3%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤4h",
+          "supplier_on_time_delivery_rate": "82.3%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-25",
@@ -1161,7 +2236,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 99.7%",
       "supplier_rating_ko": "4.7/5점",
       "supplier_total_review_order_count_ko": "193건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "신상 바디콘 파티·이브닝 맥시 원피스",
+      "product_name_en": "New-Design Bodycon Party and Evening Maxi Dress",
+      "supplier_name_en": "Gaomi Jia He Yuan Garments Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 15113,
+      "price_krw_max": 27326,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩15,113–27,326",
+        "min": 15113,
+        "max": 27326,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "신상 바디콘 파티·이브닝 맥시 원피스",
+          "supplier_name": "Gaomi Jia He Yuan Garments 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "101-200명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 99.7%",
+          "supplier_rating": "4.7/5점",
+          "supplier_total_review_order_count": "193건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "New-Design Bodycon Party and Evening Maxi Dress",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "101-200",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "99.7%",
+          "supplier_rating": "4.7",
+          "supplier_total_review_order_count": 193,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-26",
@@ -1205,7 +2324,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 100.0%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "30건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "맞춤형 블랙 메쉬 바디콘 레이스 플로럴 러플 파티 원피스",
+      "product_name_en": "Custom Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+      "supplier_name_en": "Dongguan Liangliang Garment Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 11908,
+      "price_krw_max": 16336,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩11,908–16,336",
+        "min": 11908,
+        "max": 16336,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "맞춤형 블랙 메쉬 바디콘 레이스 플로럴 러플 파티 원피스",
+          "supplier_name": "둥관 Liangliang 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 100.0%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "30건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Custom Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "100.0%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 30,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-27",
@@ -1249,7 +2412,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 95.5%",
       "supplier_rating_ko": "4.8/5점",
       "supplier_total_review_order_count_ko": "79건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "Waistdear 친환경 V넥 심리스 롱 원피스 (내장 보정복)",
+      "product_name_en": "Waistdear Eco-Friendly V-Neck Seamless Long Dress with Built-in Shapewear",
+      "supplier_name_en": "Xiamen Heailun Garments Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 12915,
+      "price_krw_max": 14350,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩12,915–14,350",
+        "min": 12915,
+        "max": 14350,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "Waistdear 친환경 V넥 심리스 롱 원피스 (내장 보정복)",
+          "supplier_name": "샤먼 Heailun Garments 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "51-100명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 95.5%",
+          "supplier_rating": "4.8/5점",
+          "supplier_total_review_order_count": "79건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Waistdear Eco-Friendly V-Neck Seamless Long Dress with Built-in Shapewear",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "51-100",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "95.5%",
+          "supplier_rating": "4.8",
+          "supplier_total_review_order_count": 79,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-28",
@@ -1293,7 +2500,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.0%",
       "supplier_rating_ko": "4.9/5점",
       "supplier_total_review_order_count_ko": "13건",
-      "supplier_verified_ko": "미인증"
+      "supplier_verified_ko": "미인증",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "100% 멀버리 실크 여성 홈웨어 슬립 드레스",
+      "product_name_en": "100% Mulberry Silk Women's Homewear Sleep Dress",
+      "supplier_name_en": "Zibo Daranfang E-Commerce Co., Ltd",
+      "price_currency": "KRW",
+      "price_krw_min": 68374,
+      "price_krw_max": 77304,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩68,374–77,304",
+        "min": 68374,
+        "max": 77304,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "100% 멀버리 실크 여성 홈웨어 슬립 드레스",
+          "supplier_name": "Zibo Daranfang E-Commerce 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤2시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.0%",
+          "supplier_rating": "4.9/5점",
+          "supplier_total_review_order_count": "13건",
+          "supplier_verified": "미인증"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "100% Mulberry Silk Women's Homewear Sleep Dress",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤2h",
+          "supplier_on_time_delivery_rate": "93.0%",
+          "supplier_rating": "4.9",
+          "supplier_total_review_order_count": 13,
+          "supplier_verified": false
+        }
+      }
     },
     {
       "id": "womens-dresses-29",
@@ -1337,7 +2588,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.3%",
       "supplier_rating_ko": "4.5/5점",
       "supplier_total_review_order_count_ko": "67건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "딥 V넥 슬림핏 속건 테니스·골프 원피스 (안전 쇼츠)",
+      "product_name_en": "Deep-V Slim-Fit Quick-Dry Tennis and Golf Dress with Safety Shorts",
+      "supplier_name_en": "Shenzhen Ipretty Sports Company Limited",
+      "price_currency": "KRW",
+      "price_krw_min": 22882,
+      "price_krw_max": 25936,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩22,882–25,936",
+        "min": 22882,
+        "max": 25936,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "딥 V넥 슬림핏 속건 테니스·골프 원피스 (안전 쇼츠)",
+          "supplier_name": "선전 Ipretty Sports 유한회사 (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "무역회사",
+          "supplier_employee_count": "11-50명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.3%",
+          "supplier_rating": "4.5/5점",
+          "supplier_total_review_order_count": "67건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Deep-V Slim-Fit Quick-Dry Tennis and Golf Dress with Safety Shorts",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN",
+          "supplier_business_type": "Trading Company",
+          "supplier_employee_count": "11-50",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "93.3%",
+          "supplier_rating": "4.5",
+          "supplier_total_review_order_count": 67,
+          "supplier_verified": true
+        }
+      }
     },
     {
       "id": "womens-dresses-30",
@@ -1381,7 +2676,51 @@
       "supplier_on_time_delivery_rate_ko": "정시 배송률 93.8%",
       "supplier_rating_ko": "5.0/5점",
       "supplier_total_review_order_count_ko": "5건",
-      "supplier_verified_ko": "인증됨"
+      "supplier_verified_ko": "인증됨",
+      "category_name_ko": "여성 원피스",
+      "category_name_en": "Women's Dresses",
+      "product_name_ko": "미니멀 리넨 하이넥 백리스 민소매 미디 원피스 (포켓)",
+      "product_name_en": "Minimalist Linen High-Neck Backless Sleeveless Midi Dress with Pockets",
+      "supplier_name_en": "Hubei Huili Apparel Co., Ltd.",
+      "price_currency": "KRW",
+      "price_krw_min": 25647,
+      "price_krw_max": 30226,
+      "price_krw_is_range": true,
+      "price": {
+        "currency": "KRW",
+        "display": "₩25,647–30,226",
+        "min": 25647,
+        "max": 30226,
+        "is_range": true
+      },
+      "localized": {
+        "ko": {
+          "category_name": "여성 원피스",
+          "product_name": "미니멀 리넨 하이넥 백리스 민소매 미디 원피스 (포켓)",
+          "supplier_name": "Hubei Huili 의류 유한회사. (중국)",
+          "supplier_country": "중국",
+          "supplier_business_type": "제조업체, 무역회사",
+          "supplier_employee_count": "201-300명",
+          "supplier_response_time": "≤3시간",
+          "supplier_on_time_delivery_rate": "정시 배송률 93.8%",
+          "supplier_rating": "5.0/5점",
+          "supplier_total_review_order_count": "5건",
+          "supplier_verified": "인증됨"
+        },
+        "en": {
+          "category_name": "Women's Dresses",
+          "product_name": "Minimalist Linen High-Neck Backless Sleeveless Midi Dress with Pockets",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN",
+          "supplier_business_type": "Manufacturer,Trading Company",
+          "supplier_employee_count": "201-300",
+          "supplier_response_time": "≤3h",
+          "supplier_on_time_delivery_rate": "93.8%",
+          "supplier_rating": "5.0",
+          "supplier_total_review_order_count": 5,
+          "supplier_verified": true
+        }
+      }
     }
   ]
 }
