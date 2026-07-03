@@ -81,21 +81,23 @@ CATEGORIES = {
             "switching power supply pc atx psu",
         ],
     },
-    "bag-accessories": {
-        "category_id": "bag-accessories",
-        "category_zh": "主包配件",
-        "category_ko": "가방 액세서리",
-        "category_en": "Bag Accessories",
-        "image_dir": "bag_accessories",
-        "image_prefix": "bag_accessory",
+    "jewelry-accessories": {
+        "category_id": "jewelry-accessories",
+        "category_zh": "珠宝配件",
+        "category_ko": "주얼리 액세서리",
+        "category_en": "Jewelry Accessories",
+        "image_dir": "jewelry_accessories",
+        "image_prefix": "jewelry_accessory",
         "queries": [
-            "bag accessories handbag hardware wholesale",
-            "handbag accessories metal buckle strap chain",
-            "bag hardware accessories purse parts",
-            "luggage bag accessories buckle handle strap",
+            "jewelry accessories wholesale beads charms findings",
+            "jewelry making accessories findings wholesale",
+            "stainless steel jewelry accessories charms beads",
+            "earring necklace bracelet jewelry accessories",
         ],
     },
 }
+
+REPLACED_CATEGORY_IDS = {"bag-accessories"}
 
 
 CERT_PATTERNS = [
@@ -151,9 +153,9 @@ def is_relevant(category_id: str, title: str) -> bool:
         return any(token in lower for token in ["power supply", "psu"]) and any(
             token in lower for token in ["pc", "atx", "computer", "gaming", "server", "desktop"]
         )
-    if category_id == "bag-accessories":
-        return any(token in lower for token in ["bag", "handbag", "purse", "luggage"]) and any(
-            token in lower for token in ["accessor", "hardware", "buckle", "strap", "chain", "handle", "tag", "logo", "parts"]
+    if category_id == "jewelry-accessories":
+        return any(token in lower for token in ["jewelry", "jewellery", "earring", "necklace", "bracelet", "ring", "bead", "charm", "pendant"]) and any(
+            token in lower for token in ["accessor", "finding", "bead", "charm", "pendant", "chain", "connector", "clasp", "hook", "parts"]
         )
     return True
 
@@ -224,22 +226,24 @@ def korean_name(category_id: str, title: str) -> str:
         suffix = f" ({unique_features(features)})" if features else ""
         return f"{prefix}PC 전원공급장치{suffix}"
 
-    if category_id == "bag-accessories":
+    if category_id == "jewelry-accessories":
         features = []
         for token, label in [
-            ("strap", "스트랩"),
+            ("bead", "비즈"),
+            ("charm", "참"),
+            ("pendant", "펜던트"),
             ("chain", "체인"),
-            ("buckle", "버클"),
-            ("handle", "손잡이"),
-            ("logo", "로고"),
-            ("tag", "태그"),
-            ("metal", "금속"),
-            ("leather", "가죽"),
+            ("clasp", "잠금장식"),
+            ("earring", "귀걸이"),
+            ("necklace", "목걸이"),
+            ("bracelet", "팔찌"),
+            ("stainless", "스테인리스"),
+            ("silver", "실버"),
         ]:
             if token in lower:
                 features.append(label)
         suffix = f" ({unique_features(features)})" if features else ""
-        return f"가방 액세서리{suffix}"
+        return f"주얼리 액세서리{suffix}"
 
     return title
 
@@ -422,7 +426,7 @@ def main() -> None:
     existing = [
         product
         for product in payload["products"]
-        if product["category_id"] not in CATEGORIES
+        if product["category_id"] not in CATEGORIES and product["category_id"] not in REPLACED_CATEGORY_IDS
     ]
 
     rates, rate_date = fetch_rates()

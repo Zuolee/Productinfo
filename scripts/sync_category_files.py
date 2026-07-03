@@ -17,7 +17,7 @@ CATEGORY_FILE_NAMES = {
     "nail-polish": "nail_polish.json",
     "safety-helmets": "safety_helmets.json",
     "pc-power-supplies": "pc_power_supplies.json",
-    "bag-accessories": "bag_accessories.json",
+    "jewelry-accessories": "jewelry_accessories.json",
 }
 
 CATEGORY_ORDER = [
@@ -29,7 +29,7 @@ CATEGORY_ORDER = [
     "nail-polish",
     "safety-helmets",
     "pc-power-supplies",
-    "bag-accessories",
+    "jewelry-accessories",
 ]
 
 
