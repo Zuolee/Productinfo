@@ -14,6 +14,10 @@ CATEGORY_FILE_NAMES = {
     "cooling-mattresses": "cooling_mattresses.json",
     "desktop-organizers": "desktop_organizers.json",
     "memory-cards": "memory_cards.json",
+    "nail-polish": "nail_polish.json",
+    "safety-helmets": "safety_helmets.json",
+    "pc-power-supplies": "pc_power_supplies.json",
+    "bag-accessories": "bag_accessories.json",
 }
 
 CATEGORY_ORDER = [
@@ -22,6 +26,10 @@ CATEGORY_ORDER = [
     "cooling-mattresses",
     "desktop-organizers",
     "memory-cards",
+    "nail-polish",
+    "safety-helmets",
+    "pc-power-supplies",
+    "bag-accessories",
 ]
 
 

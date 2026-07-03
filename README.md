@@ -11,6 +11,10 @@ Structured Alibaba.com product information for Korea-market research.
 - `data/cooling_mattresses.json` — cooling mattresses category subset using the same `metadata` + `products` structure as `products.json`.
 - `data/desktop_organizers.json` — desktop organizers category subset using the same `metadata` + `products` structure as `products.json`.
 - `data/memory_cards.json` — memory cards category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/nail_polish.json` — nail polish category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/safety_helmets.json` — safety helmets category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/pc_power_supplies.json` — PC power supplies category subset using the same `metadata` + `products` structure as `products.json`.
+- `data/bag_accessories.json` — bag accessories category subset using the same `metadata` + `products` structure as `products.json`.
 - `data/suppliers.json` — supplier cache keyed by Alibaba product detail URL.
 - `images/` — downloaded product main images converted to PNG and grouped by category.
   - `images/power_bank/`
@@ -18,6 +22,10 @@ Structured Alibaba.com product information for Korea-market research.
   - `images/cooling_mattresses/`
   - `images/desktop_organizers/`
   - `images/memory_cards/`
+  - `images/nail_polish/`
+  - `images/safety_helmets/`
+  - `images/pc_power_supplies/`
+  - `images/bag_accessories/`
 - `exports/alibaba_products_with_images.xlsx` — Excel workbook with embedded product images.
 
 ## Product counts
@@ -29,8 +37,12 @@ Structured Alibaba.com product information for Korea-market research.
 | `cooling-mattresses` | 凉感床垫 | 쿨링 매트리스 | Cooling Mattresses | 30 |
 | `desktop-organizers` | 桌面整理柜 | 데스크 정리함 | Desktop Organizers | 30 |
 | `memory-cards` | 存储卡 | 메모리 카드 | Memory Cards | 30 |
+| `nail-polish` | 指甲油 | 네일 폴리시 | Nail Polish | 30 |
+| `safety-helmets` | 安全帽 | 안전모 | Safety Helmets | 30 |
+| `pc-power-supplies` | 电脑(PC)电源 | PC 전원공급장치 | PC Power Supplies | 30 |
+| `bag-accessories` | 主包配件 | 가방 액세서리 | Bag Accessories | 30 |
 
-Total products: **150**
+Total products: **270**
 
 ## Schema
 

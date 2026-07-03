@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "source": "Alibaba.com public product listings collected into local HTML/workbook and supplemental memory-card search results",
+    "source": "Alibaba.com public product listings collected into local structured dataset",
     "generated_from": "data/products.json",
     "dataset_type": "category_subset",
     "category": {
