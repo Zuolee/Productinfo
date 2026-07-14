@@ -63,11 +63,24 @@
     },
     "data_structure_version": "2026-07-02.multilingual-price-v2",
     "multilingual_fields": {
-      "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+      "note": "Display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
       "object": "localized",
       "languages": [
         "ko",
-        "en"
+        "en",
+        "es",
+        "pt",
+        "fr",
+        "it",
+        "id",
+        "vi",
+        "th",
+        "ms",
+        "tl",
+        "km",
+        "my",
+        "lo",
+        "ar"
       ]
     },
     "price_fields": {
@@ -167,8 +180,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 166,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Banco de energía portátil de carga rápida",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "REMAX FP-22 20W + 22,5W PD + QC 30000mAh portátil de carregamento rápido banco de potência",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "REMAX FP-22 20W + 22,5W PD + QC 30000mAh Banque d'alimentation portable à charge rapide",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "REMAX FP-22 20W+22,5W PD+QC 30000mAh Power Bank portatile a ricarica rapida",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Bank Daya Pengisian Cepat Portabel",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Sạc dự phòng di động nhanh",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh แบบพกพา Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Bank Kuasa Pengecasan Cepat Mudah Alih",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Portable Fast-Charge Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Power Bank សាកថ្មលឿនចល័ត",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh အိတ်ဆောင် အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Power Bank ສາກໄວ Portable",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "REMAX FP-22 20W+22.5W PD+QC باور بانك محمول سريع الشحن بقدرة 30000 مللي أمبير في الساعة",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Banco de energía portátil de carga rápida",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "REMAX FP-22 20W + 22,5W PD + QC 30000mAh portátil de carregamento rápido banco de potência",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "REMAX FP-22 20W + 22,5W PD + QC 30000mAh Banque d'alimentation portable à charge rapide",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "REMAX FP-22 20W+22,5W PD+QC 30000mAh Power Bank portatile a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Bank Daya Pengisian Cepat Portabel",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Sạc dự phòng di động nhanh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "REMAX FP-22 20W+22.5W PD+QC 30000mAh แบบพกพา Fast-Charging Power Bank",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Bank Kuasa Pengecasan Cepat Mudah Alih",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Portable Fast-Charge Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Power Bank សាកថ្មលឿនចល័ត",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "REMAX FP-22 20W+22.5W PD+QC 30000mAh အိတ်ဆောင် အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "REMAX FP-22 20W+22.5W PD+QC 30000mAh Power Bank ສາກໄວ Portable",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "REMAX FP-22 20W+22.5W PD+QC باور بانك محمول سريع الشحن بقدرة 30000 مللي أمبير في الساعة"
     },
     {
       "id": "power-bank-02",
@@ -255,8 +372,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 4,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida de 50000 mAh y 22,5 W con cable incorporado y correa de transporte",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Power Bank de carregamento rápido de 50000mAh 22,5W com cabo integrado e alça de transporte",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation à charge rapide 50 000 mAh 22,5 W avec câble intégré et sangle de transport",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank a ricarica rapida da 50000 mAh 22,5 W con cavo integrato e tracolla",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Cepat 50000mAh 22,5W dengan Kabel Bawaan dan Tali Bawaan",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Pin dự phòng sạc nhanh 50000mAh 22,5W có cáp tích hợp và dây đeo",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ชาร์จเร็วขนาด 50000mAh 22.5W พร้อมสายเคเบิลในตัวและสายสะพาย",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Pantas 50000mAh 22.5W dengan Kabel Terbina dalam dan Tali Pembawa",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "50000mAh 22.5W Fast-Charge na Power Bank na may Built-in na Cable at Carry Strap",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Power Bank 50000mAh 22.5W Fast-Charging ជាមួយខ្សែភ្ជាប់មកជាមួយ និងខ្សែសម្រាប់ដាក់",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "50000mAh 22.5W အမြန်အားသွင်းနိုင်သော Power Bank ပါ၀င်သောကြိုးနှင့် သယ်ဆောင်ကြိုးပါ",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Power Bank 50000mAh 22.5W Fast-Charging ມີສາຍໃນຕົວ ແລະສາຍພົກພາ",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "باور بانك سريع الشحن بقدرة 50000 مللي أمبير بقدرة 22.5 وات مع كابل مدمج وحزام للحمل",
+          "supplier_name": "Shenzhen Xuhongchuang Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida de 50000 mAh y 22,5 W con cable incorporado y correa de transporte",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Power Bank de carregamento rápido de 50000mAh 22,5W com cabo integrado e alça de transporte",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation à charge rapide 50 000 mAh 22,5 W avec câble intégré et sangle de transport",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank a ricarica rapida da 50000 mAh 22,5 W con cavo integrato e tracolla",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Cepat 50000mAh 22,5W dengan Kabel Bawaan dan Tali Bawaan",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Pin dự phòng sạc nhanh 50000mAh 22,5W có cáp tích hợp và dây đeo",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ชาร์จเร็วขนาด 50000mAh 22.5W พร้อมสายเคเบิลในตัวและสายสะพาย",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Pantas 50000mAh 22.5W dengan Kabel Terbina dalam dan Tali Pembawa",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "50000mAh 22.5W Fast-Charge na Power Bank na may Built-in na Cable at Carry Strap",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Power Bank 50000mAh 22.5W Fast-Charging ជាមួយខ្សែភ្ជាប់មកជាមួយ និងខ្សែសម្រាប់ដាក់",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "50000mAh 22.5W အမြန်အားသွင်းနိုင်သော Power Bank ပါ၀င်သောကြိုးနှင့် သယ်ဆောင်ကြိုးပါ",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Power Bank 50000mAh 22.5W Fast-Charging ມີສາຍໃນຕົວ ແລະສາຍພົກພາ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "باور بانك سريع الشحن بقدرة 50000 مللي أمبير بقدرة 22.5 وات مع كابل مدمج وحزام للحمل"
     },
     {
       "id": "power-bank-03",
@@ -343,8 +564,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 26,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Banco de energía de carga rápida con pantalla LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22,5W Power Bank de carregamento rápido com display LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation à charge rapide Mcdodo 423 triple USB 20 000 mAh 22,5 W avec écran LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Mcdodo 423 Power Bank tripla USB 20000mAh 22,5W a ricarica rapida con display LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22,5W Bank Daya Pengisian Cepat dengan Layar LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22,5W Sạc dự phòng nhanh với màn hình LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank พร้อมจอแสดงผล LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Bank Kuasa Pengecasan Pantas dengan Paparan LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charge Power Bank na may LED Display",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank ជាមួយអេក្រង់ LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W အမြန်အားသွင်းနိုင်သော LED မျက်နှာပြင်ပါသည့် Power Bank",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Mcdodo 423 Triple-USB 20000mAh 22.5W Power Bank ສາກໄວພ້ອມຈໍ LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة Mcdodo 423 Triple-USB 20000mAh 22.5W سريع الشحن مع شاشة LED",
+          "supplier_name": "Guangdong Mcdodo Industrial Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Mcdodo 423 Triple-USB 20000mAh 22.5W Banco de energía de carga rápida con pantalla LED",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Mcdodo 423 Triple-USB 20000mAh 22,5W Power Bank de carregamento rápido com display LED",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation à charge rapide Mcdodo 423 triple USB 20 000 mAh 22,5 W avec écran LED",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Mcdodo 423 Power Bank tripla USB 20000mAh 22,5W a ricarica rapida con display LED",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Mcdodo 423 Triple-USB 20000mAh 22,5W Bank Daya Pengisian Cepat dengan Layar LED",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Mcdodo 423 Triple-USB 20000mAh 22,5W Sạc dự phòng nhanh với màn hình LED",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank พร้อมจอแสดงผล LED",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Mcdodo 423 Triple-USB 20000mAh 22.5W Bank Kuasa Pengecasan Pantas dengan Paparan LED",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charge Power Bank na may LED Display",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Mcdodo 423 Triple-USB 20000mAh 22.5W Fast-Charging Power Bank ជាមួយអេក្រង់ LED",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Mcdodo 423 Triple-USB 20000mAh 22.5W အမြန်အားသွင်းနိုင်သော LED မျက်နှာပြင်ပါသည့် Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Mcdodo 423 Triple-USB 20000mAh 22.5W Power Bank ສາກໄວພ້ອມຈໍ LED",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة Mcdodo 423 Triple-USB 20000mAh 22.5W سريع الشحن مع شاشة LED"
     },
     {
       "id": "power-bank-04",
@@ -432,8 +757,112 @@
           "supplier_rating": "4.6",
           "supplier_total_review_order_count": 27,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía portátil de carga rápida PD 22.5W 20000mAh",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de energia portátil PD 22,5W de carregamento rápido 20000mAh",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable PD 22,5 W à charge rapide 20 000 mAh",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank portatile PD da 22,5 W a ricarica rapida da 20.000 mAh",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Portabel 20000mAh Pengisian Cepat PD 22,5W",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Sạc dự phòng di động 20000mAh sạc nhanh PD 22,5W",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "PD 22.5W พาวเวอร์แบงค์พกพาขนาด 20000mAh ที่ชาร์จเร็ว",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Mudah Alih PD 22.5W Pengecasan Pantas 20000mAh",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "PD 22.5W Mabilis na Nagcha-charge 20000mAh Portable Power Bank",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "PD 22.5W Fast-Charging 20000mAh Power Bank ចល័ត",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "PD 22.5W Fast-Charging 20000mAh Portable Power Bank",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "PD 22.5W Fast-Charging 20000mAh Power Bank ແບບພົກພາ",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة المحمول PD 22.5 واط سريع الشحن 20000 مللي أمبير في الساعة",
+          "supplier_name": "Shenzhen Fxn Electronics Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía portátil de carga rápida PD 22.5W 20000mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de energia portátil PD 22,5W de carregamento rápido 20000mAh",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable PD 22,5 W à charge rapide 20 000 mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank portatile PD da 22,5 W a ricarica rapida da 20.000 mAh",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Portabel 20000mAh Pengisian Cepat PD 22,5W",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Sạc dự phòng di động 20000mAh sạc nhanh PD 22,5W",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "PD 22.5W พาวเวอร์แบงค์พกพาขนาด 20000mAh ที่ชาร์จเร็ว",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Mudah Alih PD 22.5W Pengecasan Pantas 20000mAh",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "PD 22.5W Mabilis na Nagcha-charge 20000mAh Portable Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "PD 22.5W Fast-Charging 20000mAh Power Bank ចល័ត",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "PD 22.5W Fast-Charging 20000mAh Portable Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "PD 22.5W Fast-Charging 20000mAh Power Bank ແບບພົກພາ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة المحمول PD 22.5 واط سريع الشحن 20000 مللي أمبير في الساعة"
     },
     {
       "id": "power-bank-05",
@@ -520,8 +949,112 @@
           "supplier_rating": "4.5",
           "supplier_total_review_order_count": 16,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía portátil para teléfono inteligente de alta capacidad 8000/10000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de energia portátil para smartphone de alta capacidade 8000/10000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable pour smartphone haute capacité 8 000/10 000 mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank portatile per smartphone ad alta capacità da 8000/10000 mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Ponsel Cerdas Portabel Berkapasitas Tinggi 8000/10000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện thoại thông minh dung lượng cao 8000/10000mAh di động",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์สมาร์ทโฟนความจุสูงแบบพกพาขนาด 8000/10000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Telefon Pintar Berkapasiti Tinggi Mudah Alih 8000/10000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Portable na 8000/10000mAh High-Capacity na Smartphone Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Power Bank ស្មាតហ្វូនដែលមានសមត្ថភាពខ្ពស់ 8000/10000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "အိတ်ဆောင် 8000/10000mAh စွမ်းရည်မြင့် စမတ်ဖုန်း Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Portable 8000/10000mAh Smartphone ຄວາມຈຸສູງ Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة المحمول عالي السعة 8000/10000 مللي أمبير للهواتف الذكية",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía portátil para teléfono inteligente de alta capacidad 8000/10000mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de energia portátil para smartphone de alta capacidade 8000/10000mAh",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable pour smartphone haute capacité 8 000/10 000 mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank portatile per smartphone ad alta capacità da 8000/10000 mAh",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Ponsel Cerdas Portabel Berkapasitas Tinggi 8000/10000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện thoại thông minh dung lượng cao 8000/10000mAh di động",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์สมาร์ทโฟนความจุสูงแบบพกพาขนาด 8000/10000mAh",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Telefon Pintar Berkapasiti Tinggi Mudah Alih 8000/10000mAh",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Portable na 8000/10000mAh High-Capacity na Smartphone Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Power Bank ស្មាតហ្វូនដែលមានសមត្ថភាពខ្ពស់ 8000/10000mAh",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "အိတ်ဆောင် 8000/10000mAh စွမ်းရည်မြင့် စမတ်ဖုန်း Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Portable 8000/10000mAh Smartphone ຄວາມຈຸສູງ Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة المحمول عالي السعة 8000/10000 مللي أمبير للهواتف الذكية"
     },
     {
       "id": "power-bank-06",
@@ -608,8 +1141,112 @@
           "supplier_rating": "4.6",
           "supplier_total_review_order_count": 15,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco inalámbrico magnético ultradelgado del poder de 5000/10000mAh 15W con el logotipo de encargo",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência sem fio magnético ultrafino 5000/10000mAh 15W com logotipo personalizado",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation magnétique sans fil ultra-mince 5000/10000mAh 15W avec logo personnalisé",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank wireless magnetico ultrasottile da 5000/10000 mAh 15 W con logo personalizzato",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Nirkabel Magnetik Ultra-Slim 5000/10000mAh 15W dengan Logo Kustom",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Sạc dự phòng không dây từ tính siêu mỏng 5000/10000mAh 15W có logo tùy chỉnh",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ไร้สายแม่เหล็กขนาด 5000/10000mAh ขนาดบางเฉียบขนาด 5000/10000mAh พร้อมโลโก้ที่กำหนดเอง",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Wayarles Magnet 5000/10000mAh Ultra-Slim 15W dengan Logo Tersuai",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank na may Custom na Logo",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank ដែលមាននិមិត្តសញ្ញាផ្ទាល់ខ្លួន",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "စိတ်ကြိုက်လိုဂိုပါသည့် 15W သံလိုက်ကြိုးမဲ့ ပါဝါဘဏ်၊",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank ພ້ອມໂລໂກ້ແບບກຳນົດເອງ",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة لاسلكي مغناطيسي فائق النحافة بقدرة 5000/10000 مللي أمبير بقدرة 15 وات مع شعار مخصص",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco inalámbrico magnético ultradelgado del poder de 5000/10000mAh 15W con el logotipo de encargo",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência sem fio magnético ultrafino 5000/10000mAh 15W com logotipo personalizado",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation magnétique sans fil ultra-mince 5000/10000mAh 15W avec logo personnalisé",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank wireless magnetico ultrasottile da 5000/10000 mAh 15 W con logo personalizzato",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Nirkabel Magnetik Ultra-Slim 5000/10000mAh 15W dengan Logo Kustom",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Sạc dự phòng không dây từ tính siêu mỏng 5000/10000mAh 15W có logo tùy chỉnh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ไร้สายแม่เหล็กขนาด 5000/10000mAh ขนาดบางเฉียบขนาด 5000/10000mAh พร้อมโลโก้ที่กำหนดเอง",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Wayarles Magnet 5000/10000mAh Ultra-Slim 15W dengan Logo Tersuai",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank na may Custom na Logo",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank ដែលមាននិមិត្តសញ្ញាផ្ទាល់ខ្លួន",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "စိတ်ကြိုက်လိုဂိုပါသည့် 15W သံလိုက်ကြိုးမဲ့ ပါဝါဘဏ်၊",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Ultra-Slim 5000/10000mAh 15W Magnetic Wireless Power Bank ພ້ອມໂລໂກ້ແບບກຳນົດເອງ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة لاسلكي مغناطيسي فائق النحافة بقدرة 5000/10000 مللي أمبير بقدرة 15 وات مع شعار مخصص"
     },
     {
       "id": "power-bank-07",
@@ -696,8 +1333,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 149,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "PD100W 20000mAh Banco de energía para computadora portátil de polímero de litio con pantalla digital",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência para laptop de polímero de lítio PD100W 20000mAh com display digital",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation pour ordinateur portable Li-Polymère PD100W 20 000 mAh avec affichage numérique",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank portatile ai polimeri di litio PD100W 20000mAh con display digitale",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Laptop Li-Polimer PD100W 20000mAh dengan Tampilan Digital",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Sạc dự phòng cho máy tính xách tay Li-Polymer PD100W 20000mAh có màn hình kỹ thuật số",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "PD100W 20000mAh Li-Polymer แล็ปท็อป Power Bank พร้อมจอแสดงผลดิจิตอล",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Laptop Li-Polymer PD100W 20000mAh dengan Paparan Digital",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "PD100W 20000mAh Li-Polymer Laptop Power Bank na may Digital Display",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "PD100W 20000mAh Li-Polymer Laptop Power Bank ជាមួយនឹងអេក្រង់ឌីជីថល",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "PD100W 20000mAh Li-Polymer Laptop Power Bank သည် ဒစ်ဂျစ်တယ်မျက်နှာပြင်ပါရှိသည်။",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "PD100W 20000mAh Li-Polymer Laptop Power Bank ທີ່ມີຈໍສະແດງຜົນດິຈິຕອນ",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "باور بانك للكمبيوتر المحمول PD100W 20000mAh Li-Polymer مع شاشة رقمية",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "PD100W 20000mAh Banco de energía para computadora portátil de polímero de litio con pantalla digital",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência para laptop de polímero de lítio PD100W 20000mAh com display digital",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation pour ordinateur portable Li-Polymère PD100W 20 000 mAh avec affichage numérique",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank portatile ai polimeri di litio PD100W 20000mAh con display digitale",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Laptop Li-Polimer PD100W 20000mAh dengan Tampilan Digital",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Sạc dự phòng cho máy tính xách tay Li-Polymer PD100W 20000mAh có màn hình kỹ thuật số",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "PD100W 20000mAh Li-Polymer แล็ปท็อป Power Bank พร้อมจอแสดงผลดิจิตอล",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Laptop Li-Polymer PD100W 20000mAh dengan Paparan Digital",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "PD100W 20000mAh Li-Polymer Laptop Power Bank na may Digital Display",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "PD100W 20000mAh Li-Polymer Laptop Power Bank ជាមួយនឹងអេក្រង់ឌីជីថល",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "PD100W 20000mAh Li-Polymer Laptop Power Bank သည် ဒစ်ဂျစ်တယ်မျက်နှာပြင်ပါရှိသည်။",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "PD100W 20000mAh Li-Polymer Laptop Power Bank ທີ່ມີຈໍສະແດງຜົນດິຈິຕອນ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "باور بانك للكمبيوتر المحمول PD100W 20000mAh Li-Polymer مع شاشة رقمية"
     },
     {
       "id": "power-bank-08",
@@ -784,8 +1525,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 157,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de 10000 mAh con logotipo personalizado con salida USB dual y entrada tipo C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Power Bank de 10000mAh com logotipo personalizado com saída USB dupla e entrada tipo C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation 10 000 mAh avec logo personnalisé avec double sortie USB et entrée Type-C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank da 10.000 mAh con logo personalizzato con doppia uscita USB e ingresso di tipo C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya 10000mAh Logo Kustom dengan Output USB Ganda dan Input Tipe-C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện 10000mAh có logo tùy chỉnh với đầu ra USB kép và đầu vào Type-C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "ธนาคารพลังงาน 10000mAh โลโก้ที่กำหนดเองพร้อมเอาต์พุต USB คู่และอินพุต Type-C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa 10000mAh Logo Tersuai dengan Output USB Dwi dan Input Jenis-C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Custom-Logo 10000mAh Power Bank na may Dual USB Output at Type-C Input",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Custom-Logo 10000mAh Power Bank ជាមួយ Dual USB Output និង Type-C Input",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Dual USB Output နှင့် Type-C Input ပါရှိသည့် Custom-Logo 10000mAh Power Bank",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Custom-Logo 10000mAh Power Bank ມີຊ່ອງສຽບ USB ຄູ່ ແລະ ວັດສະດຸປ້ອນ Type-C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة بسعة 10000 مللي أمبير بشعار مخصص مع مخرج USB مزدوج ومدخل من النوع C",
+          "supplier_name": "Shenzhen Honstar Memory Technology Limited",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de 10000 mAh con logotipo personalizado con salida USB dual y entrada tipo C",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Power Bank de 10000mAh com logotipo personalizado com saída USB dupla e entrada tipo C",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation 10 000 mAh avec logo personnalisé avec double sortie USB et entrée Type-C",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank da 10.000 mAh con logo personalizzato con doppia uscita USB e ingresso di tipo C",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya 10000mAh Logo Kustom dengan Output USB Ganda dan Input Tipe-C",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện 10000mAh có logo tùy chỉnh với đầu ra USB kép và đầu vào Type-C",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "ธนาคารพลังงาน 10000mAh โลโก้ที่กำหนดเองพร้อมเอาต์พุต USB คู่และอินพุต Type-C",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa 10000mAh Logo Tersuai dengan Output USB Dwi dan Input Jenis-C",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Custom-Logo 10000mAh Power Bank na may Dual USB Output at Type-C Input",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Custom-Logo 10000mAh Power Bank ជាមួយ Dual USB Output និង Type-C Input",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Dual USB Output နှင့် Type-C Input ပါရှိသည့် Custom-Logo 10000mAh Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Custom-Logo 10000mAh Power Bank ມີຊ່ອງສຽບ USB ຄູ່ ແລະ ວັດສະດຸປ້ອນ Type-C",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة بسعة 10000 مللي أمبير بشعار مخصص مع مخرج USB مزدوج ومدخل من النوع C"
     },
     {
       "id": "power-bank-09",
@@ -872,8 +1717,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 11,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "LISEN Banco de energía de carga rápida inalámbrico magnético ultradelgado de 5000 mAh",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "LISEN Ultra-Slim 5000mAh magnético sem fio de carregamento rápido Power Bank",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation magnétique sans fil ultra fine LISEN à charge rapide de 5 000 mAh",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank magnetico wireless ultrasottile LISEN da 5000 mAh a ricarica rapida",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "LISEN Bank Daya Pengisian Cepat Nirkabel Magnetik Ultra-Slim 5000mAh",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh không dây từ tính LISEN siêu mỏng 5000mAh",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "LISEN พาวเวอร์แบงค์ชาร์จเร็วไร้สายแม่เหล็กขนาดบางเฉียบ 5000mAh",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "LISEN Ultra-Slim 5000mAh Bank Kuasa Pengecas Cepat Wayarles Magnet",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "LISEN Ultra-Slim 5000mAh သံလိုက်ကြိုးမဲ့ အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Charging Fast-Bank",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة LISEN فائق النحافة بقدرة 5000 مللي أمبير في الساعة مغناطيسي لاسلكي وسريع الشحن",
+          "supplier_name": "Shenzhen Xinjintai Trading Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "LISEN Banco de energía de carga rápida inalámbrico magnético ultradelgado de 5000 mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "LISEN Ultra-Slim 5000mAh magnético sem fio de carregamento rápido Power Bank",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation magnétique sans fil ultra fine LISEN à charge rapide de 5 000 mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank magnetico wireless ultrasottile LISEN da 5000 mAh a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "LISEN Bank Daya Pengisian Cepat Nirkabel Magnetik Ultra-Slim 5000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh không dây từ tính LISEN siêu mỏng 5000mAh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "LISEN พาวเวอร์แบงค์ชาร์จเร็วไร้สายแม่เหล็กขนาดบางเฉียบ 5000mAh",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "LISEN Ultra-Slim 5000mAh Bank Kuasa Pengecas Cepat Wayarles Magnet",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Fast-Charging Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "LISEN Ultra-Slim 5000mAh သံလိုက်ကြိုးမဲ့ အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "LISEN Ultra-Slim 5000mAh Magnetic Wireless Charging Fast-Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة LISEN فائق النحافة بقدرة 5000 مللي أمبير في الساعة مغناطيسي لاسلكي وسريع الشحن"
     },
     {
       "id": "power-bank-10",
@@ -960,8 +1909,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 4,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "El banco inalámbrico ultradelgado del poder 5000mAh con OEM PD 20W ayuna carga",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência sem fio ultrafino de 5000mAh com carregamento rápido OEM PD 20W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation sans fil ultra fine de 5 000 mAh avec charge rapide OEM PD 20 W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank wireless ultrasottile da 5000 mAh con ricarica rapida OEM PD da 20 W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Nirkabel Ultra-Slim 5000mAh dengan Pengisian Cepat OEM PD 20W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Sạc dự phòng không dây siêu mỏng 5000mAh có sạc nhanh OEM PD 20W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ไร้สายขนาดบางเฉียบ 5000mAh พร้อมการชาร์จเร็ว OEM PD 20W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Wayarles 5000mAh Ultra-Slim dengan Pengecasan Pantas 20W OEM PD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Ultra-Slim 5000mAh Wireless Power Bank na may OEM PD 20W Fast Charging",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Ultra-Slim 5000mAh Wireless Power Bank ជាមួយ OEM PD 20W Fast Charging",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "OEM PD 20W အမြန်အားသွင်းစနစ်ပါရှိသော Ultra-Slim 5000mAh ကြိုးမဲ့ Power Bank",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Ultra-Slim 5000mAh Wireless Power Bank ພ້ອມການສາກໄວ OEM PD 20W",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة لاسلكي فائق النحافة بقدرة 5000 مللي أمبير في الساعة مع شحن سريع OEM PD بقدرة 20 وات",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "El banco inalámbrico ultradelgado del poder 5000mAh con OEM PD 20W ayuna carga",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência sem fio ultrafino de 5000mAh com carregamento rápido OEM PD 20W",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation sans fil ultra fine de 5 000 mAh avec charge rapide OEM PD 20 W",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank wireless ultrasottile da 5000 mAh con ricarica rapida OEM PD da 20 W",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Nirkabel Ultra-Slim 5000mAh dengan Pengisian Cepat OEM PD 20W",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Sạc dự phòng không dây siêu mỏng 5000mAh có sạc nhanh OEM PD 20W",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ไร้สายขนาดบางเฉียบ 5000mAh พร้อมการชาร์จเร็ว OEM PD 20W",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Wayarles 5000mAh Ultra-Slim dengan Pengecasan Pantas 20W OEM PD",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Ultra-Slim 5000mAh Wireless Power Bank na may OEM PD 20W Fast Charging",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Ultra-Slim 5000mAh Wireless Power Bank ជាមួយ OEM PD 20W Fast Charging",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "OEM PD 20W အမြန်အားသွင်းစနစ်ပါရှိသော Ultra-Slim 5000mAh ကြိုးမဲ့ Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Ultra-Slim 5000mAh Wireless Power Bank ພ້ອມການສາກໄວ OEM PD 20W",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة لاسلكي فائق النحافة بقدرة 5000 مللي أمبير في الساعة مع شحن سريع OEM PD بقدرة 20 وات"
     },
     {
       "id": "power-bank-11",
@@ -1048,8 +2101,112 @@
           "supplier_rating": "4.6",
           "supplier_total_review_order_count": 15,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida de alta capacidad Oraimo 20000mAh con salida USB dual",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Oraimo 20000mAh Power Bank de carregamento rápido de alta capacidade com saída USB dupla",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation à charge rapide haute capacité Oraimo 20 000 mAh avec double sortie USB",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank Oraimo da 20000 mAh ad alta capacità a ricarica rapida con doppia uscita USB",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Oraimo Bank Daya Pengisian Cepat Berkapasitas Tinggi 20000mAh dengan Output USB Ganda",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh dung lượng cao Oraimo 20000mAh với đầu ra USB kép",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "Oraimo 20000mAh แบตสำรองชาร์จเร็วความจุสูงพร้อมเอาต์พุต USB คู่",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecas Pantas Berkapasiti Tinggi 20000mAh Oraimo dengan Output Dwi USB",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Oraimo 20000mAh High-Capacity Fast-Charging Power Bank na may Dual USB Output",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Oraimo 20000mAh Power Bank សាកថ្មលឿនជាមួយ USB ពីរ",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Oraimo 20000mAh High-capacity Fast-Charging Power Bank သည် Dual USB Output ပါရှိသည်",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Oraimo 20000mAh Power Bank ຄວາມຈຸສູງ ສາກໄວພ້ອມຮູສຽບ USB ຄູ່",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة Oraimo بسعة 20000 مللي أمبير في الساعة وشحن سريع ومخرج USB مزدوج",
+          "supplier_name": "Shenzhen XTW Electronic Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida de alta capacidad Oraimo 20000mAh con salida USB dual",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Oraimo 20000mAh Power Bank de carregamento rápido de alta capacidade com saída USB dupla",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation à charge rapide haute capacité Oraimo 20 000 mAh avec double sortie USB",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank Oraimo da 20000 mAh ad alta capacità a ricarica rapida con doppia uscita USB",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Oraimo Bank Daya Pengisian Cepat Berkapasitas Tinggi 20000mAh dengan Output USB Ganda",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh dung lượng cao Oraimo 20000mAh với đầu ra USB kép",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "Oraimo 20000mAh แบตสำรองชาร์จเร็วความจุสูงพร้อมเอาต์พุต USB คู่",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecas Pantas Berkapasiti Tinggi 20000mAh Oraimo dengan Output Dwi USB",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Oraimo 20000mAh High-Capacity Fast-Charging Power Bank na may Dual USB Output",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Oraimo 20000mAh Power Bank សាកថ្មលឿនជាមួយ USB ពីរ",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Oraimo 20000mAh High-capacity Fast-Charging Power Bank သည် Dual USB Output ပါရှိသည်",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Oraimo 20000mAh Power Bank ຄວາມຈຸສູງ ສາກໄວພ້ອມຮູສຽບ USB ຄູ່",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة Oraimo بسعة 20000 مللي أمبير في الساعة وشحن سريع ومخرج USB مزدوج"
     },
     {
       "id": "power-bank-12",
@@ -1136,8 +2293,112 @@
           "supplier_rating": "4.6",
           "supplier_total_review_order_count": 33,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco portátil de energía de polímero de litio de 10000 mAh con luz indicadora y salida de 10 W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência portátil de polímero de lítio de 10000mAh com luz indicadora e saída de 10W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable Li-Polymère 10 000 mAh avec voyant lumineux et sortie 10 W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank portatile ai polimeri di litio da 10000 mAh con indicatore luminoso e uscita da 10 W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Li-Polimer 10000mAh Portabel dengan Lampu Indikator dan Output 10W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện Li-Polymer 10000mAh di động có đèn báo và công suất 10W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ Li-Polymer ขนาด 10000mAh แบบพกพาพร้อมไฟแสดงสถานะและเอาต์พุต 10W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Li-Polymer 10000mAh mudah alih dengan Lampu Penunjuk dan Output 10W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Portable na 10000mAh Li-Polymer Power Bank na may Indicator Light at 10W Output",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "10000mAh Li-Polymer Power Bank ដែលអាចចល័តបាន ជាមួយនឹងពន្លឺភ្លើងសញ្ញា និងទិន្នផល 10W",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Indicator Light နှင့် 10W Output ပါရှိသော အိတ်ဆောင် 10000mAh Li-Polymer Power Bank",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Portable 10000mAh Li-Polymer Power Bank ທີ່ມີໄຟຕົວຊີ້ວັດແລະ 10W Output",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "باور بانك محمول من نوع ليثيوم بوليمر بسعة 10000 مللي أمبير في الساعة مع ضوء مؤشر وإخراج 10 وات",
+          "supplier_name": "Shenzhen Okzu Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco portátil de energía de polímero de litio de 10000 mAh con luz indicadora y salida de 10 W",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência portátil de polímero de lítio de 10000mAh com luz indicadora e saída de 10W",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable Li-Polymère 10 000 mAh avec voyant lumineux et sortie 10 W",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank portatile ai polimeri di litio da 10000 mAh con indicatore luminoso e uscita da 10 W",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Li-Polimer 10000mAh Portabel dengan Lampu Indikator dan Output 10W",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện Li-Polymer 10000mAh di động có đèn báo và công suất 10W",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ Li-Polymer ขนาด 10000mAh แบบพกพาพร้อมไฟแสดงสถานะและเอาต์พุต 10W",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Li-Polymer 10000mAh mudah alih dengan Lampu Penunjuk dan Output 10W",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Portable na 10000mAh Li-Polymer Power Bank na may Indicator Light at 10W Output",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "10000mAh Li-Polymer Power Bank ដែលអាចចល័តបាន ជាមួយនឹងពន្លឺភ្លើងសញ្ញា និងទិន្នផល 10W",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Indicator Light နှင့် 10W Output ပါရှိသော အိတ်ဆောင် 10000mAh Li-Polymer Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Portable 10000mAh Li-Polymer Power Bank ທີ່ມີໄຟຕົວຊີ້ວັດແລະ 10W Output",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "باور بانك محمول من نوع ليثيوم بوليمر بسعة 10000 مللي أمبير في الساعة مع ضوء مؤشر وإخراج 10 وات"
     },
     {
       "id": "power-bank-13",
@@ -1224,8 +2485,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 4,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco inalámbrico magnético ultradelgado del poder de la aleación de aluminio 20W 10000mAh",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência sem fio magnético ultrafino de liga de alumínio 10000mAh 20W",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation sans fil magnétique ultra-mince en alliage d'aluminium 10 000 mAh 20 W",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank wireless magnetico ultrasottile da 20 W in lega di alluminio da 10000 mAh",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Nirkabel Magnetik Ultra-Slim 20W Paduan Aluminium 10000mAh",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện không dây từ tính siêu mỏng 10000mAh hợp kim nhôm 20W",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "อลูมิเนียมอัลลอยด์ขนาด 10000mAh บางเฉียบ 20W พาวเวอร์แบงค์ไร้สายแม่เหล็ก",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "10000mAh Aluminium Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة لاسلكي مغناطيسي فائق النحافة بقدرة 10000 مللي أمبير في الساعة مصنوع من سبائك الألومنيوم بقدرة 20 وات",
+          "supplier_name": "Dongguan SML Electronic Technology Co.,Ltd",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco inalámbrico magnético ultradelgado del poder de la aleación de aluminio 20W 10000mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência sem fio magnético ultrafino de liga de alumínio 10000mAh 20W",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation sans fil magnétique ultra-mince en alliage d'aluminium 10 000 mAh 20 W",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank wireless magnetico ultrasottile da 20 W in lega di alluminio da 10000 mAh",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Nirkabel Magnetik Ultra-Slim 20W Paduan Aluminium 10000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện không dây từ tính siêu mỏng 10000mAh hợp kim nhôm 20W",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "อลูมิเนียมอัลลอยด์ขนาด 10000mAh บางเฉียบ 20W พาวเวอร์แบงค์ไร้สายแม่เหล็ก",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "10000mAh Aluminium Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "10000mAh Aluminum Alloy Ultra-Slim 20W Magnetic Wireless Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة لاسلكي مغناطيسي فائق النحافة بقدرة 10000 مللي أمبير في الساعة مصنوع من سبائك الألومنيوم بقدرة 20 وات"
     },
     {
       "id": "power-bank-14",
@@ -1312,8 +2677,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 2,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Mini banco de energía del tamaño de una tarjeta de crédito de 5000 mAh con pantalla digital LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Mini Power Bank de 5000mAh do tamanho de um cartão de crédito com display digital LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Mini banque d'alimentation 5 000 mAh au format carte de crédit avec affichage numérique LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Mini Power Bank da 5000 mAh, formato carta di credito, con display digitale LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Mini 5000mAh Seukuran Kartu Kredit dengan Layar Digital LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện mini cỡ thẻ tín dụng 5000mAh có màn hình kỹ thuật số LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ขนาดเล็กขนาดบัตรเครดิต 5000mAh พร้อมจอแสดงผลดิจิตอล LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Mini 5000mAh Saiz Kad Kredit dengan Paparan Digital LCD",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Ang Laki ng Credit-Card na 5000mAh Mini Power Bank na may LCD Digital Display",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Credit-Card-Size 5000mAh Mini Power Bank ជាមួយនឹងអេក្រង់ LCD Digital",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "LCD Digital Display ဖြင့် Credit-Card-Size 5000mAh Mini Power Bank",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Credit-Card-Size 5000mAh Mini Power Bank ພ້ອມຈໍ LCD Digital",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة صغير بحجم بطاقة الائتمان بقدرة 5000 مللي أمبير في الساعة مع شاشة LCD رقمية",
+          "supplier_name": "Shenzhen Golf & Feihuang Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Mini banco de energía del tamaño de una tarjeta de crédito de 5000 mAh con pantalla digital LCD",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Mini Power Bank de 5000mAh do tamanho de um cartão de crédito com display digital LCD",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Mini banque d'alimentation 5 000 mAh au format carte de crédit avec affichage numérique LCD",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Mini Power Bank da 5000 mAh, formato carta di credito, con display digitale LCD",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Mini 5000mAh Seukuran Kartu Kredit dengan Layar Digital LCD",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện mini cỡ thẻ tín dụng 5000mAh có màn hình kỹ thuật số LCD",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ขนาดเล็กขนาดบัตรเครดิต 5000mAh พร้อมจอแสดงผลดิจิตอล LCD",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Mini 5000mAh Saiz Kad Kredit dengan Paparan Digital LCD",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Ang Laki ng Credit-Card na 5000mAh Mini Power Bank na may LCD Digital Display",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Credit-Card-Size 5000mAh Mini Power Bank ជាមួយនឹងអេក្រង់ LCD Digital",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "LCD Digital Display ဖြင့် Credit-Card-Size 5000mAh Mini Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Credit-Card-Size 5000mAh Mini Power Bank ພ້ອມຈໍ LCD Digital",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة صغير بحجم بطاقة الائتمان بقدرة 5000 مللي أمبير في الساعة مع شاشة LCD رقمية"
     },
     {
       "id": "power-bank-15",
@@ -1400,8 +2869,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 48,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de regalo corporativo tipo C ecológico de coco de 10000mAh con logotipo personalizado",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Eco-Friendly Coco Tipo-C 10000mAh Banco de energia para presente corporativo com logotipo personalizado",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque de puissance de cadeau d'entreprise écologique de type C de noix de coco de 10 000 mAh avec logo personnalisé",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank regalo aziendale ecologico di tipo C da 10000 mAh con logo personalizzato",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Power Bank Hadiah Perusahaan Kelapa Tipe-C 10000mAh Ramah Lingkungan dengan Logo Kustom",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện quà tặng doanh nghiệp Type-C 10000mAh thân thiện với môi trường với Logo tùy chỉnh",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "Coconut Type-C 10000mAh Corporate Gift Power Bank เป็นมิตรกับสิ่งแวดล้อมพร้อมโลโก้ที่กำหนดเอง",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Hadiah Korporat 10000mAh Kelapa Mesra Alam Jenis-C dengan Logo Tersuai",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Eco-Friendly Coconut Type-C 10000mAh Corporate Gift Power Bank na may Custom na Logo",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "ដូងដែលងាយស្រួលប្រើជាមួយបរិស្ថាន Type-C 10000mAh អំណោយសាជីវកម្ម Power Bank ដែលមាននិមិត្តសញ្ញាផ្ទាល់ខ្លួន",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Eco-Friendly Coconut Type-C 10000mAh စိတ်ကြိုက်လိုဂိုပါသော ကော်ပိုရိတ်လက်ဆောင် Power Bank",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Coconut Friendly Eco-Friendly Type-C 10000mAh ຂອງຂວັນຂອງບໍລິສັດ Power Bank ພ້ອມໂລໂກ້",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة الصديق للبيئة من نوع جوز الهند من النوع C بقدرة 10000 مللي أمبير في الساعة مع شعار مخصص",
+          "supplier_name": "Shenzhen ZOGI Technology Limited",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de regalo corporativo tipo C ecológico de coco de 10000mAh con logotipo personalizado",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Eco-Friendly Coco Tipo-C 10000mAh Banco de energia para presente corporativo com logotipo personalizado",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque de puissance de cadeau d'entreprise écologique de type C de noix de coco de 10 000 mAh avec logo personnalisé",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank regalo aziendale ecologico di tipo C da 10000 mAh con logo personalizzato",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Power Bank Hadiah Perusahaan Kelapa Tipe-C 10000mAh Ramah Lingkungan dengan Logo Kustom",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện quà tặng doanh nghiệp Type-C 10000mAh thân thiện với môi trường với Logo tùy chỉnh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "Coconut Type-C 10000mAh Corporate Gift Power Bank เป็นมิตรกับสิ่งแวดล้อมพร้อมโลโก้ที่กำหนดเอง",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Hadiah Korporat 10000mAh Kelapa Mesra Alam Jenis-C dengan Logo Tersuai",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Eco-Friendly Coconut Type-C 10000mAh Corporate Gift Power Bank na may Custom na Logo",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "ដូងដែលងាយស្រួលប្រើជាមួយបរិស្ថាន Type-C 10000mAh អំណោយសាជីវកម្ម Power Bank ដែលមាននិមិត្តសញ្ញាផ្ទាល់ខ្លួន",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Eco-Friendly Coconut Type-C 10000mAh စိတ်ကြိုက်လိုဂိုပါသော ကော်ပိုရိတ်လက်ဆောင် Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Coconut Friendly Eco-Friendly Type-C 10000mAh ຂອງຂວັນຂອງບໍລິສັດ Power Bank ພ້ອມໂລໂກ້",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة الصديق للبيئة من نوع جوز الهند من النوع C بقدرة 10000 مللي أمبير في الساعة مع شعار مخصص"
     },
     {
       "id": "power-bank-16",
@@ -1488,8 +3061,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 48,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Mini banco de energía portátil de carga rápida",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Mini banco de potência portátil de carregamento rápido",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Mini banque d'alimentation portable à charge rapide",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Mini Power Bank portatile a ricarica rapida",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Cepat Mini Portabel",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh di động mini",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "ธนาคารพลังงานชาร์จเร็วแบบพกพาขนาดเล็กพกพา",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Cepat Mudah Alih Mini",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Mini Portable Fast-Charge Power Bank",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Mini Portable Fast-Charge Power Bank",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Mini Portable Fast Charging Power Bank",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Power Bank ຂະໜາດນ້ອຍ Portable Fast-Charging",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة صغير محمول سريع الشحن",
+          "supplier_name": "Hainan Topone Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Mini banco de energía portátil de carga rápida",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Mini banco de potência portátil de carregamento rápido",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Mini banque d'alimentation portable à charge rapide",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Mini Power Bank portatile a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Cepat Mini Portabel",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh di động mini",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "ธนาคารพลังงานชาร์จเร็วแบบพกพาขนาดเล็กพกพา",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Cepat Mudah Alih Mini",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Mini Portable Fast-Charge Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Mini Portable Fast-Charge Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Mini Portable Fast Charging Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Power Bank ຂະໜາດນ້ອຍ Portable Fast-Charging",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة صغير محمول سريع الشحن"
     },
     {
       "id": "power-bank-17",
@@ -1576,8 +3253,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 55,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía para teléfono inteligente de carga rápida inalámbrico portátil de 20000 mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de energia portátil sem fio de carregamento rápido para smartphone de 20000mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable sans fil pour smartphone à chargement rapide de 20 000 mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank portatile wireless per smartphone a ricarica rapida da 20000 mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Ponsel Cerdas Pengisian Cepat Nirkabel Portabel 20000mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện thoại thông minh sạc nhanh không dây di động 20000mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "แบตสำรองสมาร์ทโฟนไร้สายชาร์จเร็วแบบพกพาขนาด 20000mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Telefon Pintar Pengecas Cepat Wayarles Mudah Alih 20000mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "20000mAh Portable Wireless Fast-Charge na Smartphone Power Bank",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Power Bank ស្មាតហ្វូនសាកថ្មលឿនឥតខ្សែ 20000mAh",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة متنقل للهواتف الذكية لاسلكي سريع الشحن بقدرة 20000 مللي أمبير في الساعة",
+          "supplier_name": "Guangzhou Xinyongyuan Electronic Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía para teléfono inteligente de carga rápida inalámbrico portátil de 20000 mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de energia portátil sem fio de carregamento rápido para smartphone de 20000mAh",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable sans fil pour smartphone à chargement rapide de 20 000 mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank portatile wireless per smartphone a ricarica rapida da 20000 mAh",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Ponsel Cerdas Pengisian Cepat Nirkabel Portabel 20000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện thoại thông minh sạc nhanh không dây di động 20000mAh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "แบตสำรองสมาร์ทโฟนไร้สายชาร์จเร็วแบบพกพาขนาด 20000mAh",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Telefon Pintar Pengecas Cepat Wayarles Mudah Alih 20000mAh",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "20000mAh Portable Wireless Fast-Charge na Smartphone Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Power Bank ស្មាតហ្វូនសាកថ្មលឿនឥតខ្សែ 20000mAh",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "20000mAh Portable Wireless Fast-Charging Smartphone Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة متنقل للهواتف الذكية لاسلكي سريع الشحن بقدرة 20000 مللي أمبير في الساعة"
     },
     {
       "id": "power-bank-18",
@@ -1664,8 +3445,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 27,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Mini banco del poder del llavero del logotipo personalizado 2000/4000mAh con el cable incorporado",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Mini porta-chaves com logotipo personalizado 2000/4000mAh Power Bank com cabo integrado",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Mini banque d'alimentation porte-clés avec logo personnalisé 2000/4000mAh avec câble intégré",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Mini power bank portachiavi da 2000/4000 mAh con logo personalizzato e cavo integrato",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Gantungan Kunci Mini Logo Kustom 2000/4000mAh dengan Kabel Bawaan",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện có móc khóa mini 2000/4000mAh có logo tùy chỉnh có cáp tích hợp",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "โลโก้ที่กำหนดเอง 2000/4000mAh Mini Keychain Power Bank พร้อมสายเคเบิลในตัว",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Rantai Kunci Mini Logo Tersuai 2000/4000mAh dengan Kabel Terbina dalam",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank na may Built-in na Cable",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank ដែលមានខ្សែភ្ជាប់មកជាមួយ",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "စိတ်ကြိုက်-လိုဂို 2000/4000mAh Mini သော့ချိတ်ပါဝါဘဏ် တပ်ဆင်ပြီး ကေဘယ်လ်",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank ມີສາຍໃນຕົວ",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "شعار مخصص 2000/4000 مللي أمبير بنك طاقة صغير بسلسلة مفاتيح مع كابل مدمج",
+          "supplier_name": "Shenzhen Mingqun Electronic Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Mini banco del poder del llavero del logotipo personalizado 2000/4000mAh con el cable incorporado",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Mini porta-chaves com logotipo personalizado 2000/4000mAh Power Bank com cabo integrado",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Mini banque d'alimentation porte-clés avec logo personnalisé 2000/4000mAh avec câble intégré",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Mini power bank portachiavi da 2000/4000 mAh con logo personalizzato e cavo integrato",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Gantungan Kunci Mini Logo Kustom 2000/4000mAh dengan Kabel Bawaan",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện có móc khóa mini 2000/4000mAh có logo tùy chỉnh có cáp tích hợp",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "โลโก้ที่กำหนดเอง 2000/4000mAh Mini Keychain Power Bank พร้อมสายเคเบิลในตัว",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Rantai Kunci Mini Logo Tersuai 2000/4000mAh dengan Kabel Terbina dalam",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank na may Built-in na Cable",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank ដែលមានខ្សែភ្ជាប់មកជាមួយ",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "စိတ်ကြိုက်-လိုဂို 2000/4000mAh Mini သော့ချိတ်ပါဝါဘဏ် တပ်ဆင်ပြီး ကေဘယ်လ်",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Custom-Logo 2000/4000mAh Mini Keychain Power Bank ມີສາຍໃນຕົວ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "شعار مخصص 2000/4000 مللي أمبير بنك طاقة صغير بسلسلة مفاتيح مع كابل مدمج"
     },
     {
       "id": "power-bank-19",
@@ -1752,8 +3637,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 67,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida para viaje ultradelgado 10000/20000mAh con logotipo personalizado",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência de carregamento rápido ultrafino com logotipo personalizado 10000/20000mAh para viagem",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation de voyage ultra fine à chargement rapide, 10 000/20 000 mAh, logo personnalisé",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank da viaggio ultra sottile da 10.000/20.000 mAh con logo personalizzato a ricarica rapida",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Logo Khusus Bank Daya Pengisian Cepat Perjalanan Ultra-Slim 10000/20000mAh",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh du lịch siêu mỏng 10000/20000mAh có logo tùy chỉnh",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "โลโก้ที่กำหนดเอง Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Cepat Perjalanan 10000/20000mAh Logo Tersuai",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charge Power Bank",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charge Power Bank",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "စိတ်ကြိုက်လိုဂို Ultra-Slim 10000/20000mAh ခရီးသွား အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "شعار مخصص فائق النحافة 10000/20000 مللي أمبير في الساعة بنك الطاقة للشحن السريع للسفر",
+          "supplier_name": "Shenzhen E-Teck Offer Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida para viaje ultradelgado 10000/20000mAh con logotipo personalizado",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência de carregamento rápido ultrafino com logotipo personalizado 10000/20000mAh para viagem",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation de voyage ultra fine à chargement rapide, 10 000/20 000 mAh, logo personnalisé",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank da viaggio ultra sottile da 10.000/20.000 mAh con logo personalizzato a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Logo Khusus Bank Daya Pengisian Cepat Perjalanan Ultra-Slim 10000/20000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh du lịch siêu mỏng 10000/20000mAh có logo tùy chỉnh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "โลโก้ที่กำหนดเอง Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Cepat Perjalanan 10000/20000mAh Logo Tersuai",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charge Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charge Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "စိတ်ကြိုက်လိုဂို Ultra-Slim 10000/20000mAh ခရီးသွား အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Custom-Logo Ultra-Slim 10000/20000mAh Travel Fast-Charging Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "شعار مخصص فائق النحافة 10000/20000 مللي أمبير في الساعة بنك الطاقة للشحن السريع للسفر"
     },
     {
       "id": "power-bank-20",
@@ -1840,8 +3829,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 22,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco portátil del poder del paladio 22.5W 20000mAh con cuatro cables incorporados y puerto tipo C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência portátil PD 22,5 W 20000mAh com quatro cabos integrados e porta tipo C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable PD 22,5 W 20 000 mAh avec quatre câbles intégrés et port Type-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank portatile PD 22,5 W 20000 mAh con quattro cavi integrati e porta di tipo C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Portabel PD 22.5W 20000mAh dengan Empat Kabel Bawaan dan Port Tipe-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Sạc dự phòng di động PD 22,5W 20000mAh có bốn cáp tích hợp và cổng Type-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "PD 22.5W 20000mAh พาวเวอร์แบงค์แบบพกพาพร้อมสายเคเบิลในตัวสี่เส้นและพอร์ต Type-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Mudah Alih PD 22.5W 20000mAh dengan Empat Kabel Terbina Dalam dan Port Jenis-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "PD 22.5W 20000mAh Portable Power Bank na may Apat na Built-in na Cable at Type-C Port",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "PD 22.5W 20000mAh Power Bank ចល័តដែលមានខ្សែភ្ជាប់មកជាមួយចំនួនបួន និងច្រក Type-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "PD 22.5W 20000mAh ပါဝါဘဏ် တပ်ဆင်ပြီး ကြိုးလေးချောင်းနှင့် Type-C အပေါက်ပါရှိသော အိတ်ဆောင် Power Bank",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "PD 22.5W 20000mAh Power Bank ແບບພົກພາມີສີ່ສາຍໃນຕົວແລະພອດ Type-C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة المحمول PD بقدرة 22.5 واط وسعة 20000 مللي أمبير في الساعة مزود بأربعة كابلات مدمجة ومنفذ من النوع C",
+          "supplier_name": "Shenzhen Shengyi Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco portátil del poder del paladio 22.5W 20000mAh con cuatro cables incorporados y puerto tipo C",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência portátil PD 22,5 W 20000mAh com quatro cabos integrados e porta tipo C",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable PD 22,5 W 20 000 mAh avec quatre câbles intégrés et port Type-C",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank portatile PD 22,5 W 20000 mAh con quattro cavi integrati e porta di tipo C",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Portabel PD 22.5W 20000mAh dengan Empat Kabel Bawaan dan Port Tipe-C",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Sạc dự phòng di động PD 22,5W 20000mAh có bốn cáp tích hợp và cổng Type-C",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "PD 22.5W 20000mAh พาวเวอร์แบงค์แบบพกพาพร้อมสายเคเบิลในตัวสี่เส้นและพอร์ต Type-C",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Mudah Alih PD 22.5W 20000mAh dengan Empat Kabel Terbina Dalam dan Port Jenis-C",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "PD 22.5W 20000mAh Portable Power Bank na may Apat na Built-in na Cable at Type-C Port",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "PD 22.5W 20000mAh Power Bank ចល័តដែលមានខ្សែភ្ជាប់មកជាមួយចំនួនបួន និងច្រក Type-C",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "PD 22.5W 20000mAh ပါဝါဘဏ် တပ်ဆင်ပြီး ကြိုးလေးချောင်းနှင့် Type-C အပေါက်ပါရှိသော အိတ်ဆောင် Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "PD 22.5W 20000mAh Power Bank ແບບພົກພາມີສີ່ສາຍໃນຕົວແລະພອດ Type-C",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة المحمول PD بقدرة 22.5 واط وسعة 20000 مللي أمبير في الساعة مزود بأربعة كابلات مدمجة ومنفذ من النوع C"
     },
     {
       "id": "power-bank-21",
@@ -1928,8 +4021,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 166,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida, liviano y ultradelgado de 10000 mAh Remax Amzo",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Remax Amzo 10000mAh ultrafino e leve banco de potência de carregamento rápido",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Remax Amzo 10000mAh Banque d'alimentation ultra fine, légère et à charge rapide",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Remax Amzo 10000mAh Power Bank ultra sottile e leggero a ricarica rapida",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Remax Amzo 10000mAh Ultra-Slim Ringan Pengisian Cepat Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Remax Amzo 10000mAh Sạc dự phòng siêu mỏng nhẹ sạc nhanh",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "Remax Amzo 10000mAh พาวเวอร์แบงค์ชาร์จเร็วน้ำหนักเบาบางเฉียบเป็นพิเศษ",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Remax Amzo 10000mAh Ultra-Slim Ringan Pengecasan Cepat Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charge Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Remax Amzo 10000mAh Ultra-Slim ပေါ့ပါးပြီး အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Remax Amzo 10000mAh ແບດເຕີຣີ້ສາກໄວ ນ້ຳໜັກເບົາບາງເບົາ",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة ريماكس أمزو 10000 مللي أمبير خفيف الوزن وسريع الشحن",
+          "supplier_name": "Shenzhen Remax Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida, liviano y ultradelgado de 10000 mAh Remax Amzo",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Remax Amzo 10000mAh ultrafino e leve banco de potência de carregamento rápido",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Remax Amzo 10000mAh Banque d'alimentation ultra fine, légère et à charge rapide",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Remax Amzo 10000mAh Power Bank ultra sottile e leggero a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Remax Amzo 10000mAh Ultra-Slim Ringan Pengisian Cepat Power Bank",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Remax Amzo 10000mAh Sạc dự phòng siêu mỏng nhẹ sạc nhanh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "Remax Amzo 10000mAh พาวเวอร์แบงค์ชาร์จเร็วน้ำหนักเบาบางเฉียบเป็นพิเศษ",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Remax Amzo 10000mAh Ultra-Slim Ringan Pengecasan Cepat Power Bank",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charge Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Remax Amzo 10000mAh Ultra-Slim Lightweight Fast-Charging Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Remax Amzo 10000mAh Ultra-Slim ပေါ့ပါးပြီး အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Remax Amzo 10000mAh ແບດເຕີຣີ້ສາກໄວ ນ້ຳໜັກເບົາບາງເບົາ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة ريماكس أمزو 10000 مللي أمبير خفيف الوزن وسريع الشحن"
     },
     {
       "id": "power-bank-22",
@@ -2016,8 +4213,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 16,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía impermeable Miccell PD 35W 10000mAh con cable incorporado y pantalla LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência à prova d'água Miccell PD 35W 10000mAh com cabo integrado e display LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation étanche Miccell PD 35W 10000mAh avec câble intégré et écran LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank impermeabile Miccell PD 35W 10000mAh con cavo integrato e display LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Tahan Air Miccell PD 35W 10000mAh dengan Kabel Bawaan dan Layar LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Sạc dự phòng Miccell PD 35W 10000mAh chống nước có cáp tích hợp và màn hình LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "Miccell PD 35W 10000mAh พาวเวอร์แบงค์กันน้ำพร้อมสายเคเบิลในตัวและจอแสดงผล LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Miccell PD 35W 10000mAh Waterproof Power Bank dengan Kabel Terbina dalam dan Paparan LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Miccell PD 35W 10000mAh Waterproof Power Bank na may Built-in na Cable at LED Display",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Miccell PD 35W 10000mAh Waterproof Power Bank ជាមួយនឹងខ្សែភ្ជាប់មកជាមួយ និងអេក្រង់ LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Miccell PD 35W 10000mAh ရေစိုခံ Power Bank ပါ၀င်သောကြိုးနှင့် LED မျက်နှာပြင်",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Miccell PD 35W 10000mAh Waterproof Power Bank ມີສາຍໄຟໃນຕົວແລະຈໍ LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة Miccell PD 35W 10000mAh مقاوم للماء مع كابل مدمج وشاشة LED",
+          "supplier_name": "Guangzhou Veaqee Electronic Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía impermeable Miccell PD 35W 10000mAh con cable incorporado y pantalla LED",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência à prova d'água Miccell PD 35W 10000mAh com cabo integrado e display LED",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation étanche Miccell PD 35W 10000mAh avec câble intégré et écran LED",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank impermeabile Miccell PD 35W 10000mAh con cavo integrato e display LED",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Tahan Air Miccell PD 35W 10000mAh dengan Kabel Bawaan dan Layar LED",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Sạc dự phòng Miccell PD 35W 10000mAh chống nước có cáp tích hợp và màn hình LED",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "Miccell PD 35W 10000mAh พาวเวอร์แบงค์กันน้ำพร้อมสายเคเบิลในตัวและจอแสดงผล LED",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Miccell PD 35W 10000mAh Waterproof Power Bank dengan Kabel Terbina dalam dan Paparan LED",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Miccell PD 35W 10000mAh Waterproof Power Bank na may Built-in na Cable at LED Display",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Miccell PD 35W 10000mAh Waterproof Power Bank ជាមួយនឹងខ្សែភ្ជាប់មកជាមួយ និងអេក្រង់ LED",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Miccell PD 35W 10000mAh ရေစိုခံ Power Bank ပါ၀င်သောကြိုးနှင့် LED မျက်နှာပြင်",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Miccell PD 35W 10000mAh Waterproof Power Bank ມີສາຍໄຟໃນຕົວແລະຈໍ LED",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة Miccell PD 35W 10000mAh مقاوم للماء مع كابل مدمج وشاشة LED"
     },
     {
       "id": "power-bank-23",
@@ -2104,8 +4405,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 55,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Mini banco de energía de emergencia estilo lápiz labial de 5000 mAh con cable incorporado y soporte",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Mini banco de energia de emergência estilo batom 5000mAh com cabo e suporte integrados",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Mini banque d'alimentation de secours de 5 000 mAh de style rouge à lèvres avec câble et support intégrés",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Mini Power Bank di emergenza da 5000 mAh in stile rossetto con cavo e supporto integrati",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Darurat Mini 5000mAh Bergaya Lipstik dengan Kabel dan Dudukan Bawaan",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Pin dự phòng khẩn cấp mini 5000mAh kiểu son môi có dây cáp và chân đế tích hợp",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ฉุกเฉินขนาดเล็กสไตล์ลิปสติกขนาด 5000mAh พร้อมสายเคเบิลและขาตั้งในตัว",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Kecemasan Mini Gaya Gincu 5000mAh dengan Kabel dan Kaki Terbina dalam",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Lipstick-Style 5000mAh Mini Emergency Power Bank na may Built-in na Cable at Stand",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Lipstick-Style 5000mAh Mini Emergency Power Bank ដែលមានខ្សែភ្ជាប់មកជាមួយ និងជើងទម្រ",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Built-in Cable နှင့် Stand ပါသော 5000mAh Mini Emergency Power Bank နှုတ်ခမ်းနီပုံစံ",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Lipstick-Style 5000mAh Mini Emergency Power Bank ທີ່ມີສາຍໃນຕົວ ແລະຂາຕັ້ງ",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة صغير للطوارئ بقدرة 5000 مللي أمبير في الساعة على شكل أحمر الشفاه مع كابل وحامل مدمجين",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Mini banco de energía de emergencia estilo lápiz labial de 5000 mAh con cable incorporado y soporte",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Mini banco de energia de emergência estilo batom 5000mAh com cabo e suporte integrados",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Mini banque d'alimentation de secours de 5 000 mAh de style rouge à lèvres avec câble et support intégrés",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Mini Power Bank di emergenza da 5000 mAh in stile rossetto con cavo e supporto integrati",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Darurat Mini 5000mAh Bergaya Lipstik dengan Kabel dan Dudukan Bawaan",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Pin dự phòng khẩn cấp mini 5000mAh kiểu son môi có dây cáp và chân đế tích hợp",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ฉุกเฉินขนาดเล็กสไตล์ลิปสติกขนาด 5000mAh พร้อมสายเคเบิลและขาตั้งในตัว",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Kecemasan Mini Gaya Gincu 5000mAh dengan Kabel dan Kaki Terbina dalam",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Lipstick-Style 5000mAh Mini Emergency Power Bank na may Built-in na Cable at Stand",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Lipstick-Style 5000mAh Mini Emergency Power Bank ដែលមានខ្សែភ្ជាប់មកជាមួយ និងជើងទម្រ",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Built-in Cable နှင့် Stand ပါသော 5000mAh Mini Emergency Power Bank နှုတ်ခမ်းနီပုံစံ",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Lipstick-Style 5000mAh Mini Emergency Power Bank ທີ່ມີສາຍໃນຕົວ ແລະຂາຕັ້ງ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة صغير للطوارئ بقدرة 5000 مللي أمبير في الساعة على شكل أحمر الشفاه مع كابل وحامل مدمجين"
     },
     {
       "id": "power-bank-24",
@@ -2192,8 +4597,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 171,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida inalámbrico magnético portátil Prosub 5000mAh",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Prosub 5000mAh portátil magnético sem fio banco de potência de carregamento rápido",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable magnétique sans fil à charge rapide Prosub 5000 mAh",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank portatile wireless magnetico Prosub da 5000 mAh a ricarica rapida",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Prosub Bank Daya Pengisian Cepat Nirkabel Magnetik Portabel 5000mAh",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh không dây di động Prosub 5000mAh",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "Prosub 5000mAh แบบพกพา Magnetic Wireless Fast-Charging Power Bank",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Prosub 5000mAh Bank Kuasa Pengecasan Cepat Wayarles Magnet Mudah Alih",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charge Power Bank",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Prosub 5000mAh Portable Magnetic Wireless Power Bank សាកថ្មលឿន",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charging Power Bank",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Prosub 5000mAh Portable Magnetic Wireless Charging Power Bank",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "باور بانك محمول مغناطيسي لاسلكي سريع الشحن بقدرة 5000 مللي أمبير في الساعة من بروسوب",
+          "supplier_name": "Dongguan Prosub Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida inalámbrico magnético portátil Prosub 5000mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Prosub 5000mAh portátil magnético sem fio banco de potência de carregamento rápido",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable magnétique sans fil à charge rapide Prosub 5000 mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank portatile wireless magnetico Prosub da 5000 mAh a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Prosub Bank Daya Pengisian Cepat Nirkabel Magnetik Portabel 5000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh không dây di động Prosub 5000mAh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "Prosub 5000mAh แบบพกพา Magnetic Wireless Fast-Charging Power Bank",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Prosub 5000mAh Bank Kuasa Pengecasan Cepat Wayarles Magnet Mudah Alih",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charge Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Prosub 5000mAh Portable Magnetic Wireless Power Bank សាកថ្មលឿន",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Prosub 5000mAh Portable Magnetic Wireless Fast-Charging Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Prosub 5000mAh Portable Magnetic Wireless Charging Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "باور بانك محمول مغناطيسي لاسلكي سريع الشحن بقدرة 5000 مللي أمبير في الساعة من بروسوب"
     },
     {
       "id": "power-bank-25",
@@ -2280,8 +4789,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 139,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida con batería externa portátil de 10000 mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência de carregamento rápido com bateria externa portátil de 10000mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable à charge rapide avec batterie externe portable de 10 000 mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank portatile a ricarica rapida con batteria esterna da 10000 mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Cepat Baterai Eksternal Portabel 10000mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh pin ngoài di động 10000mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "แบตสำรองภายนอกแบบพกพาขนาด 10000mAh ชาร์จเร็ว Power Bank",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Cepat Bateri Luar Mudah Alih 10000mAh",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "10000mAh Portable External-Baterya na Mabilis na Nagcha-charge ng Power Bank",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "10000mAh Portable External-Battery Fast-charging Power Bank",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "10000mAh Portable External-Battery Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "10000mAh Portable External Battery Charging Fast-Charge",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة محمول ببطارية خارجية 10000 مللي أمبير سريع الشحن",
+          "supplier_name": "Shenzhen Baolifeng Opto-Elec Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida con batería externa portátil de 10000 mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência de carregamento rápido com bateria externa portátil de 10000mAh",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable à charge rapide avec batterie externe portable de 10 000 mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank portatile a ricarica rapida con batteria esterna da 10000 mAh",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Cepat Baterai Eksternal Portabel 10000mAh",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh pin ngoài di động 10000mAh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "แบตสำรองภายนอกแบบพกพาขนาด 10000mAh ชาร์จเร็ว Power Bank",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Cepat Bateri Luar Mudah Alih 10000mAh",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "10000mAh Portable External-Baterya na Mabilis na Nagcha-charge ng Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "10000mAh Portable External-Battery Fast-charging Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "10000mAh Portable External-Battery Fast-Charging Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "10000mAh Portable External Battery Charging Fast-Charge",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة محمول ببطارية خارجية 10000 مللي أمبير سريع الشحن"
     },
     {
       "id": "power-bank-26",
@@ -2368,8 +4981,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 82,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida magnético inalámbrico 5000/10000mAh para iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência de carregamento rápido magnético sem fio 5000/10000mAh para iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation magnétique sans fil à charge rapide 5000/10000mAh pour iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank magnetico wireless a ricarica rapida da 5000/10000 mAh per iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Cepat Magnetik Nirkabel 5000/10000mAh untuk iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh từ tính không dây 5000/10000mAh cho iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank สำหรับ iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Pantas Magnetik Wayarles 5000/10000mAh untuk iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "5000/10000mAh Wireless Magnetic Fast-Charge Power Bank para sa iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank សម្រាប់ iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "iPhone အတွက် 5000/10000mAh ကြိုးမဲ့သံလိုက် အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank ສໍາລັບ iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة لاسلكي مغناطيسي سريع الشحن بقدرة 5000/10000 مللي أمبير في الساعة لهاتف iPhone",
+          "supplier_name": "Guangdong Paipai Communication Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida magnético inalámbrico 5000/10000mAh para iPhone",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência de carregamento rápido magnético sem fio 5000/10000mAh para iPhone",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation magnétique sans fil à charge rapide 5000/10000mAh pour iPhone",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank magnetico wireless a ricarica rapida da 5000/10000 mAh per iPhone",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Cepat Magnetik Nirkabel 5000/10000mAh untuk iPhone",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh từ tính không dây 5000/10000mAh cho iPhone",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank สำหรับ iPhone",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Pantas Magnetik Wayarles 5000/10000mAh untuk iPhone",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "5000/10000mAh Wireless Magnetic Fast-Charge Power Bank para sa iPhone",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank សម្រាប់ iPhone",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "iPhone အတွက် 5000/10000mAh ကြိုးမဲ့သံလိုက် အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "5000/10000mAh Wireless Magnetic Fast-Charging Power Bank ສໍາລັບ iPhone",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة لاسلكي مغناطيسي سريع الشحن بقدرة 5000/10000 مللي أمبير في الساعة لهاتف iPhone"
     },
     {
       "id": "power-bank-27",
@@ -2456,8 +5173,112 @@
           "supplier_rating": "4.6",
           "supplier_total_review_order_count": 73,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida portátil ultradelgado de 22,5 W, 50000 mAh, personalizado de fábrica",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência de carregamento rápido portátil ultrafino de 50000mAh personalizado de fábrica de 22,5 W",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation portable ultra-mince 50 000 mAh à chargement rapide de 22,5 W, personnalisée en usine",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power Bank portatile ultrasottile da 22,5 W personalizzato in fabbrica da 50000 mAh",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Cepat 22,5W Portabel Ultra-Slim 50000mAh Kustom Pabrik",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh 22,5W di động siêu mỏng 50000mAh tùy chỉnh tại nhà máy",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "โรงงาน-กำหนดเอง 50000mAh บางเฉียบแบบพกพา 22.5W พาวเวอร์แบงค์ชาร์จเร็ว",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Cepat 50000mAh Ultra-Slim Tersuai Kilang 22.5W",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charge na Power Bank",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charge Power Bank",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "စက်ရုံ-စိတ်ကြိုက် 50000mAh Ultra-Slim အိတ်ဆောင် 22.5W အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charging Power Bank",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك الطاقة المحمول فائق النحافة بقدرة 50000 مللي أمبير في الساعة مخصص من المصنع بقدرة 22.5 وات وسريع الشحن",
+          "supplier_name": "Shenzhen Ysap Electronic Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida portátil ultradelgado de 22,5 W, 50000 mAh, personalizado de fábrica",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência de carregamento rápido portátil ultrafino de 50000mAh personalizado de fábrica de 22,5 W",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation portable ultra-mince 50 000 mAh à chargement rapide de 22,5 W, personnalisée en usine",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power Bank portatile ultrasottile da 22,5 W personalizzato in fabbrica da 50000 mAh",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Cepat 22,5W Portabel Ultra-Slim 50000mAh Kustom Pabrik",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh 22,5W di động siêu mỏng 50000mAh tùy chỉnh tại nhà máy",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "โรงงาน-กำหนดเอง 50000mAh บางเฉียบแบบพกพา 22.5W พาวเวอร์แบงค์ชาร์จเร็ว",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Cepat 50000mAh Ultra-Slim Tersuai Kilang 22.5W",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charge na Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charge Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "စက်ရုံ-စိတ်ကြိုက် 50000mAh Ultra-Slim အိတ်ဆောင် 22.5W အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Factory-Custom 50000mAh Ultra-Slim Portable 22.5W Fast-Charging Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك الطاقة المحمول فائق النحافة بقدرة 50000 مللي أمبير في الساعة مخصص من المصنع بقدرة 22.5 وات وسريع الشحن"
     },
     {
       "id": "power-bank-28",
@@ -2544,8 +5365,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 149,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga rápida magnético inalámbrico ultradelgado 5000/10000mAh 15W/20W",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência de carregamento rápido magnético sem fio ultrafino 5000/10000mAh 15W/20W",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation magnétique sans fil ultra fine à charge rapide 5 000/10 000 mAh 15 W/20 W",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank magnetico wireless ultrasottile da 5000/10000 mAh 15 W/20 W a ricarica rapida",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Cepat Magnetik Nirkabel Ultra-Slim 5000/10000mAh 15W/20W",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện sạc nhanh từ tính không dây siêu mỏng 5000/10000mAh 15W/20W",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "บางเฉียบ 5000/10000mAh 15W/20W พาวเวอร์แบงค์ชาร์จเร็วแม่เหล็กไร้สาย",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecas Pantas Magnetik Wayarles 5000/10000mAh 15W/20W Ultra-Slim",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charge na Power Bank",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charge Power Bank",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "အလွန်ပါးလွှာသော 5000/10000mAh 15W/20W ကြိုးမဲ့သံလိုက် အမြန်အားသွင်းနိုင်သော Power Bank",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Ultra-Slim 5000/10000mAh 15W/20W Power Bank ສາກໄວແມ່ເຫຼັກໄຮ້ສາຍ",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة فائق النحافة بقدرة 5000/10000 مللي أمبير في الساعة بقدرة 15 وات/20 وات وشحن سريع مغناطيسي لاسلكي",
+          "supplier_name": "Shenzhen Infinite Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga rápida magnético inalámbrico ultradelgado 5000/10000mAh 15W/20W",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência de carregamento rápido magnético sem fio ultrafino 5000/10000mAh 15W/20W",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation magnétique sans fil ultra fine à charge rapide 5 000/10 000 mAh 15 W/20 W",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank magnetico wireless ultrasottile da 5000/10000 mAh 15 W/20 W a ricarica rapida",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Cepat Magnetik Nirkabel Ultra-Slim 5000/10000mAh 15W/20W",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện sạc nhanh từ tính không dây siêu mỏng 5000/10000mAh 15W/20W",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "บางเฉียบ 5000/10000mAh 15W/20W พาวเวอร์แบงค์ชาร์จเร็วแม่เหล็กไร้สาย",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecas Pantas Magnetik Wayarles 5000/10000mAh 15W/20W Ultra-Slim",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charge na Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Ultra-Slim 5000/10000mAh 15W/20W Wireless Magnetic Fast-Charge Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "အလွန်ပါးလွှာသော 5000/10000mAh 15W/20W ကြိုးမဲ့သံလိုက် အမြန်အားသွင်းနိုင်သော Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Ultra-Slim 5000/10000mAh 15W/20W Power Bank ສາກໄວແມ່ເຫຼັກໄຮ້ສາຍ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة فائق النحافة بقدرة 5000/10000 مللي أمبير في الساعة بقدرة 15 وات/20 وات وشحن سريع مغناطيسي لاسلكي"
     },
     {
       "id": "power-bank-29",
@@ -2632,8 +5557,112 @@
           "supplier_rating": "4.6",
           "supplier_total_review_order_count": 65,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Mini banco de energía de 5000 mAh con cable incorporado y soporte",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Mini Power Bank de 5000mAh com cabo e suporte integrados",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Mini banque d'alimentation 5 000 mAh avec câble et support intégrés",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Mini Power Bank da 5000 mAh con cavo e supporto integrati",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Mini 5000mAh dengan Kabel dan Dudukan Bawaan",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Ngân hàng điện mini 5000mAh có cáp và chân đế tích hợp",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "พาวเวอร์แบงค์ขนาดเล็ก 5000mAh พร้อมสายเคเบิลและขาตั้งในตัว",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Mini 5000mAh dengan Kabel dan Kaki Terbina dalam",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "5000mAh Mini Power Bank na may Built-in na Cable at Stand",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "5000mAh Mini Power Bank ភ្ជាប់មកជាមួយខ្សែ និងជើង",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Built-in Cable နှင့် Stand ပါရှိသော 5000mAh Mini Power Bank",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Power Bank ຂະໜາດນ້ອຍ 5000mAh ມີສາຍ ແລະ Stand ໃນຕົວ",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "باور بانك صغير بسعة 5000 مللي أمبير في الساعة مزود بكابل وحامل مدمجين",
+          "supplier_name": "Shenzhen Toptai Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Mini banco de energía de 5000 mAh con cable incorporado y soporte",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Mini Power Bank de 5000mAh com cabo e suporte integrados",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Mini banque d'alimentation 5 000 mAh avec câble et support intégrés",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Mini Power Bank da 5000 mAh con cavo e supporto integrati",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Mini 5000mAh dengan Kabel dan Dudukan Bawaan",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Ngân hàng điện mini 5000mAh có cáp và chân đế tích hợp",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "พาวเวอร์แบงค์ขนาดเล็ก 5000mAh พร้อมสายเคเบิลและขาตั้งในตัว",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Mini 5000mAh dengan Kabel dan Kaki Terbina dalam",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "5000mAh Mini Power Bank na may Built-in na Cable at Stand",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "5000mAh Mini Power Bank ភ្ជាប់មកជាមួយខ្សែ និងជើង",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Built-in Cable နှင့် Stand ပါရှိသော 5000mAh Mini Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Power Bank ຂະໜາດນ້ອຍ 5000mAh ມີສາຍ ແລະ Stand ໃນຕົວ",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "باور بانك صغير بسعة 5000 مللي أمبير في الساعة مزود بكابل وحامل مدمجين"
     },
     {
       "id": "power-bank-30",
@@ -2720,8 +5749,112 @@
           "supplier_rating": "4.5",
           "supplier_total_review_order_count": 16,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Bancos de energía",
+          "product_name": "Banco de energía de carga inalámbrica ultradelgado magnético de aleación de aluminio 5000 mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Bancos de potência",
+          "product_name": "Banco de potência de carregamento sem fio ultrafino de liga de alumínio magnético 5000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Banques d'alimentation",
+          "product_name": "Banque d'alimentation magnétique à chargement sans fil ultra-mince en alliage d'aluminium 5000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Banche di potere",
+          "product_name": "Power bank magnetico ultrasottile con ricarica wireless da 5000 mAh in lega di alluminio",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Bank Daya",
+          "product_name": "Bank Daya Pengisian Nirkabel Ultra-Slim 5000mAh Paduan Aluminium Magnetik",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Ngân hàng điện",
+          "product_name": "Hợp kim nhôm từ tính Sạc dự phòng không dây siêu mỏng 5000mAh",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "พาวเวอร์แบงค์",
+          "product_name": "อลูมิเนียมอัลลอยด์แม่เหล็ก 5000mAh ธนาคารพลังงานชาร์จไร้สายบางเฉียบ",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Power Bank",
+          "product_name": "Bank Kuasa Pengecasan Wayarles Ultra-Slim 5000mAh Aloi Aluminium Magnet",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Power Bank",
+          "product_name": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "ធនាគារថាមពល",
+          "product_name": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "ပါဝါဘဏ်များ",
+          "product_name": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "Power Banks",
+          "product_name": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "باور بانك",
+          "product_name": "بنك طاقة مغناطيسي من سبائك الألومنيوم بقدرة 5000 مللي أمبير في الساعة للشحن اللاسلكي فائق النحافة",
+          "supplier_name": "Shenzhen Istyle Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Bancos de energía",
+      "product_name_es": "Banco de energía de carga inalámbrica ultradelgado magnético de aleación de aluminio 5000 mAh",
+      "category_name_pt": "Bancos de potência",
+      "product_name_pt": "Banco de potência de carregamento sem fio ultrafino de liga de alumínio magnético 5000mAh",
+      "category_name_fr": "Banques d'alimentation",
+      "product_name_fr": "Banque d'alimentation magnétique à chargement sans fil ultra-mince en alliage d'aluminium 5000mAh",
+      "category_name_it": "Banche di potere",
+      "product_name_it": "Power bank magnetico ultrasottile con ricarica wireless da 5000 mAh in lega di alluminio",
+      "category_name_id": "Bank Daya",
+      "product_name_id": "Bank Daya Pengisian Nirkabel Ultra-Slim 5000mAh Paduan Aluminium Magnetik",
+      "category_name_vi": "Ngân hàng điện",
+      "product_name_vi": "Hợp kim nhôm từ tính Sạc dự phòng không dây siêu mỏng 5000mAh",
+      "category_name_th": "พาวเวอร์แบงค์",
+      "product_name_th": "อลูมิเนียมอัลลอยด์แม่เหล็ก 5000mAh ธนาคารพลังงานชาร์จไร้สายบางเฉียบ",
+      "category_name_ms": "Power Bank",
+      "product_name_ms": "Bank Kuasa Pengecasan Wayarles Ultra-Slim 5000mAh Aloi Aluminium Magnet",
+      "category_name_tl": "Mga Power Bank",
+      "product_name_tl": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+      "category_name_km": "ធនាគារថាមពល",
+      "product_name_km": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+      "category_name_my": "ပါဝါဘဏ်များ",
+      "product_name_my": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+      "category_name_lo": "Power Banks",
+      "product_name_lo": "Magnetic Aluminum Alloy 5000mAh Ultra-Slim Wireless-Charging Power Bank",
+      "category_name_ar": "باور بانك",
+      "product_name_ar": "بنك طاقة مغناطيسي من سبائك الألومنيوم بقدرة 5000 مللي أمبير في الساعة للشحن اللاسلكي فائق النحافة"
     }
   ]
 }

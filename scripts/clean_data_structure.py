@@ -16,6 +16,22 @@ SUPPLIERS_JSON = DATA_DIR / "suppliers.json"
 
 INFO_MISSING_KO = "정보 없음"
 
+ADDITIONAL_LANGUAGES = [
+    ("es", "Spanish"),
+    ("pt", "Portuguese"),
+    ("fr", "French"),
+    ("it", "Italian"),
+    ("id", "Indonesian"),
+    ("vi", "Vietnamese"),
+    ("th", "Thai"),
+    ("ms", "Malay"),
+    ("tl", "Filipino"),
+    ("km", "Khmer"),
+    ("my", "Burmese"),
+    ("lo", "Lao"),
+    ("ar", "Arabic"),
+]
+
 CSV_FIELDS = [
     "id",
     "category_id",
@@ -31,6 +47,32 @@ CSV_FIELDS = [
     "english_product_name",
     "product_name_ko",
     "product_name_en",
+    "category_name_es",
+    "product_name_es",
+    "category_name_pt",
+    "product_name_pt",
+    "category_name_fr",
+    "product_name_fr",
+    "category_name_it",
+    "product_name_it",
+    "category_name_id",
+    "product_name_id",
+    "category_name_vi",
+    "product_name_vi",
+    "category_name_th",
+    "product_name_th",
+    "category_name_ms",
+    "product_name_ms",
+    "category_name_tl",
+    "product_name_tl",
+    "category_name_km",
+    "product_name_km",
+    "category_name_my",
+    "product_name_my",
+    "category_name_lo",
+    "product_name_lo",
+    "category_name_ar",
+    "product_name_ar",
     "price_krw",
     "price_krw_min",
     "price_krw_max",
@@ -84,6 +126,7 @@ def parse_krw_price(value: str) -> tuple[Optional[int], Optional[int], bool]:
 
 def clean_product(product: dict) -> None:
     price_min, price_max, is_range = parse_krw_price(product.get("price_krw", ""))
+    existing_localized = product.get("localized", {})
 
     product["category_name_ko"] = product.get("category_ko", "")
     product["category_name_en"] = product.get("category_en", "")
@@ -105,6 +148,7 @@ def clean_product(product: dict) -> None:
     }
 
     product["localized"] = {
+        **existing_localized,
         "ko": {
             "category_name": product.get("category_ko", ""),
             "product_name": product.get("korean_product_name", ""),
@@ -176,9 +220,9 @@ def main() -> None:
 
     payload["metadata"]["data_structure_version"] = "2026-07-02.multilingual-price-v2"
     payload["metadata"]["multilingual_fields"] = {
-        "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+        "note": "Display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
         "object": "localized",
-        "languages": ["ko", "en"],
+        "languages": ["ko", "en", *[code for code, _name in ADDITIONAL_LANGUAGES]],
     }
     payload["metadata"]["price_fields"] = {
         "currency": "KRW",

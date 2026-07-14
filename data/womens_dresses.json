@@ -63,11 +63,24 @@
     },
     "data_structure_version": "2026-07-02.multilingual-price-v2",
     "multilingual_fields": {
-      "note": "Korean and English display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
+      "note": "Display values are separated under product.localized. Legacy flat fields are preserved for compatibility.",
       "object": "localized",
       "languages": [
         "ko",
-        "en"
+        "en",
+        "es",
+        "pt",
+        "fr",
+        "it",
+        "id",
+        "vi",
+        "th",
+        "ms",
+        "tl",
+        "km",
+        "my",
+        "lo",
+        "ar"
       ]
     },
     "price_fields": {
@@ -167,8 +180,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Minivestido de verano personalizado de corte A con mangas cortas y cuello en V, estilo Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Mini vestido de verão personalizado com mangas curtas e decote em V, estilo Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Mini robe trapèze d’été personnalisée avec manches courtes et col en V, style Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Mini abito estivo personalizzato a trapezio con maniche corte e scollo a V, stile Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Mini A-Line Musim Panas Kustom dengan Lengan Pendek dan Leher V, Gaya Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy ngắn chữ A mùa hè tùy chỉnh với tay áo ngắn và cổ chữ V, phong cách Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "มินิเดรส A-Line ฤดูร้อนแบบกำหนดเองพร้อมแขนสั้นและคอวี สไตล์ Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Mini A-Line Musim Panas Tersuai dengan Lengan Pendek dan Leher V, Gaya Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Custom na Summer A-Line na Mini Dress na may Maiikling Manggas at V-Neck, Y2K Style",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបខ្នាតតូចបែប A-Line រដូវក្តៅផ្ទាល់ខ្លួនជាមួយនឹងដៃខ្លី និងក V រចនាប័ទ្ម Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "လက်တိုနှင့် V-လည်ပင်း၊ Y2K စတိုင်ဖြင့် နွေရာသီ A-Line မီနီဂါဝန်",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Custom Summer A-Line Mini Dress ມີແຂນສັ້ນ ແລະຄໍ V, ແບບ Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان صيفي قصير على شكل حرف A وأكمام قصيرة ورقبة على شكل حرف V، طراز Y2K",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Minivestido de verano personalizado de corte A con mangas cortas y cuello en V, estilo Y2K",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Mini vestido de verão personalizado com mangas curtas e decote em V, estilo Y2K",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Mini robe trapèze d’été personnalisée avec manches courtes et col en V, style Y2K",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Mini abito estivo personalizzato a trapezio con maniche corte e scollo a V, stile Y2K",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Mini A-Line Musim Panas Kustom dengan Lengan Pendek dan Leher V, Gaya Y2K",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy ngắn chữ A mùa hè tùy chỉnh với tay áo ngắn và cổ chữ V, phong cách Y2K",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "มินิเดรส A-Line ฤดูร้อนแบบกำหนดเองพร้อมแขนสั้นและคอวี สไตล์ Y2K",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Mini A-Line Musim Panas Tersuai dengan Lengan Pendek dan Leher V, Gaya Y2K",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Custom na Summer A-Line na Mini Dress na may Maiikling Manggas at V-Neck, Y2K Style",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបខ្នាតតូចបែប A-Line រដូវក្តៅផ្ទាល់ខ្លួនជាមួយនឹងដៃខ្លី និងក V រចនាប័ទ្ម Y2K",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "လက်တိုနှင့် V-လည်ပင်း၊ Y2K စတိုင်ဖြင့် နွေရာသီ A-Line မီနီဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Custom Summer A-Line Mini Dress ມີແຂນສັ້ນ ແລະຄໍ V, ແບບ Y2K",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان صيفي قصير على شكل حرف A وأكمام قصيرة ورقبة على شكل حرف V، طراز Y2K"
     },
     {
       "id": "womens-dresses-02",
@@ -255,8 +372,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 5,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo con cinturón, sin mangas, con cuello en V y estampado personalizado",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido maxi com estampa personalizada e decote em V sem mangas com cinto",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue ceinturée sans manches à col en V et impression personnalisée",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito lungo senza maniche con cintura e scollo a V con stampa personalizzata",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Maxi Berikat Tanpa Lengan V-Neck Cetak Kustom",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy maxi không tay cổ chữ V in tùy chỉnh",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "แม็กซี่เดรสแขนกุดคอวีพิมพ์ลายแบบกำหนดเอง",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Maxi Bertali Pinggang Tanpa Lengan V-Leher Cetak Tersuai",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Custom-Print na V-Neck na walang manggas na may belt na Maxi Dress",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប Maxi ខ្សែក្រវាត់ដៃវែងគ្មានដៃបោះពុម្ពផ្ទាល់ខ្លួន",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "စိတ်ကြိုက်ပုံနှိပ် V-Neck လက်ပြတ်ခါးပတ် Maxi ဂါဝန်",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Custom-Print V-Neck Sleeveless Belted Belted Maxi Dress",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان ماكسي بحزام وبدون أكمام وطبعة مخصصة",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo con cinturón, sin mangas, con cuello en V y estampado personalizado",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido maxi com estampa personalizada e decote em V sem mangas com cinto",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue ceinturée sans manches à col en V et impression personnalisée",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito lungo senza maniche con cintura e scollo a V con stampa personalizzata",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Maxi Berikat Tanpa Lengan V-Neck Cetak Kustom",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy maxi không tay cổ chữ V in tùy chỉnh",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "แม็กซี่เดรสแขนกุดคอวีพิมพ์ลายแบบกำหนดเอง",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Maxi Bertali Pinggang Tanpa Lengan V-Leher Cetak Tersuai",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Custom-Print na V-Neck na walang manggas na may belt na Maxi Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប Maxi ខ្សែក្រវាត់ដៃវែងគ្មានដៃបោះពុម្ពផ្ទាល់ខ្លួន",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "စိတ်ကြိုက်ပုံနှိပ် V-Neck လက်ပြတ်ခါးပတ် Maxi ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Custom-Print V-Neck Sleeveless Belted Belted Maxi Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان ماكسي بحزام وبدون أكمام وطبعة مخصصة"
     },
     {
       "id": "womens-dresses-03",
@@ -343,8 +564,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo camisero de ante marrón con mangas largas y cintura anudada de Old-Money",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido maxi camisa de camurça marrom Old-Money com mangas compridas e gravata na cintura",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue chemise en daim marron Old-Money avec manches longues et taille nouée",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito lungo camicia in pelle scamosciata marrone vecchio stile con maniche lunghe e cravatta in vita",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Maxi Dress Kemeja Suede Coklat Uang Lama dengan Lengan Panjang dan Pinggang Dasi",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm maxi da lộn màu nâu Old-Money tay dài thắt eo",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "แม็กซี่เดรสเชิ้ตหนังกลับสีน้ำตาล Old-Money แขนยาวมีสายผูกเอว",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Maxi Baju Suede Coklat Duit Lama dengan Lengan Panjang dan Pinggang Bertali",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Old-Money Brown Suede Shirt Maxi Dress na may Mahabang Manggas at Tie Waist",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប Maxi អាវ​យឺត​ពណ៌​ត្នោត​ចាស់ មាន​ដៃ​វែង និង​ចង​ចង្កេះ",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Old-Money Brown Suede Shirt အင်္ကျီလက်ရှည်နှင့် ခါးကြိုးချည် Maxi Dress",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ເສື້ອຢືດ Maxi ສີນ້ຳຕານເກົ່າແກ່ມີແຂນຍາວ ແລະ ໂສ້ງແອວ",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان طويل على شكل قميص سويدي بني من Old-Money بأكمام طويلة وربطة على الخصر",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo camisero de ante marrón con mangas largas y cintura anudada de Old-Money",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido maxi camisa de camurça marrom Old-Money com mangas compridas e gravata na cintura",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue chemise en daim marron Old-Money avec manches longues et taille nouée",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito lungo camicia in pelle scamosciata marrone vecchio stile con maniche lunghe e cravatta in vita",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Maxi Dress Kemeja Suede Coklat Uang Lama dengan Lengan Panjang dan Pinggang Dasi",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm maxi da lộn màu nâu Old-Money tay dài thắt eo",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "แม็กซี่เดรสเชิ้ตหนังกลับสีน้ำตาล Old-Money แขนยาวมีสายผูกเอว",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Maxi Baju Suede Coklat Duit Lama dengan Lengan Panjang dan Pinggang Bertali",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Old-Money Brown Suede Shirt Maxi Dress na may Mahabang Manggas at Tie Waist",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប Maxi អាវ​យឺត​ពណ៌​ត្នោត​ចាស់ មាន​ដៃ​វែង និង​ចង​ចង្កេះ",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Old-Money Brown Suede Shirt အင်္ကျီလက်ရှည်နှင့် ခါးကြိုးချည် Maxi Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ເສື້ອຢືດ Maxi ສີນ້ຳຕານເກົ່າແກ່ມີແຂນຍາວ ແລະ ໂສ້ງແອວ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان طويل على شكل قميص سويدي بني من Old-Money بأكمام طويلة وربطة على الخصر"
     },
     {
       "id": "womens-dresses-04",
@@ -431,8 +756,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 193,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo ajustado de verano con logotipo personalizado",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido longo bodycon de verão com logotipo personalizado",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue moulante d'été avec logo personnalisé",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito lungo aderente estivo con logo personalizzato",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Panjang Bodycon Musim Panas dengan Logo Kustom",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Áo dài bodycon mùa hè có logo tùy chỉnh",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสยาวเข้ารูปฤดูร้อนโลโก้ที่กำหนดเอง",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Panjang Bodycon Musim Panas Logo Tersuai",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Custom-Logo Summer Bodycon Long Dress",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Custom-Logo Summer Bodycon រ៉ូបវែង",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "စိတ်ကြိုက်လိုဂို နွေရာသီ Bodycon ဂါဝန်ရှည်",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Custom-Logo Summer Bodycon Dress ຍາວ",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان صيفي طويل بشعار مخصص",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo ajustado de verano con logotipo personalizado",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido longo bodycon de verão com logotipo personalizado",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue moulante d'été avec logo personnalisé",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito lungo aderente estivo con logo personalizzato",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Panjang Bodycon Musim Panas dengan Logo Kustom",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Áo dài bodycon mùa hè có logo tùy chỉnh",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสยาวเข้ารูปฤดูร้อนโลโก้ที่กำหนดเอง",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Panjang Bodycon Musim Panas Logo Tersuai",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Custom-Logo Summer Bodycon Long Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Custom-Logo Summer Bodycon រ៉ូបវែង",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "စိတ်ကြိုက်လိုဂို နွေရာသီ Bodycon ဂါဝန်ရှည်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Custom-Logo Summer Bodycon Dress ຍາວ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان صيفي طويل بشعار مخصص"
     },
     {
       "id": "womens-dresses-05",
@@ -519,8 +948,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 1,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido ajustado informal sin mangas hasta la rodilla para mujer",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido feminino casual na altura do joelho sem mangas slim fit",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe décontractée sans manches, longueur genou, coupe ajustée, pour femmes",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito slim fit casual al ginocchio senza maniche da donna",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Slim Fit Tanpa Lengan Selutut Kasual Wanita",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy ôm vừa vặn không tay dài đến đầu gối thông thường dành cho nữ",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสลำลองแขนกุดยาวถึงเข่าสตรีทรงเข้ารูป",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Ramping Tanpa Lengan Kasual Selutut Wanita",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Pambabaeng Casual na Slim-Fit na Dress na Haba ng Tuhod",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប​ខ្លី​ខ្លី​ត្រឹម​ជង្គង់​របស់​ស្ត្រី​ធម្មតា​",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "အမျိုးသမီး ပေါ့ပေါ့ပါးပါး ဒူးအရှည် လက်ပြတ် ပါးလွှာသော ဂါဝန်",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ເສື້ອຍືດແຂນຍາວບໍ່ມີຫົວເຂົ່າຂອງແມ່ຍິງ",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان نسائي كاجوال بطول الركبة بدون أكمام وقصة ضيقة",
+          "supplier_name": "Xiamen Feeling Textile And Garment Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido ajustado informal sin mangas hasta la rodilla para mujer",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido feminino casual na altura do joelho sem mangas slim fit",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe décontractée sans manches, longueur genou, coupe ajustée, pour femmes",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito slim fit casual al ginocchio senza maniche da donna",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Slim Fit Tanpa Lengan Selutut Kasual Wanita",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy ôm vừa vặn không tay dài đến đầu gối thông thường dành cho nữ",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสลำลองแขนกุดยาวถึงเข่าสตรีทรงเข้ารูป",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Ramping Tanpa Lengan Kasual Selutut Wanita",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Pambabaeng Casual na Slim-Fit na Dress na Haba ng Tuhod",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប​ខ្លី​ខ្លី​ត្រឹម​ជង្គង់​របស់​ស្ត្រី​ធម្មតា​",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "အမျိုးသမီး ပေါ့ပေါ့ပါးပါး ဒူးအရှည် လက်ပြတ် ပါးလွှာသော ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ເສື້ອຍືດແຂນຍາວບໍ່ມີຫົວເຂົ່າຂອງແມ່ຍິງ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان نسائي كاجوال بطول الركبة بدون أكمام وقصة ضيقة"
     },
     {
       "id": "womens-dresses-06",
@@ -607,8 +1140,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "MANNI Vestido veraniego bohemio con cuello halter a rayas, detalle de abertura y dobladillo con volantes",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "MANNI Vestido boêmio listrado frente única com detalhe recortado e bainha com babados",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "MANNI - Robe d'été bohème rayée dos nu avec détails découpés et ourlet volanté",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "MANNI Vestito prendisole bohémien a righe con dettagli ritagliati e orlo con volant",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "MANNI Striped Halter Bohemian Sundress dengan Detail Cutout dan Ruffle Hem",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm suông kiểu Bohemian sọc ngang MANNI với chi tiết cutout và viền xếp nếp",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "MANNI Striped Halter ชุดคลุมกันแดดสไตล์โบฮีเมียนพร้อมคัตเอาท์และชายเสื้อระบาย",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Gaun Hitam Bohemian Halter Berjalur MANNI dengan Perincian Potongan dan Labuh Ruffle",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "MANNI Striped Halter Bohemian Sundress na may Cutout Detail at Ruffle Hem",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "MANNI Striped Halter Sundress Bohemian Sundress ជាមួយ​នឹង​ការ​កាត់​ចេញ​លម្អិត និង​អាវ​ទ្រនាប់​",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Cutout Detail နှင့် Ruffle Hem ပါရှိသော MANNI အစင်း Halter Bohemian Sundress",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "MANNI Striped Halter Sundress Bohemian ມີລາຍລະອຽດ Cutout ແລະ Ruffle Hem",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "ماني فستان الشمس البوهيمي الرسن مخطط مع تفاصيل انقطاع وتنحنح كشكش",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "MANNI Vestido veraniego bohemio con cuello halter a rayas, detalle de abertura y dobladillo con volantes",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "MANNI Vestido boêmio listrado frente única com detalhe recortado e bainha com babados",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "MANNI - Robe d'été bohème rayée dos nu avec détails découpés et ourlet volanté",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "MANNI Vestito prendisole bohémien a righe con dettagli ritagliati e orlo con volant",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "MANNI Striped Halter Bohemian Sundress dengan Detail Cutout dan Ruffle Hem",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm suông kiểu Bohemian sọc ngang MANNI với chi tiết cutout và viền xếp nếp",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "MANNI Striped Halter ชุดคลุมกันแดดสไตล์โบฮีเมียนพร้อมคัตเอาท์และชายเสื้อระบาย",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Gaun Hitam Bohemian Halter Berjalur MANNI dengan Perincian Potongan dan Labuh Ruffle",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "MANNI Striped Halter Bohemian Sundress na may Cutout Detail at Ruffle Hem",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "MANNI Striped Halter Sundress Bohemian Sundress ជាមួយ​នឹង​ការ​កាត់​ចេញ​លម្អិត និង​អាវ​ទ្រនាប់​",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Cutout Detail နှင့် Ruffle Hem ပါရှိသော MANNI အစင်း Halter Bohemian Sundress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "MANNI Striped Halter Sundress Bohemian ມີລາຍລະອຽດ Cutout ແລະ Ruffle Hem",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "ماني فستان الشمس البوهيمي الرسن مخطط مع تفاصيل انقطاع وتنحنح كشكش"
     },
     {
       "id": "womens-dresses-07",
@@ -695,8 +1332,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 138,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Mini vestido de fiesta sexy con textura 3D de verano",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Mini vestido de festa sexy com textura 3D de verão",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Mini robe de soirée sexy d'été texturée en 3D",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Mini abito da festa estivo sexy con trama 3D",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Pesta Mini Seksi Bertekstur 3D Musim Panas",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy dự tiệc mini gợi cảm họa tiết 3D mùa hè",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสมินิปาร์ตี้เซ็กซี่ 3D-Textured ฤดูร้อน",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Pesta Mini Seksi Bertekstur 3D Musim Panas",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Summer 3D-Textured Sexy Mini Party Dress",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបពិធីជប់លៀងខ្នាតតូចស៊ិចស៊ី 3D-Textured Summer",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "နွေရာသီ 3D-အကြမ်းထည် Sexy Mini ပါတီဝတ်စုံ",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Summer 3D-Textured Sexy Mini Party Dress",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان صيفي قصير مثير للحفلات ثلاثي الأبعاد",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Mini vestido de fiesta sexy con textura 3D de verano",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Mini vestido de festa sexy com textura 3D de verão",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Mini robe de soirée sexy d'été texturée en 3D",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Mini abito da festa estivo sexy con trama 3D",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Pesta Mini Seksi Bertekstur 3D Musim Panas",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy dự tiệc mini gợi cảm họa tiết 3D mùa hè",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสมินิปาร์ตี้เซ็กซี่ 3D-Textured ฤดูร้อน",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Pesta Mini Seksi Bertekstur 3D Musim Panas",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Summer 3D-Textured Sexy Mini Party Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបពិធីជប់លៀងខ្នាតតូចស៊ិចស៊ី 3D-Textured Summer",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "နွေရာသီ 3D-အကြမ်းထည် Sexy Mini ပါတီဝတ်စုံ",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Summer 3D-Textured Sexy Mini Party Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان صيفي قصير مثير للحفلات ثلاثي الأبعاد"
     },
     {
       "id": "womens-dresses-08",
@@ -783,8 +1524,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 5,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Minivestido de verano sin tirantes con paneles dobles de encaje",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Minivestido sem alças de verão com painéis duplos de renda",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Mini-robe d'été sans bretelles avec doubles empiècements en dentelle",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Mini abito estivo senza spalline con pannelli in doppio pizzo",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Mini Tanpa Tali Musim Panas dengan Panel Renda Ganda",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy ngắn quây mùa hè với tấm ren đôi",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสมินิเกาะอกช่วงฤดูร้อนพร้อมแผงลูกไม้คู่",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Mini Tanpa Tali Musim Panas dengan Panel Renda Berganda",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Summer Strapless Mini Dress na may Double Lace Panel",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបខ្នាតតូចរដូវក្តៅគ្មានខ្សែជាមួយនឹងបន្ទះចរទ្វេ",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "နှစ်ထပ်ဇာပြားများဖြင့် နွေရာသီ Strapless Mini Dress",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Summer Strapless Mini Dress ມີແຖບລູກໄມ້ຄູ່",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان صيفي قصير بدون حمالات مع ألواح دانتيل مزدوجة",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Minivestido de verano sin tirantes con paneles dobles de encaje",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Minivestido sem alças de verão com painéis duplos de renda",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Mini-robe d'été sans bretelles avec doubles empiècements en dentelle",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Mini abito estivo senza spalline con pannelli in doppio pizzo",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Mini Tanpa Tali Musim Panas dengan Panel Renda Ganda",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy ngắn quây mùa hè với tấm ren đôi",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสมินิเกาะอกช่วงฤดูร้อนพร้อมแผงลูกไม้คู่",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Mini Tanpa Tali Musim Panas dengan Panel Renda Berganda",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Summer Strapless Mini Dress na may Double Lace Panel",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបខ្នាតតូចរដូវក្តៅគ្មានខ្សែជាមួយនឹងបន្ទះចរទ្វេ",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "နှစ်ထပ်ဇာပြားများဖြင့် နွေရာသီ Strapless Mini Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Summer Strapless Mini Dress ມີແຖບລູກໄມ້ຄູ່",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان صيفي قصير بدون حمالات مع ألواح دانتيل مزدوجة"
     },
     {
       "id": "womens-dresses-09",
@@ -871,8 +1716,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo vintage rosa con cuello cuadrado, mangas abullonadas y ribete de encaje",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido maxi vintage rosa com decote quadrado e mangas bufantes e acabamento em renda",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue rose vintage à col carré avec manches bouffantes et bordure en dentelle",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito maxi vintage rosa con scollo quadrato con maniche a sbuffo e finiture in pizzo",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Maxi Leher Persegi Pink Vintage dengan Lengan Puff dan Trim Renda",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm maxi cổ vuông màu hồng cổ điển với tay áo phồng và viền ren",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "แม็กซี่เดรสคอเหลี่ยมสีชมพูวินเทจ แขนพัฟและขอบลูกไม้",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Maxi Leher Persegi Merah Jambu Vintage dengan Lengan Kedutan dan Kemasan Renda",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Vintage Pink Square-Neck Maxi Dress na may Puff Sleeves at Lace Trim",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប Maxi ពណ៌ផ្កាឈូកការ៉េ-ក បែប Vintage ជាមួយនឹងដៃអាវ និងក្រណាត់ចរ",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Puff Sleeves နှင့် Lace Trim ပါသော ခေတ်ဟောင်းပန်းရောင်စကွဲယား-လည်ပင်း Maxi ဂါဝန်",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ຊຸດ Maxi ສີບົວ Square-Neck ທີ່ມີແຂນ Puff ແລະ lace Trim",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان طويل وردي عتيق بياقة مربعة وأكمام منتفخة وحواف من الدانتيل",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo vintage rosa con cuello cuadrado, mangas abullonadas y ribete de encaje",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido maxi vintage rosa com decote quadrado e mangas bufantes e acabamento em renda",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue rose vintage à col carré avec manches bouffantes et bordure en dentelle",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito maxi vintage rosa con scollo quadrato con maniche a sbuffo e finiture in pizzo",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Maxi Leher Persegi Pink Vintage dengan Lengan Puff dan Trim Renda",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm maxi cổ vuông màu hồng cổ điển với tay áo phồng và viền ren",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "แม็กซี่เดรสคอเหลี่ยมสีชมพูวินเทจ แขนพัฟและขอบลูกไม้",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Maxi Leher Persegi Merah Jambu Vintage dengan Lengan Kedutan dan Kemasan Renda",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Vintage Pink Square-Neck Maxi Dress na may Puff Sleeves at Lace Trim",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប Maxi ពណ៌ផ្កាឈូកការ៉េ-ក បែប Vintage ជាមួយនឹងដៃអាវ និងក្រណាត់ចរ",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Puff Sleeves နှင့် Lace Trim ပါသော ခေတ်ဟောင်းပန်းရောင်စကွဲယား-လည်ပင်း Maxi ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ຊຸດ Maxi ສີບົວ Square-Neck ທີ່ມີແຂນ Puff ແລະ lace Trim",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان طويل وردي عتيق بياقة مربعة وأكمام منتفخة وحواف من الدانتيل"
     },
     {
       "id": "womens-dresses-10",
@@ -959,8 +1908,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 193,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo de noche sexy ajustado personalizado",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido longo de noite sexy Bodycon personalizado",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue de soirée sexy et moulante sur mesure",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito lungo da sera sexy aderente personalizzato",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Panjang Malam Seksi Bodycon Kustom",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Áo dài dạ hội Bodycon gợi cảm tùy chỉnh",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "Custom Bodycon ชุดราตรียาวเซ็กซี่",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Labuh Petang Seksi Bodycon Tersuai",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Custom na Bodycon Sexy Evening Long Dress",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបល្ងាចដ៏ស៊ិចស៊ី Bodycon ផ្ទាល់ខ្លួន",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "စိတ်ကြိုက် Bodycon Sexy ညနေခင်းဂါဝန်ရှည်",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Custom Bodycon ຊຸດຕອນແລງ Sexy",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "مخصص Bodycon مثير مساء اللباس الطويل",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo de noche sexy ajustado personalizado",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido longo de noite sexy Bodycon personalizado",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue de soirée sexy et moulante sur mesure",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito lungo da sera sexy aderente personalizzato",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Panjang Malam Seksi Bodycon Kustom",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Áo dài dạ hội Bodycon gợi cảm tùy chỉnh",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "Custom Bodycon ชุดราตรียาวเซ็กซี่",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Labuh Petang Seksi Bodycon Tersuai",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Custom na Bodycon Sexy Evening Long Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបល្ងាចដ៏ស៊ិចស៊ី Bodycon ផ្ទាល់ខ្លួន",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "စိတ်ကြိုက် Bodycon Sexy ညနေခင်းဂါဝန်ရှည်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Custom Bodycon ຊຸດຕອນແລງ Sexy",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "مخصص Bodycon مثير مساء اللباس الطويل"
     },
     {
       "id": "womens-dresses-11",
@@ -1047,8 +2100,112 @@
           "supplier_rating": "4.5",
           "supplier_total_review_order_count": 33,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de dormir de lujo QIYUE 100% seda pura",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido de dormir luxuoso de seda pura QIYUE 100%",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe de nuit de luxe QIYUE 100 % pure soie",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da notte di lusso in pura seta QIYUE al 100%.",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "QIYUE 100% Gaun Tidur Mewah Sutra Murni",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy ngủ sang trọng bằng lụa nguyên chất 100% QIYUE",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "QIYUE ผ้าไหมแท้ 100% ชุดนอนหรูหรา",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Tidur Mewah QIYUE 100% Sutera Tulen",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "QIYUE សូត្រសុទ្ធ 100% រ៉ូបគេងប្រណិត",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "QIYUE ຜ້າໄຫມແທ້ 100% ຊຸດນອນຫລູຫລາ",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان نوم فاخر من الحرير الخالص بنسبة 100% من QIYUE",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de dormir de lujo QIYUE 100% seda pura",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido de dormir luxuoso de seda pura QIYUE 100%",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe de nuit de luxe QIYUE 100 % pure soie",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da notte di lusso in pura seta QIYUE al 100%.",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "QIYUE 100% Gaun Tidur Mewah Sutra Murni",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy ngủ sang trọng bằng lụa nguyên chất 100% QIYUE",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "QIYUE ผ้าไหมแท้ 100% ชุดนอนหรูหรา",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Tidur Mewah QIYUE 100% Sutera Tulen",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "QIYUE សូត្រសុទ្ធ 100% រ៉ូបគេងប្រណិត",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "QIYUE 100% Pure Silk Luxury Sleep Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "QIYUE ຜ້າໄຫມແທ້ 100% ຊຸດນອນຫລູຫລາ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان نوم فاخر من الحرير الخالص بنسبة 100% من QIYUE"
     },
     {
       "id": "womens-dresses-12",
@@ -1135,8 +2292,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 2,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de mujer personalizado de primera calidad, fabricación OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido feminino personalizado premium, fabricação OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe pour femme personnalisée haut de gamme, fabrication OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da donna personalizzato premium, produzione OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Wanita Kustom Premium, Manufaktur OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy nữ tùy chỉnh cao cấp, sản xuất OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสสตรีสั่งทำพิเศษระดับพรีเมียม การผลิต OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Wanita Tersuai Premium, Pembuatan OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Premium Custom Women's Dress, OEM/ODM Manufacturing",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "សំលៀកបំពាក់នារីផ្ទាល់ខ្លួនពិសេស ការផលិត OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "ပရီမီယံစိတ်ကြိုက်အမျိုးသမီးဝတ်စားဆင်ယင်မှု၊ OEM/ODM ထုတ်လုပ်ရေး",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ເຄື່ອງແຕ່ງກາຍແບບພິເສດຂອງແມ່ຍິງ, ການຜະລິດ OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان نسائي مخصص ممتاز، تصنيع OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de mujer personalizado de primera calidad, fabricación OEM/ODM",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido feminino personalizado premium, fabricação OEM/ODM",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe pour femme personnalisée haut de gamme, fabrication OEM/ODM",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da donna personalizzato premium, produzione OEM/ODM",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Wanita Kustom Premium, Manufaktur OEM/ODM",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy nữ tùy chỉnh cao cấp, sản xuất OEM/ODM",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสสตรีสั่งทำพิเศษระดับพรีเมียม การผลิต OEM/ODM",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Wanita Tersuai Premium, Pembuatan OEM/ODM",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Premium Custom Women's Dress, OEM/ODM Manufacturing",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "សំលៀកបំពាក់នារីផ្ទាល់ខ្លួនពិសេស ការផលិត OEM/ODM",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "ပရီမီယံစိတ်ကြိုက်အမျိုးသမီးဝတ်စားဆင်ယင်မှု၊ OEM/ODM ထုတ်လုပ်ရေး",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ເຄື່ອງແຕ່ງກາຍແບບພິເສດຂອງແມ່ຍິງ, ການຜະລິດ OEM/ODM",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان نسائي مخصص ممتاز، تصنيع OEM/ODM"
     },
     {
       "id": "womens-dresses-13",
@@ -1223,8 +2484,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 5,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Huili Conjunto de vestido de fiesta de punto sin mangas rosa de 2 piezas para mujer",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Conjunto de vestido de festa feminino de malha rosa sem mangas de 2 peças da Huili",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Huili Ensemble de robe de soirée en tricot sans manches rose 2 pièces pour femmes",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Set abito da festa in maglia senza maniche rosa da donna Huili in 2 pezzi",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Set Gaun Pesta Rajut Tanpa Lengan Merah Muda 2 Potong Wanita Huili",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Bộ váy dự tiệc dệt kim không tay 2 món màu hồng của Huili dành cho nữ",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสปาร์ตี้ถักแขนกุดสีชมพูของผู้หญิง Huili 2 ชิ้น",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Set Pakaian Pesta Bersatu Tanpa Lengan Merah Jambu Huili Wanita 2 Keping",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Huili Women's 2-Piece Pink Sleeveless Knit Party Dress Set",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "ឈុតពិធីជប់លៀងគ្មានដៃអាវពណ៌ផ្កាឈូក 2 ឈុតរបស់ស្ត្រី Huili",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Huili အမျိုးသမီး 2-Piece ပန်းရောင် လက်ပြတ် ချည်ပါတီ ဂါဝန်အစုံ",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ຊຸດເສື້ອຍືດແຂນແຂນບໍ່ມີແຂນຂອງແມ່ຍິງ Huili ສີບົວ 2 ຊິ້ນ",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "مجموعة فساتين الحفلات النسائية من Huili مكونة من قطعتين باللون الوردي بدون أكمام",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Huili Conjunto de vestido de fiesta de punto sin mangas rosa de 2 piezas para mujer",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Conjunto de vestido de festa feminino de malha rosa sem mangas de 2 peças da Huili",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Huili Ensemble de robe de soirée en tricot sans manches rose 2 pièces pour femmes",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Set abito da festa in maglia senza maniche rosa da donna Huili in 2 pezzi",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Set Gaun Pesta Rajut Tanpa Lengan Merah Muda 2 Potong Wanita Huili",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Bộ váy dự tiệc dệt kim không tay 2 món màu hồng của Huili dành cho nữ",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสปาร์ตี้ถักแขนกุดสีชมพูของผู้หญิง Huili 2 ชิ้น",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Set Pakaian Pesta Bersatu Tanpa Lengan Merah Jambu Huili Wanita 2 Keping",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Huili Women's 2-Piece Pink Sleeveless Knit Party Dress Set",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "ឈុតពិធីជប់លៀងគ្មានដៃអាវពណ៌ផ្កាឈូក 2 ឈុតរបស់ស្ត្រី Huili",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Huili အမျိုးသမီး 2-Piece ပန်းရောင် လက်ပြတ် ချည်ပါတီ ဂါဝန်အစုံ",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ຊຸດເສື້ອຍືດແຂນແຂນບໍ່ມີແຂນຂອງແມ່ຍິງ Huili ສີບົວ 2 ຊິ້ນ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "مجموعة فساتين الحفلات النسائية من Huili مكونة من قطعتين باللون الوردي بدون أكمام"
     },
     {
       "id": "womens-dresses-14",
@@ -1311,8 +2676,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 30,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de noche plisado asimétrico con escote en V profundo liso",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido de noite plissado assimétrico com decote em V profundo sólido",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe de soirée plissée asymétrique à décolleté en V profond et couleur unie",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da sera plissettato asimmetrico con scollo a V profondo solido",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Malam Berlipat Asimetris Slip Deep-V Solid",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm dạ hội xếp li bất đối xứng Deep-V trơn",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดราตรีจีบไม่สมมาตรแบบ Deep-V Slip Solid",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Malam Berlipat Asimetri Slip Deep-V Slip",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Solid Deep-V Slip Asymmetric Pleated Evening Dress",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Solid Deep-V Slip Asymmetric Pleated រ៉ូបល្ងាច",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Solid Deep-V Slip Asymmetric Pleated ညနေခင်းဂါဝန်",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Solid Deep-V Slip Asymmetric Pleated Dress ຕອນແລງ",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان سهرة بطيات غير متناظرة وعميق على شكل حرف V",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de noche plisado asimétrico con escote en V profundo liso",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido de noite plissado assimétrico com decote em V profundo sólido",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe de soirée plissée asymétrique à décolleté en V profond et couleur unie",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da sera plissettato asimmetrico con scollo a V profondo solido",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Malam Berlipat Asimetris Slip Deep-V Solid",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm dạ hội xếp li bất đối xứng Deep-V trơn",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดราตรีจีบไม่สมมาตรแบบ Deep-V Slip Solid",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Malam Berlipat Asimetri Slip Deep-V Slip",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Solid Deep-V Slip Asymmetric Pleated Evening Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Solid Deep-V Slip Asymmetric Pleated រ៉ូបល្ងាច",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Solid Deep-V Slip Asymmetric Pleated ညနေခင်းဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Solid Deep-V Slip Asymmetric Pleated Dress ຕອນແລງ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان سهرة بطيات غير متناظرة وعميق على شكل حرف V"
     },
     {
       "id": "womens-dresses-15",
@@ -1399,8 +2868,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 79,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo negro de manga larga sin costuras con faja incorporada",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido maxi preto sem costura de manga comprida com modelador embutido",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue noire sans couture à manches longues avec shapewear intégré",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Maxi abito nero senza cuciture a maniche lunghe con intimo modellante incorporato",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Maxi Dress Mulus Lengan Panjang Hitam dengan Shapewear Bawaan",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy maxi liền mạch dài tay màu đen có kèm kính định hình",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "แม็กซี่เดรสแขนกุดสีดำมีชุดกระชับสัดส่วนในตัว",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Maxi Lancar Lengan Panjang Hitam dengan Shapewear Terbina dalam",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Itim na Long-Sleeve na Seamless Maxi Dress na may Built-in na Shapewear",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប Maxi ដៃវែងពណ៌ខ្មៅគ្មានថ្នេរ ជាមួយនឹងសម្លៀកបំពាក់រាងមូល",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Built-in Shapewear ပါဝင်သည့် အနက်ရောင် လက်ရှည် အင်္ကျီလက်ရှည်",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ເສື້ອຢືດ Maxi ແຂນຍາວສີດຳທີ່ມີຮູບຊົງໃນຕົວ",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان طويل أسود بدون خياطة بأكمام طويلة مع ملابس داخلية مدمجة",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo negro de manga larga sin costuras con faja incorporada",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido maxi preto sem costura de manga comprida com modelador embutido",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue noire sans couture à manches longues avec shapewear intégré",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Maxi abito nero senza cuciture a maniche lunghe con intimo modellante incorporato",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Maxi Dress Mulus Lengan Panjang Hitam dengan Shapewear Bawaan",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy maxi liền mạch dài tay màu đen có kèm kính định hình",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "แม็กซี่เดรสแขนกุดสีดำมีชุดกระชับสัดส่วนในตัว",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Maxi Lancar Lengan Panjang Hitam dengan Shapewear Terbina dalam",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Itim na Long-Sleeve na Seamless Maxi Dress na may Built-in na Shapewear",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប Maxi ដៃវែងពណ៌ខ្មៅគ្មានថ្នេរ ជាមួយនឹងសម្លៀកបំពាក់រាងមូល",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Built-in Shapewear ပါဝင်သည့် အနက်ရောင် လက်ရှည် အင်္ကျီလက်ရှည်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ເສື້ອຢືດ Maxi ແຂນຍາວສີດຳທີ່ມີຮູບຊົງໃນຕົວ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان طويل أسود بدون خياطة بأكمام طويلة مع ملابس داخلية مدمجة"
     },
     {
       "id": "womens-dresses-16",
@@ -1487,8 +3060,112 @@
           "supplier_rating": "4.5",
           "supplier_total_review_order_count": 67,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de tenis con espalda cruzada para mujer, conjunto de 2 piezas con bolsillos para golf y deportes al aire libre",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Conjunto de 2 peças de vestido de tênis feminino cruzado com bolsos para golfe e esportes ao ar livre",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe de tennis dos croisé pour femme, ensemble 2 pièces avec poches pour le golf et les sports de plein air",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da tennis da donna con incrocio sulla schiena, set da 2 pezzi con tasche per golf e sport all'aria aperta",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Set 2 Potong Gaun Tenis Cross-Back Wanita dengan Saku untuk Golf dan Olahraga Luar Ruangan",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Bộ 2 chiếc váy tennis chéo lưng có túi dành cho nữ để chơi gôn và thể thao ngoài trời",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสเทนนิสไขว้หลังผู้หญิงชุด 2 ชิ้นพร้อมกระเป๋าสำหรับเล่นกอล์ฟและกีฬากลางแจ้ง",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Set 2 Keping Pakaian Tenis Silang Belakang Wanita dengan Poket untuk Golf dan Sukan Luaran",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "2-Piece na Set ng Pambabaeng Cross-Back Tennis Dress na may mga bulsa para sa Golf at Panlabas na Sports",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "ឈុតកីឡាវាយកូនបាល់ Cross-Back របស់ស្ត្រី 2-Piece ជាមួយនឹងហោប៉ៅសម្រាប់កីឡាវាយកូនហ្គោល និងកីឡាក្រៅផ្ទះ",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "ဂေါက်သီးနှင့် ပြင်ပအားကစားများအတွက် အိတ်ကပ်များပါသော အမျိုးသမီး ကျောကပ်တင်းနစ်ဂါဝန် 2 စုံ",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ຊຸດເທັນນິສຂ້າມຫຼັງຂອງຜູ້ຍິງ 2 ຊຸດພ້ອມກະເປົ໋າສຳລັບກິລາກ໊ອຟ ແລະກິລາກາງແຈ້ງ",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "طقم فستان تنس نسائي بظهر متقاطع مكون من قطعتين مع جيوب للجولف والرياضات الخارجية",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de tenis con espalda cruzada para mujer, conjunto de 2 piezas con bolsillos para golf y deportes al aire libre",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Conjunto de 2 peças de vestido de tênis feminino cruzado com bolsos para golfe e esportes ao ar livre",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe de tennis dos croisé pour femme, ensemble 2 pièces avec poches pour le golf et les sports de plein air",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da tennis da donna con incrocio sulla schiena, set da 2 pezzi con tasche per golf e sport all'aria aperta",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Set 2 Potong Gaun Tenis Cross-Back Wanita dengan Saku untuk Golf dan Olahraga Luar Ruangan",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Bộ 2 chiếc váy tennis chéo lưng có túi dành cho nữ để chơi gôn và thể thao ngoài trời",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสเทนนิสไขว้หลังผู้หญิงชุด 2 ชิ้นพร้อมกระเป๋าสำหรับเล่นกอล์ฟและกีฬากลางแจ้ง",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Set 2 Keping Pakaian Tenis Silang Belakang Wanita dengan Poket untuk Golf dan Sukan Luaran",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "2-Piece na Set ng Pambabaeng Cross-Back Tennis Dress na may mga bulsa para sa Golf at Panlabas na Sports",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "ឈុតកីឡាវាយកូនបាល់ Cross-Back របស់ស្ត្រី 2-Piece ជាមួយនឹងហោប៉ៅសម្រាប់កីឡាវាយកូនហ្គោល និងកីឡាក្រៅផ្ទះ",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "ဂေါက်သီးနှင့် ပြင်ပအားကစားများအတွက် အိတ်ကပ်များပါသော အမျိုးသမီး ကျောကပ်တင်းနစ်ဂါဝန် 2 စုံ",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ຊຸດເທັນນິສຂ້າມຫຼັງຂອງຜູ້ຍິງ 2 ຊຸດພ້ອມກະເປົ໋າສຳລັບກິລາກ໊ອຟ ແລະກິລາກາງແຈ້ງ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "طقم فستان تنس نسائي بظهر متقاطع مكون من قطعتين مع جيوب للجولف والرياضات الخارجية"
     },
     {
       "id": "womens-dresses-17",
@@ -1575,8 +3252,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de algodón y seda Cottagecore floral de 16 mm",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido Floral Cottagecore Seda-Algodão 16MM",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe en coton et soie Cottagecore fleurie 16 mm",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito floreale in cotone e seta Cottagecore da 16 mm",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Katun Sutra Cottagecore Bunga 16MM",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy cotton lụa Cottagecore hoa 16MM",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสผ้าฝ้ายผ้าไหมคอทเทคอร์ลายดอกไม้ขนาด 16 มม",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Sutera-Kapas Bunga Cottagecore 16MM",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "16MM Floral Cottagecore Silk-Cotton Dress",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបសូត្រ-កប្បាស 16MM Floral Cottagecore",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "16MM Floral Cottagecore Silk-Cotton Dress",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "16MM Floral Cottagecore Silk-Cotton Dress",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان من القطن والحرير مقاس 16 ملم",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de algodón y seda Cottagecore floral de 16 mm",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido Floral Cottagecore Seda-Algodão 16MM",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe en coton et soie Cottagecore fleurie 16 mm",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito floreale in cotone e seta Cottagecore da 16 mm",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Katun Sutra Cottagecore Bunga 16MM",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy cotton lụa Cottagecore hoa 16MM",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสผ้าฝ้ายผ้าไหมคอทเทคอร์ลายดอกไม้ขนาด 16 มม",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Sutera-Kapas Bunga Cottagecore 16MM",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "16MM Floral Cottagecore Silk-Cotton Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបសូត្រ-កប្បាស 16MM Floral Cottagecore",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "16MM Floral Cottagecore Silk-Cotton Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "16MM Floral Cottagecore Silk-Cotton Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان من القطن والحرير مقاس 16 ملم"
     },
     {
       "id": "womens-dresses-18",
@@ -1663,8 +3444,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 4,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Beefey Primavera/Verano Vestido casual ligero y transpirable estilo dulce",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Beefey Primavera/Verão Estilo Doce Leve Respirável Vestido Casual",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Beefey Printemps/Été Robe décontractée légère et respirante de style doux",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Beefey Abito casual leggero e traspirante stile dolce primavera/estate",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Beefey Gaun Kasual Bernapas Ringan Bergaya Manis Musim Semi/Musim Panas",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Trang phục thường ngày nhẹ thoáng khí phong cách ngọt ngào mùa xuân/hè Beefey",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "Beefey ชุดเดรสลำลองน้ำหนักเบาระบายอากาศสไตล์หวานสำหรับฤดูใบไม้ผลิ/ฤดูร้อน",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Kasual Bernafas Ringan Gaya Manis Beefey Musim Bunga/Musim Panas",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Beefey Spring/Summer Sweet-Style Lightweight Breathable Casual Dress",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Beefey Spring/Summer Sweet-Style រ៉ូបធម្មតា ងាយស្រួលដកដង្ហើម",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Beefey Spring/Summer Sweet-Style ပေါ့ပေါ့ပါးပါး လေ၀င်လေထွက်ကောင်းတဲ့ ပေါ့ပေါ့ပါးပါး ၀တ်စုံ",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Beefey ຊຸດລະດູໃບໄມ້ປົ່ງ/ລະດູຮ້ອນແບບຫວານໆ ນ້ຳໜັກເບົາ ນຸ່ງສະບາຍ",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان كاجوال خفيف الوزن ومسامي للربيع والصيف من Beefey",
+          "supplier_name": "Beefey Apparel (weifang) Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Beefey Primavera/Verano Vestido casual ligero y transpirable estilo dulce",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Beefey Primavera/Verão Estilo Doce Leve Respirável Vestido Casual",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Beefey Printemps/Été Robe décontractée légère et respirante de style doux",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Beefey Abito casual leggero e traspirante stile dolce primavera/estate",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Beefey Gaun Kasual Bernapas Ringan Bergaya Manis Musim Semi/Musim Panas",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Trang phục thường ngày nhẹ thoáng khí phong cách ngọt ngào mùa xuân/hè Beefey",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "Beefey ชุดเดรสลำลองน้ำหนักเบาระบายอากาศสไตล์หวานสำหรับฤดูใบไม้ผลิ/ฤดูร้อน",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Kasual Bernafas Ringan Gaya Manis Beefey Musim Bunga/Musim Panas",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Beefey Spring/Summer Sweet-Style Lightweight Breathable Casual Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Beefey Spring/Summer Sweet-Style រ៉ូបធម្មតា ងាយស្រួលដកដង្ហើម",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Beefey Spring/Summer Sweet-Style ပေါ့ပေါ့ပါးပါး လေ၀င်လေထွက်ကောင်းတဲ့ ပေါ့ပေါ့ပါးပါး ၀တ်စုံ",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Beefey ຊຸດລະດູໃບໄມ້ປົ່ງ/ລະດູຮ້ອນແບບຫວານໆ ນ້ຳໜັກເບົາ ນຸ່ງສະບາຍ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان كاجوال خفيف الوزن ومسامي للربيع والصيف من Beefey"
     },
     {
       "id": "womens-dresses-19",
@@ -1751,8 +3636,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido midi de oficina plisado con botones dorados y doble botonadura con cuello Peter Pan",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido midi de escritório plissado com gola Peter Pan, trespassado, botão dourado e linha A",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe midi de bureau trapèze plissée à double boutonnage et col claudine avec boutons dorés",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito midi da ufficio a trapezio pieghettato con bottoni dorati e colletto Peter Pan",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Midi Kantor A-Line Berlipat Kancing Emas Kancing Dua Baris Kerah Peter Pan",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy Midi công sở chữ A xếp ly hai khuy vàng có cổ Peter Pan",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรส Midi Office Midi แต่งกระดุมทองกระดุมสองแถวคอปก Peter Pan",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Kolar Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Pakaian Midi Office",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Office Midi Dress",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Peter Pan Collar រ៉ូប​ពាក់​អាវ​ការិយាល័យ​ Midi ពាក់​ប៊ូតុង​មាស​ពីរ​ជាន់",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Peter Pan Collar ရင်သားနှစ်ထပ်ရွှေကြယ်သီး Pleated A-Line Office Midi ဂါဝန်",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Peter Pan Collar Double-Beasted Gold-button Pleated A-Line Office Midi Dress",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان متوسط الطول بياقة بيتر بان وأزرار ذهبية وأزرار ذهبية مطوي على شكل حرف A",
+          "supplier_name": "Dongguan Manni Clothing Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido midi de oficina plisado con botones dorados y doble botonadura con cuello Peter Pan",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido midi de escritório plissado com gola Peter Pan, trespassado, botão dourado e linha A",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe midi de bureau trapèze plissée à double boutonnage et col claudine avec boutons dorés",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito midi da ufficio a trapezio pieghettato con bottoni dorati e colletto Peter Pan",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Midi Kantor A-Line Berlipat Kancing Emas Kancing Dua Baris Kerah Peter Pan",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy Midi công sở chữ A xếp ly hai khuy vàng có cổ Peter Pan",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรส Midi Office Midi แต่งกระดุมทองกระดุมสองแถวคอปก Peter Pan",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Kolar Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Pakaian Midi Office",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Peter Pan Collar Double-Breasted Gold-Button Pleated A-Line Office Midi Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Peter Pan Collar រ៉ូប​ពាក់​អាវ​ការិយាល័យ​ Midi ពាក់​ប៊ូតុង​មាស​ពីរ​ជាន់",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Peter Pan Collar ရင်သားနှစ်ထပ်ရွှေကြယ်သီး Pleated A-Line Office Midi ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Peter Pan Collar Double-Beasted Gold-button Pleated A-Line Office Midi Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان متوسط الطول بياقة بيتر بان وأزرار ذهبية وأزرار ذهبية مطوي على شكل حرف A"
     },
     {
       "id": "womens-dresses-20",
@@ -1839,8 +3828,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 138,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Mini vestido ajustado sin espalda con cuello halter de verano",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Mini vestido bodycon de verão com decote frente única e costas nuas",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Mini-robe moulante d'été dos nu à col licou",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Mini abito aderente estivo senza schienale con scollo all'americana",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Mini Bodycon Punggung Terbuka Leher Halter Musim Panas",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm mini ôm sát cổ hở lưng mùa hè",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสมินิเดรสบอดี้คอนเปลือยท่อนบนฤดูร้อน",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Mini Bodycon Tanpa Belakang Leher Halter Musim Panas",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Summer Halter-Neck Backless Bodycon Mini Dress",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Summer Halter-Neck Backless Bodycon រ៉ូបខ្នាតតូច",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Summer Halter-Neck Backless Bodycon Mini Dress",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Summer Halter-Neck Backless Bodycon Dress Mini",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "الصيف الرسن الرقبة عارية الذراعين Bodycon فستان قصير",
+          "supplier_name": "Shandong Saier Garment Technology Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Mini vestido ajustado sin espalda con cuello halter de verano",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Mini vestido bodycon de verão com decote frente única e costas nuas",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Mini-robe moulante d'été dos nu à col licou",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Mini abito aderente estivo senza schienale con scollo all'americana",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Mini Bodycon Punggung Terbuka Leher Halter Musim Panas",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm mini ôm sát cổ hở lưng mùa hè",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสมินิเดรสบอดี้คอนเปลือยท่อนบนฤดูร้อน",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Mini Bodycon Tanpa Belakang Leher Halter Musim Panas",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Summer Halter-Neck Backless Bodycon Mini Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Summer Halter-Neck Backless Bodycon រ៉ូបខ្នាតតូច",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Summer Halter-Neck Backless Bodycon Mini Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Summer Halter-Neck Backless Bodycon Dress Mini",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "الصيف الرسن الرقبة عارية الذراعين Bodycon فستان قصير"
     },
     {
       "id": "womens-dresses-21",
@@ -1927,8 +4020,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 5,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Minivestido liso con escote en V profundo y cintura plisada",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Mini vestido sólido com cintura plissada em V profundo",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Mini-robe unie à taille plissée en V profond",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Miniabito in tinta unita con vita pieghettata a V profonda",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Mini Pinggang Berlipat V Dalam Polos",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm mini eo xếp ly chữ V sâu",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสมินิเดรสเอวจีบลึก V สีทึบ",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Mini Pinggang Berlipat Dalam-V Padat",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Solid Deep-V Pleated Waist Mini Dress",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបមីនីចង្កេះរាងសំប៉ែតជ្រៅ-V",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Solid Deep-V Pleated Waist Mini Dress",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Solid Deep-V Pleated Waist Mini Dress",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "الصلبة العميق الخامس مطوي الخصر اللباس البسيطة",
+          "supplier_name": "Guangzhou Miying Fashion Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Minivestido liso con escote en V profundo y cintura plisada",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Mini vestido sólido com cintura plissada em V profundo",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Mini-robe unie à taille plissée en V profond",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Miniabito in tinta unita con vita pieghettata a V profonda",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Mini Pinggang Berlipat V Dalam Polos",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm mini eo xếp ly chữ V sâu",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสมินิเดรสเอวจีบลึก V สีทึบ",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Mini Pinggang Berlipat Dalam-V Padat",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Solid Deep-V Pleated Waist Mini Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបមីនីចង្កេះរាងសំប៉ែតជ្រៅ-V",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Solid Deep-V Pleated Waist Mini Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Solid Deep-V Pleated Waist Mini Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "الصلبة العميق الخامس مطوي الخصر اللباس البسيطة"
     },
     {
       "id": "womens-dresses-22",
@@ -2015,8 +4212,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 2,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de mujer personalizado SHENGFU Low-MOQ, fabricación OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido feminino personalizado SHENGFU Low-MOQ, fabricação OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "SHENGFU Robe pour femme personnalisée à faible MOQ, fabrication OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da donna personalizzato a basso MOQ SHENGFU, produzione OEM / ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "SHENGFU Gaun Wanita Kustom MOQ Rendah, Manufaktur OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Trang phục nữ tùy chỉnh có mức moq thấp SHENGFU, Sản xuất OEM / ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "SHENGFU ชุดเดรสสตรีแบบกำหนดเอง Low-MOQ, การผลิต OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Wanita Tersuai SHENGFU Rendah MOQ, Pembuatan OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "SHENGFU Low-MOQ Custom Women's Dress, OEM/ODM Manufacturing",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "SHENGFU Low-MOQ សំលៀកបំពាក់នារីផ្ទាល់ខ្លួន ការផលិត OEM/ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "SHENGFU Low-MOQ စိတ်ကြိုက်အမျိုးသမီးဝတ်စုံ၊ OEM/ODM ထုတ်လုပ်ရေး",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "SHENGFU Low-MOQ Custom Women's Dress, ການຜະລິດ OEM / ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "SHENGFU Low-MOQ فستان نسائي مخصص، تصنيع OEM / ODM",
+          "supplier_name": "Dongguan Shengfu Textile Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de mujer personalizado SHENGFU Low-MOQ, fabricación OEM/ODM",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido feminino personalizado SHENGFU Low-MOQ, fabricação OEM/ODM",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "SHENGFU Robe pour femme personnalisée à faible MOQ, fabrication OEM/ODM",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da donna personalizzato a basso MOQ SHENGFU, produzione OEM / ODM",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "SHENGFU Gaun Wanita Kustom MOQ Rendah, Manufaktur OEM/ODM",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Trang phục nữ tùy chỉnh có mức moq thấp SHENGFU, Sản xuất OEM / ODM",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "SHENGFU ชุดเดรสสตรีแบบกำหนดเอง Low-MOQ, การผลิต OEM/ODM",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Wanita Tersuai SHENGFU Rendah MOQ, Pembuatan OEM/ODM",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "SHENGFU Low-MOQ Custom Women's Dress, OEM/ODM Manufacturing",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "SHENGFU Low-MOQ សំលៀកបំពាក់នារីផ្ទាល់ខ្លួន ការផលិត OEM/ODM",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "SHENGFU Low-MOQ စိတ်ကြိုက်အမျိုးသမီးဝတ်စုံ၊ OEM/ODM ထုတ်လုပ်ရေး",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "SHENGFU Low-MOQ Custom Women's Dress, ການຜະລິດ OEM / ODM",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "SHENGFU Low-MOQ فستان نسائي مخصص، تصنيع OEM / ODM"
     },
     {
       "id": "womens-dresses-23",
@@ -2103,8 +4404,112 @@
           "supplier_rating": "4.5",
           "supplier_total_review_order_count": 33,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido camisola con cuello en V y encaje de seda morera 100 %",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido 100% seda amoreira com renda e decote em V",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe trapèze caraco à col en V en dentelle de soie de mûrier 100 %",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito a trapezio a canotta con scollo a V in pizzo di seta di gelso al 100%.",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun A-Line Kamisol Kerah V Renda Sutra Murbei 100%.",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy chữ A cổ chữ V bằng lụa dâu tằm 100%",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสทรงเอคอวีลูกไม้ผ้าไหมหม่อน 100%",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "100% Pakaian A-Line Kamisol Renda Sutera Mulberi V-Neck",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបសាច់ក្រណាត់សូត្រ Mulberry Silk Lace 100% V-Neck Camisole A-Line",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "100% Mulberry Silk Lace V-Neck Camisole A-Line ဂါဝန်",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان قصير على شكل حرف V من حرير التوت 100% من الدانتيل",
+          "supplier_name": "Zibo Daranfang Silk Group Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido camisola con cuello en V y encaje de seda morera 100 %",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido 100% seda amoreira com renda e decote em V",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe trapèze caraco à col en V en dentelle de soie de mûrier 100 %",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito a trapezio a canotta con scollo a V in pizzo di seta di gelso al 100%.",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun A-Line Kamisol Kerah V Renda Sutra Murbei 100%.",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy chữ A cổ chữ V bằng lụa dâu tằm 100%",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสทรงเอคอวีลูกไม้ผ้าไหมหม่อน 100%",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "100% Pakaian A-Line Kamisol Renda Sutera Mulberi V-Neck",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបសាច់ក្រណាត់សូត្រ Mulberry Silk Lace 100% V-Neck Camisole A-Line",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "100% Mulberry Silk Lace V-Neck Camisole A-Line ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "100% Mulberry Silk Lace V-Neck Camisole A-Line Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان قصير على شكل حرف V من حرير التوت 100% من الدانتيل"
     },
     {
       "id": "womens-dresses-24",
@@ -2191,8 +4596,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido midi Cottagecore floral con cuello cuadrado, manga abullonada y dobladillo con volantes",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido midi floral com decote quadrado e manga bufante com babados e bainha Cottagecore",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe mi-longue Cottagecore florale à col carré, manches bouffantes et ourlet à volants",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito midi stile cottage con scollo quadrato floreale e maniche a sbuffo con volant sull'orlo",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Midi Cottagecore Ruffle-Hem Lengan Puff Leher Persegi Bermotif Bunga",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy Midi cổ vuông tay phồng có viền hoa",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรส Midi คอเหลี่ยมคอเหลี่ยมลายดอกไม้ Ruffle-Hem",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Gaun Midi Cottagecore Berleher Persegi Bunga-Berlengan Ruffle-Hem",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបផ្កាការ៉េ-ក-ក-ដៃអាវ Ruffle-Hem Cottagecore Midi",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ເສື້ອຍືດຄໍຄໍຕີກ Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان ميدي بفتحة رقبة مربعة وأكمام منتفخة مزين بالزهور",
+          "supplier_name": "Xiamen Indigo Clothing Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido midi Cottagecore floral con cuello cuadrado, manga abullonada y dobladillo con volantes",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido midi floral com decote quadrado e manga bufante com babados e bainha Cottagecore",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe mi-longue Cottagecore florale à col carré, manches bouffantes et ourlet à volants",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito midi stile cottage con scollo quadrato floreale e maniche a sbuffo con volant sull'orlo",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Midi Cottagecore Ruffle-Hem Lengan Puff Leher Persegi Bermotif Bunga",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy Midi cổ vuông tay phồng có viền hoa",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรส Midi คอเหลี่ยมคอเหลี่ยมลายดอกไม้ Ruffle-Hem",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Gaun Midi Cottagecore Berleher Persegi Bunga-Berlengan Ruffle-Hem",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបផ្កាការ៉េ-ក-ក-ដៃអាវ Ruffle-Hem Cottagecore Midi",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ເສື້ອຍືດຄໍຄໍຕີກ Floral Square-Neck Puff-Sleeve Ruffle-Hem Cottagecore Midi",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان ميدي بفتحة رقبة مربعة وأكمام منتفخة مزين بالزهور"
     },
     {
       "id": "womens-dresses-25",
@@ -2279,8 +4788,112 @@
           "supplier_rating": "4.7",
           "supplier_total_review_order_count": 193,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo ajustado de fiesta y noche de nuevo diseño",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Novo design bodycon para festa e vestido maxi de noite",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue moulante de soirée et de soirée, nouveau design",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito lungo aderente da sera e da festa dal nuovo design",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Maxi Pesta Bodycon dan Malam Desain Baru",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm maxi dự tiệc và dạ hội thiết kế mới",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ปาร์ตี้บอดี้คอนดีไซน์ใหม่และชุดราตรีแม็กซี่เดรส",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pesta Bodycon Rekaan Baharu dan Pakaian Maxi Petang",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Bagong-Design na Bodycon Party at Evening Maxi Dress",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "New-Design Bodycon Party និងរ៉ូប Maxi ពេលល្ងាច",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "ဒီဇိုင်းသစ် Bodycon ပါတီနှင့် ညနေခင်း Maxi ဂါဝန်",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "New-design Bodycon Party ແລະ dresses Maxi ຕອນແລງ",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان ماكسي للحفلات والسهرات بتصميم جديد",
+          "supplier_name": "Gaomi Jia He Yuan Garments Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo ajustado de fiesta y noche de nuevo diseño",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Novo design bodycon para festa e vestido maxi de noite",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue moulante de soirée et de soirée, nouveau design",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito lungo aderente da sera e da festa dal nuovo design",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Maxi Pesta Bodycon dan Malam Desain Baru",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm maxi dự tiệc và dạ hội thiết kế mới",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ปาร์ตี้บอดี้คอนดีไซน์ใหม่และชุดราตรีแม็กซี่เดรส",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pesta Bodycon Rekaan Baharu dan Pakaian Maxi Petang",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Bagong-Design na Bodycon Party at Evening Maxi Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "New-Design Bodycon Party និងរ៉ូប Maxi ពេលល្ងាច",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "ဒီဇိုင်းသစ် Bodycon ပါတီနှင့် ညနေခင်း Maxi ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "New-design Bodycon Party ແລະ dresses Maxi ຕອນແລງ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان ماكسي للحفلات والسهرات بتصميم جديد"
     },
     {
       "id": "womens-dresses-26",
@@ -2367,8 +4980,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 30,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de fiesta con volantes florales y encaje ajustado de malla negra personalizado",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido de festa com babados florais de renda bodycon de malha preta personalizada",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe de soirée à volants florale en dentelle moulante en maille noire personnalisée",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da festa personalizzato con volant floreale in pizzo aderente in rete nera",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Pesta Ruffle Bunga Renda Bodycon Jaring Hitam Kustom",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm dự tiệc ren lưới màu đen tùy chỉnh Bodycon ren hoa Ruffle",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ที่กำหนดเองสีดำตาข่ายB Odyconลูกไม้ดอกไม้นัวเนียพรรคชุด",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Pesta Mesh Bodycon Renda Bunga-bunga Tersuai",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Custom na Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប​ជប់លៀង​ផ្កា​រំយោល​ពណ៌​ខ្មៅ​ Mesh Bodycon Lace",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "စိတ်ကြိုက် Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Custom Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "مخصص شبكة سوداء Bodycon الدانتيل فستان حفلة كشكش الأزهار",
+          "supplier_name": "Dongguan Liangliang Garment Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de fiesta con volantes florales y encaje ajustado de malla negra personalizado",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido de festa com babados florais de renda bodycon de malha preta personalizada",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe de soirée à volants florale en dentelle moulante en maille noire personnalisée",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da festa personalizzato con volant floreale in pizzo aderente in rete nera",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Pesta Ruffle Bunga Renda Bodycon Jaring Hitam Kustom",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm dự tiệc ren lưới màu đen tùy chỉnh Bodycon ren hoa Ruffle",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ที่กำหนดเองสีดำตาข่ายB Odyconลูกไม้ดอกไม้นัวเนียพรรคชุด",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Pesta Mesh Bodycon Renda Bunga-bunga Tersuai",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Custom na Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប​ជប់លៀង​ផ្កា​រំយោល​ពណ៌​ខ្មៅ​ Mesh Bodycon Lace",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "စိတ်ကြိုက် Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Custom Black Mesh Bodycon Lace Floral Ruffle Party Dress",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "مخصص شبكة سوداء Bodycon الدانتيل فستان حفلة كشكش الأزهار"
     },
     {
       "id": "womens-dresses-27",
@@ -2455,8 +5172,112 @@
           "supplier_rating": "4.8",
           "supplier_total_review_order_count": 79,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido largo sin costuras, ecológico, con cuello en V y faja integrada de Waistdear",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido longo sem costura ecológico com decote em V e modelador embutido",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe longue sans couture à col en V et respectueuse de l'environnement avec gaine intégrée",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito lungo senza cuciture ecologico con scollo a V e intimo modellante incorporato",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Panjang Mulus Kerah V Ramah Lingkungan Pinggang dengan Pakaian Pembentuk Bawaan",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Đầm dài liền mạch cổ chữ V thân thiện với môi trường có định hình tích hợp",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสยาวไร้ตะเข็บคอวีเป็นมิตรกับสิ่งแวดล้อม Waistdear พร้อมชุดกระชับสัดส่วนในตัว",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Panjang Lancar Leher V Mesra Alam Waistdear dengan Shapewear Terbina dalam",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Waistdear Eco-Friendly V-Neck Seamless Long Dress na may Built-in na Shapewear",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Waistdear Eco-Friendly Eco-Friendly V-Neck Seamless Long Dress With Built-in Shapewear",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "Built-in Shapewear ပါသော ၀တ်စုံဖြင့် Eco-Friendly V-Neck ချောမွေ့သော ဂါဝန်",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ເສື້ອຍືດຍາວຄໍ V-Friendly Eco-Friendly Waistdear ມີຊຸດໃສ່ໃນຮູບຮ່າງ",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان طويل بدون خياطة برقبة على شكل حرف V صديق للبيئة مع ملابس داخلية مدمجة",
+          "supplier_name": "Xiamen Heailun Garments Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido largo sin costuras, ecológico, con cuello en V y faja integrada de Waistdear",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido longo sem costura ecológico com decote em V e modelador embutido",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe longue sans couture à col en V et respectueuse de l'environnement avec gaine intégrée",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito lungo senza cuciture ecologico con scollo a V e intimo modellante incorporato",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Panjang Mulus Kerah V Ramah Lingkungan Pinggang dengan Pakaian Pembentuk Bawaan",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Đầm dài liền mạch cổ chữ V thân thiện với môi trường có định hình tích hợp",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสยาวไร้ตะเข็บคอวีเป็นมิตรกับสิ่งแวดล้อม Waistdear พร้อมชุดกระชับสัดส่วนในตัว",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Panjang Lancar Leher V Mesra Alam Waistdear dengan Shapewear Terbina dalam",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Waistdear Eco-Friendly V-Neck Seamless Long Dress na may Built-in na Shapewear",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Waistdear Eco-Friendly Eco-Friendly V-Neck Seamless Long Dress With Built-in Shapewear",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "Built-in Shapewear ပါသော ၀တ်စုံဖြင့် Eco-Friendly V-Neck ချောမွေ့သော ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ເສື້ອຍືດຍາວຄໍ V-Friendly Eco-Friendly Waistdear ມີຊຸດໃສ່ໃນຮູບຮ່າງ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان طويل بدون خياطة برقبة على شكل حرف V صديق للبيئة مع ملابس داخلية مدمجة"
     },
     {
       "id": "womens-dresses-28",
@@ -2543,8 +5364,112 @@
           "supplier_rating": "4.9",
           "supplier_total_review_order_count": 13,
           "supplier_verified": false
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de dormir 100% seda de morera para mujer",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido de dormir feminino 100% seda Mulberry para casa",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe de nuit pour femme, 100 % soie de mûrier",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da notte per la casa da donna in 100% seta di gelso",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Tidur Pakaian Rumah Wanita Sutra Murbei 100%.",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy ngủ mặc nhà 100% lụa dâu tằm dành cho nữ",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดนอนชุดนอนสตรีผ้าไหมหม่อน 100%",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Tidur Wanita Sutera Mulberi 100% Pakaian Tidur",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "100% Mulberry Silk Women's Homewear Sleep Dress",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូបគេងនារី សូត្រ Mulberry 100%",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "100% Mulberry Silk အမျိုးသမီး အိမ်တွင်းဝတ် အသားဖြူ ဂါဝန်",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ຊຸດນອນຂອງແມ່ຍິງ 100% Mulberry Silk",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان نوم نسائي مصنوع من حرير التوت بنسبة 100%",
+          "supplier_name": "Zibo Daranfang E-Commerce Co., Ltd",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de dormir 100% seda de morera para mujer",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido de dormir feminino 100% seda Mulberry para casa",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe de nuit pour femme, 100 % soie de mûrier",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da notte per la casa da donna in 100% seta di gelso",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Tidur Pakaian Rumah Wanita Sutra Murbei 100%.",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy ngủ mặc nhà 100% lụa dâu tằm dành cho nữ",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดนอนชุดนอนสตรีผ้าไหมหม่อน 100%",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Tidur Wanita Sutera Mulberi 100% Pakaian Tidur",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "100% Mulberry Silk Women's Homewear Sleep Dress",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូបគេងនារី សូត្រ Mulberry 100%",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "100% Mulberry Silk အမျိုးသမီး အိမ်တွင်းဝတ် အသားဖြူ ဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ຊຸດນອນຂອງແມ່ຍິງ 100% Mulberry Silk",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان نوم نسائي مصنوع من حرير التوت بنسبة 100%"
     },
     {
       "id": "womens-dresses-29",
@@ -2631,8 +5556,112 @@
           "supplier_rating": "4.5",
           "supplier_total_review_order_count": 67,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido de golf y tenis de secado rápido, corte entallado y escote en V pronunciado con pantalón de protección",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido de tênis e golfe Deep-V Slim-Fit de secagem rápida com shorts de segurança",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe de tennis et de golf à séchage rapide, coupe ajustée en V profond, avec short de sécurité",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito da tennis e golf ad asciugatura rapida, vestibilità slim, con scollo a V e pantaloncini di sicurezza",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Tenis dan Golf Deep-V Slim-Fit Cepat Kering dengan Celana Pendek Pengaman",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy chơi tennis và chơi gôn khô nhanh Slim-V Slim-V với quần short an toàn",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสเทนนิสและกอล์ฟแห้งเร็ว Deep-V Slim-Fit พร้อมกางเกงขาสั้นนิรภัย",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Tenis dan Golf Deep-V Slim-Fit Cepat Kering dengan Seluar Pendek Keselamatan",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Deep-V Slim-Fit Quick-Dry Tennis at Golf Dress na may Safety Shorts",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "Deep-V Slim-Fit Quick-Dry Tennis និងសំលៀកបំពាក់ Golf ជាមួយនឹងខោខ្លីសុវត្ថិភាព",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "လုံခြုံသောဘောင်းဘီတိုဖြင့် Deep-V Slim-Fit အမြန်ခြောက်သွေ့သောတင်းနစ်နှင့် ဂေါက်ဝတ်စုံ",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "Deep-V Slim-Fit Quick-Dry Tennis ແລະ Golf ທີ່ມີສັ້ນຄວາມປອດໄພ",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان التنس والجولف ذو المقاس النحيف وسريع الجفاف مع شورت أمان",
+          "supplier_name": "Shenzhen Ipretty Sports Company Limited",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido de golf y tenis de secado rápido, corte entallado y escote en V pronunciado con pantalón de protección",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido de tênis e golfe Deep-V Slim-Fit de secagem rápida com shorts de segurança",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe de tennis et de golf à séchage rapide, coupe ajustée en V profond, avec short de sécurité",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito da tennis e golf ad asciugatura rapida, vestibilità slim, con scollo a V e pantaloncini di sicurezza",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Tenis dan Golf Deep-V Slim-Fit Cepat Kering dengan Celana Pendek Pengaman",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy chơi tennis và chơi gôn khô nhanh Slim-V Slim-V với quần short an toàn",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสเทนนิสและกอล์ฟแห้งเร็ว Deep-V Slim-Fit พร้อมกางเกงขาสั้นนิรภัย",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Tenis dan Golf Deep-V Slim-Fit Cepat Kering dengan Seluar Pendek Keselamatan",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Deep-V Slim-Fit Quick-Dry Tennis at Golf Dress na may Safety Shorts",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "Deep-V Slim-Fit Quick-Dry Tennis និងសំលៀកបំពាក់ Golf ជាមួយនឹងខោខ្លីសុវត្ថិភាព",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "လုံခြုံသောဘောင်းဘီတိုဖြင့် Deep-V Slim-Fit အမြန်ခြောက်သွေ့သောတင်းနစ်နှင့် ဂေါက်ဝတ်စုံ",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "Deep-V Slim-Fit Quick-Dry Tennis ແລະ Golf ທີ່ມີສັ້ນຄວາມປອດໄພ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان التنس والجولف ذو المقاس النحيف وسريع الجفاف مع شورت أمان"
     },
     {
       "id": "womens-dresses-30",
@@ -2719,8 +5748,112 @@
           "supplier_rating": "5.0",
           "supplier_total_review_order_count": 5,
           "supplier_verified": true
+        },
+        "es": {
+          "category_name": "Vestidos de mujer",
+          "product_name": "Vestido midi minimalista de lino con cuello alto, espalda descubierta, sin mangas y bolsillos",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "pt": {
+          "category_name": "Vestidos femininos",
+          "product_name": "Vestido midi minimalista de linho com gola alta, costas nuas, sem mangas e bolsos",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "fr": {
+          "category_name": "Robes pour femmes",
+          "product_name": "Robe midi minimaliste en lin, col haut, dos nu, sans manches, avec poches",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "it": {
+          "category_name": "Abiti da donna",
+          "product_name": "Abito longuette senza maniche senza maniche e collo alto in lino minimalista con tasche",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "id": {
+          "category_name": "Gaun Wanita",
+          "product_name": "Gaun Midi Tanpa Lengan Punggung Terbuka Leher Tinggi Linen Minimalis dengan Saku",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "vi": {
+          "category_name": "Váy nữ",
+          "product_name": "Váy midi không tay cổ cao bằng vải lanh tối giản có túi",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "th": {
+          "category_name": "เดรสผู้หญิง",
+          "product_name": "ชุดเดรสมิดิแขนกุดคอสูงเปลือยสไตล์มินิมอลพร้อมกระเป๋า",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ms": {
+          "category_name": "Pakaian Wanita",
+          "product_name": "Pakaian Midi Tanpa Lengan Tanpa Belakang Linen Minimalis Leher Tinggi dengan Poket",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "tl": {
+          "category_name": "Mga Damit ng Babae",
+          "product_name": "Minimalist Linen High-Neck Backless Sleeveless Midi Dress na may mga bulsa",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "km": {
+          "category_name": "រ៉ូបរបស់ស្ត្រី",
+          "product_name": "រ៉ូប​មីឌី​គ្មាន​ដៃ​អាវ​គ្មាន​ក​ខ្ពស់​កទាប​ក្រណាត់​ទេស​ឯក​ជាមួយ​ហោប៉ៅ",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "my": {
+          "category_name": "အမျိုးသမီးဝတ်စုံများ",
+          "product_name": "သေးငယ်သော ချည်သား လည်ပင်းမြင့် ကျောပိုးမွှား အင်္ကျီလက်မပါ အိတ်ကပ်များပါရှိသော မီဒီဂါဝန်",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "lo": {
+          "category_name": "ຊຸດຜູ້ຍິງ",
+          "product_name": "ສິ້ນໄໝມ້ອນກາງແຂນບໍ່ມີຄໍສູງ Linen Minimalist ມີກະເປົ໋າ",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
+        },
+        "ar": {
+          "category_name": "فساتين نسائية",
+          "product_name": "فستان متوسط الطول من الكتان برقبة عالية وبدون أكمام مع جيوب",
+          "supplier_name": "Hubei Huili Apparel Co., Ltd.",
+          "supplier_country": "CN"
         }
-      }
+      },
+      "category_name_es": "Vestidos de mujer",
+      "product_name_es": "Vestido midi minimalista de lino con cuello alto, espalda descubierta, sin mangas y bolsillos",
+      "category_name_pt": "Vestidos femininos",
+      "product_name_pt": "Vestido midi minimalista de linho com gola alta, costas nuas, sem mangas e bolsos",
+      "category_name_fr": "Robes pour femmes",
+      "product_name_fr": "Robe midi minimaliste en lin, col haut, dos nu, sans manches, avec poches",
+      "category_name_it": "Abiti da donna",
+      "product_name_it": "Abito longuette senza maniche senza maniche e collo alto in lino minimalista con tasche",
+      "category_name_id": "Gaun Wanita",
+      "product_name_id": "Gaun Midi Tanpa Lengan Punggung Terbuka Leher Tinggi Linen Minimalis dengan Saku",
+      "category_name_vi": "Váy nữ",
+      "product_name_vi": "Váy midi không tay cổ cao bằng vải lanh tối giản có túi",
+      "category_name_th": "เดรสผู้หญิง",
+      "product_name_th": "ชุดเดรสมิดิแขนกุดคอสูงเปลือยสไตล์มินิมอลพร้อมกระเป๋า",
+      "category_name_ms": "Pakaian Wanita",
+      "product_name_ms": "Pakaian Midi Tanpa Lengan Tanpa Belakang Linen Minimalis Leher Tinggi dengan Poket",
+      "category_name_tl": "Mga Damit ng Babae",
+      "product_name_tl": "Minimalist Linen High-Neck Backless Sleeveless Midi Dress na may mga bulsa",
+      "category_name_km": "រ៉ូបរបស់ស្ត្រី",
+      "product_name_km": "រ៉ូប​មីឌី​គ្មាន​ដៃ​អាវ​គ្មាន​ក​ខ្ពស់​កទាប​ក្រណាត់​ទេស​ឯក​ជាមួយ​ហោប៉ៅ",
+      "category_name_my": "အမျိုးသမီးဝတ်စုံများ",
+      "product_name_my": "သေးငယ်သော ချည်သား လည်ပင်းမြင့် ကျောပိုးမွှား အင်္ကျီလက်မပါ အိတ်ကပ်များပါရှိသော မီဒီဂါဝန်",
+      "category_name_lo": "ຊຸດຜູ້ຍິງ",
+      "product_name_lo": "ສິ້ນໄໝມ້ອນກາງແຂນບໍ່ມີຄໍສູງ Linen Minimalist ມີກະເປົ໋າ",
+      "category_name_ar": "فساتين نسائية",
+      "product_name_ar": "فستان متوسط الطول من الكتان برقبة عالية وبدون أكمام مع جيوب"
     }
   ]
 }

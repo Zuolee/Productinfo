@@ -18,6 +18,26 @@ CATEGORY_FILE_NAMES = {
     "safety-helmets": "safety_helmets.json",
     "pc-power-supplies": "pc_power_supplies.json",
     "jewelry-accessories": "jewelry_accessories.json",
+    "smart-watches": "smart_watches.json",
+    "bluetooth-speakers": "bluetooth_speakers.json",
+    "air-purifiers": "air_purifiers.json",
+    "electric-toothbrushes": "electric_toothbrushes.json",
+    "yoga-mats": "yoga_mats.json",
+    "pet-grooming-tools": "pet_grooming_tools.json",
+    "coffee-machines": "coffee_machines.json",
+    "solar-panels": "solar_panels.json",
+    "led-strip-lights": "led_strip_lights.json",
+    "kitchen-knives": "kitchen_knives.json",
+    "backpacks": "backpacks.json",
+    "car-phone-holders": "car_phone_holders.json",
+    "baby-strollers": "baby_strollers.json",
+    "office-chairs": "office_chairs.json",
+    "stainless-water-bottles": "stainless_water_bottles.json",
+    "wireless-earbuds": "wireless_earbuds.json",
+    "makeup-brushes": "makeup_brushes.json",
+    "garden-tools": "garden_tools.json",
+    "electric-bicycles": "electric_bicycles.json",
+    "plastic-food-containers": "plastic_food_containers.json",
 }
 
 CATEGORY_ORDER = [
@@ -30,6 +50,26 @@ CATEGORY_ORDER = [
     "safety-helmets",
     "pc-power-supplies",
     "jewelry-accessories",
+    "smart-watches",
+    "bluetooth-speakers",
+    "air-purifiers",
+    "electric-toothbrushes",
+    "yoga-mats",
+    "pet-grooming-tools",
+    "coffee-machines",
+    "solar-panels",
+    "led-strip-lights",
+    "kitchen-knives",
+    "backpacks",
+    "car-phone-holders",
+    "baby-strollers",
+    "office-chairs",
+    "stainless-water-bottles",
+    "wireless-earbuds",
+    "makeup-brushes",
+    "garden-tools",
+    "electric-bicycles",
+    "plastic-food-containers",
 ]
 
 
@@ -84,11 +124,18 @@ def ordered_categories(products: list[dict]) -> list[dict]:
             },
         )
         categories[category_id]["count"] += 1
-    return [
+    ordered = [
         categories[category_id]
         for category_id in CATEGORY_ORDER
         if category_id in categories
     ]
+    known = {category["category_id"] for category in ordered}
+    ordered.extend(
+        categories[category_id]
+        for category_id in sorted(categories)
+        if category_id not in known
+    )
+    return ordered
 
 
 def write_category_files(payload: dict) -> list[Path]:
